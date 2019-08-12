@@ -1,0 +1,70 @@
+﻿<Controls:MetroWindow
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Secciones"
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:Dialogs="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"  x:Class="Reports_IICs.Pages.Secciones.AddEditSeccion"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             mc:Ignorable="d" 
+             Title="Añadir/Editar sección" 
+             Height="250"
+             Width="500"
+             ShowInTaskbar="False"
+             d:DesignHeight="250" d:DesignWidth="500" ShowIconOnTitleBar="False">
+    <Controls:MetroWindow.Resources>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,2,40,2" />
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="true">
+                            <Border Background="Red" DockPanel.Dock="right" Margin="5,0,0,0" Width="20" Height="20" CornerRadius="10"
+                                    ToolTip="{Binding AdornedElement.(Validation.Errors)[0].ErrorContent, ElementName=customAdorner}">
+                                <TextBlock Text="!" VerticalAlignment="center" HorizontalAlignment="center" FontWeight="Bold" Foreground="white"/>
+                            </Border>
+                            <AdornedElementPlaceholder x:Name="customAdorner" VerticalAlignment="Center" >
+                                <Border BorderBrush="red" BorderThickness="1" />
+                            </AdornedElementPlaceholder>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+        
+    </Controls:MetroWindow.Resources>
+    <Grid>
+        <Grid x:Name="grid">
+            <Grid.CommandBindings>
+                <CommandBinding Command="New" CanExecute="AddElement_CanExecute" Executed="AddElement_Executed" />
+            </Grid.CommandBindings>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="616*"/>
+                <ColumnDefinition Width="26*"/>
+                <ColumnDefinition Width="51*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Button x:Name="ButtonGuardar" TabIndex="2" Content="Guardar" Command="New" HorizontalAlignment="Left" Margin="155,120,0,0" VerticalAlignment="Top" Width="75"  />
+            <Button x:Name="ButtonCancelar" TabIndex="3" Content="Cancelar" HorizontalAlignment="Left" Margin="235,120,0,0" VerticalAlignment="Top" Width="75" Click="ButtonCancelar_Click"/>
+
+            <Label x:Name="labelDescription" Content="Descripción" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Margin="14,44,0,0"/>
+                    <TextBox x:Name="textBoxDescription" TabIndex="1" HorizontalAlignment="Left"  TextWrapping="Wrap" Validation.Error="Validation_Error"
+				    Text="{Binding Descripcion, NotifyOnValidationError=true, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=true}" VerticalAlignment="Top" Width="360" Margin="97,47,0,0" Grid.ColumnSpan="3"/>
+                
+
+            <ComboBox x:Name="comboBox_Category" HorizontalAlignment="Left" Height="26" Margin="97,81,0,0" VerticalAlignment="Top" Width="213" Visibility="Hidden"
+                      ItemsSource="{Binding instrumentosCategorias, Source={StaticResource VM_Instrumentos}}"
+            DisplayMemberPath="Descripcion" 
+            SelectedValuePath="Id" 
+            SelectedValue="{Binding IdCategoria}" >
+            </ComboBox>
+            <Label x:Name="lb_Category" Content="Categoria" HorizontalAlignment="Left" Height="26" Margin="14,81,0,0" VerticalAlignment="Top" Width="65" Visibility="Hidden"/>
+
+        </Grid>
+    </Grid>
+</Controls:MetroWindow>

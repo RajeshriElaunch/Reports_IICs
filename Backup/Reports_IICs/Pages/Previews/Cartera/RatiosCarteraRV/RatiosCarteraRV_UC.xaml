@@ -1,0 +1,175 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.Cartera.RatiosCarteraRV.RatiosCarteraRV_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.Cartera.RatiosCarteraRV"
+             xmlns:cb="clr-namespace:Reports_IICs.Pages.Previews.Cartera.RatiosCarteraRV"
+             mc:Ignorable="d" 
+             Language="es-ES"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*" />
+            <RowDefinition Height="10*" />
+           
+        </Grid.RowDefinitions>
+
+        <Grid Margin="0,0,-130,0" Grid.Row="0">
+        <Grid.Resources>
+            <local:RatiosCarteraRV_Calc x:Key="ratiosCarteraRV_Calc"></local:RatiosCarteraRV_Calc>
+            <!--<Style TargetType="TextBlock">
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+            </Style>-->
+        </Grid.Resources>
+        <telerik:RadGridView x:Name="myGrid" ShowGroupPanel="False" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False" ShowColumnFooters="True" CellEditEnded="myGrid_CellEditEnded" FontSize="8" DataLoaded="myGrid_DataLoaded" RowLoaded="myGrid_RowLoaded" >
+            <telerik:RadGridView.GroupDescriptors>
+                <telerik:GroupDescriptor Member="Sector" SortDirection="Ascending" />
+            </telerik:RadGridView.GroupDescriptors>
+            <telerik:RadGridView.ColumnGroups>
+                <telerik:GridViewColumnGroup Name="VariacionValor" Header="Variación Valor" />
+                <telerik:GridViewColumnGroup Name="VariacionBeneficiosBPA" Header="Beneficios BPA" />
+                <telerik:GridViewColumnGroup Name="RentDividendo" Header="Rent. Dividendo" />
+                <telerik:GridViewColumnGroup Name="PER" Header="PER" />                
+            </telerik:RadGridView.ColumnGroups>
+            <telerik:RadGridView.Columns>
+                <telerik:GridViewDataColumn DataMemberBinding="{Binding Id}" IsVisible="False" />
+                <telerik:GridViewDataColumn Width="160" IsSortable="False" IsFilterable="False" Header="" DataMemberBinding="{Binding DescripcionInstrumento}" IsReadOnly="True" />
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Precio" DataMemberBinding="{Binding Precio}" HeaderTextAlignment="Center" TextAlignment="Right" IsReadOnly="True" />
+                <telerik:GridViewDataColumn DataMemberBinding="{Binding CapitalizacionBursatilEuros}" Width="75" TextAlignment="Right">
+                    <telerik:GridViewDataColumn.Header>
+                        <TextBlock Text="Capitalización bursátil (€)" TextWrapping="Wrap"  />
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="50" IsSortable="False" IsFilterable="False" Header="% Cartera" DataMemberBinding="{Binding PorcentajeCartera}" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="% Cartera: " ResultFormatString="{}{0:N1}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="50" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding PorcentajeSector}" Header="% Sector" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" />
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="VariacionValor" DataMemberBinding="{Binding ValorAñoInforme}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <StackPanel>
+                            <Label x:Name="labelValorAño" Foreground="White" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="VariacionValor" DataMemberBinding="{Binding ValorAdquisicion}" Header="Adq." TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True" />
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="VariacionBeneficiosBPA" DataMemberBinding="{Binding BpaAño}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <StackPanel>
+                            <Label x:Name="labelBpaAño" Foreground="White" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="VariacionBeneficiosBPA" DataMemberBinding="{Binding BpaPrevision}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <StackPanel>
+                            <Label x:Name="labelBpaPrevision" Foreground="White" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="RentDividendo" DataMemberBinding="{Binding RentabilidadDividendoAño}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <StackPanel>
+                            <Label x:Name="labelRentabilidadDividendoAño" Foreground="White" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="RentDividendo" DataMemberBinding="{Binding RentabilidadDividendoPrevision}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <StackPanel>
+                            <Label x:Name="labelRentabilidadDividendoPrevision" Foreground="White" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="PER" DataMemberBinding="{Binding PerAño}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <StackPanel>
+                            <Label x:Name="labelPerAño" Foreground="White" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" ColumnGroupName="PER" DataMemberBinding="{Binding PerPrevision}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <StackPanel>
+                            <Label x:Name="labelPerPrevision" Foreground="White" HorizontalAlignment="Center" />
+                        </StackPanel>
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False"  DataMemberBinding="{Binding DeudaNeta}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <TextBlock Text="Deuda Neta / Capitalización" TextWrapping="Wrap"  />
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False"  DataMemberBinding="{Binding PrecioVc}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <TextBlock Text="Precio / VC" TextWrapping="Wrap"  />
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False"  DataMemberBinding="{Binding ValorFundamental}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <TextBlock Text="Valor Fundamental" TextWrapping="Wrap"  />
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="50" IsSortable="False" IsFilterable="False"  DataMemberBinding="{Binding GvcBloomberg}" TextAlignment="Center" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <TextBlock Text="GVC / Bloomberg" TextWrapping="Wrap"  />
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False"  DataMemberBinding="{Binding DescuentoFundamental}" TextAlignment="Right" HeaderTextAlignment="Center" IsReadOnly="True">
+                    <telerik:GridViewDataColumn.Header>
+                        <TextBlock Text="Descuento Fundamental" TextWrapping="Wrap"  />
+                    </telerik:GridViewDataColumn.Header>
+                </telerik:GridViewDataColumn>
+                
+            </telerik:RadGridView.Columns>
+        </telerik:RadGridView>
+       
+    </Grid>
+        <StackPanel Name="ErrorPrices"  Grid.Row="1" Visibility="Collapsed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="90*" />
+
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Margin="12" Text="Diferencia Fechas Cotización" TextAlignment="Center" TextWrapping="Wrap"  />
+
+                <telerik:RadGridView Grid.Row="1" x:Name="myErrorGrid"   MinWidth="100" MaxWidth="320"  AutoGenerateColumns="False"  FontSize="8" 
+                                     SelectionMode= "Single"
+                                     SelectionUnit = "FullRow"
+                                     IsReadOnly="True"
+                                     CanUserFreezeColumns="False"
+                                     RowIndicatorVisibility="Collapsed"
+                                     ShowGroupPanel="False"
+                                     
+                                     ColumnWidth="*" RowLoaded="myErrorGrid_RowLoaded" >
+
+                    <telerik:RadGridView.Columns>
+
+                        <telerik:GridViewDataColumn Width="60" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Isin}" Header="Isin" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right">
+                            
+                        </telerik:GridViewDataColumn>
+                        <telerik:GridViewDataColumn Width="99" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding DescripcionInstrumento}" Header="Descripción" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right">
+
+                        </telerik:GridViewDataColumn>
+                        <telerik:GridViewDataColumn Width="65" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding FechaCotizacion}" Header="Fecha Cotizacion" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" DataFormatString="{}{0:d}">
+
+                        </telerik:GridViewDataColumn>
+                        <telerik:GridViewDataColumn Width="*" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding FechaReport}" Header="Fecha Report" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" DataFormatString="{}{0:d}">
+
+                        </telerik:GridViewDataColumn>
+
+                    </telerik:RadGridView.Columns>
+                </telerik:RadGridView>
+
+            </Grid>
+    </StackPanel>
+    </Grid>
+</UserControl>

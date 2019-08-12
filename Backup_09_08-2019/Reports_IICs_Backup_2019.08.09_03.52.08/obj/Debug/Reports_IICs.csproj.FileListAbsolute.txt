@@ -1,0 +1,934 @@
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Instrumentos\InstrumentosPage.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarPage.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Seccion.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionDetalle.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesListado.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesPage.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Home.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\System.Windows.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.Windows.Controls.Input.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.Windows.Controls.Navigation.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.Windows.Controls.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\App.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\MainWindow.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\AddEditMaster.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarEquivalenciasIsins.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarInstrumentos.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\BottonLoadingPanel.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReportIsin.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReport.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\CircularProgressBar.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ProgressDialog\ProgressDialog.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ReportProgressBar.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ShowError.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Instrumentos\InstrumentosPage.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIndices.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIsin.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditParticipes.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditPlantilla.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccion.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccionMulti.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditEstrategia.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditDistriPatrimNovarex.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionPatrimConjGuissona_Fondos.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionRentabGuissona_Fondos.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditFormula.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamEvolucionMercados.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamIndicePreconfiguradoNovarex.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_GraficoBenchMark.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos_ISIN.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CarteraRF.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DistriPatrimNovarex.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CompraVentaPrecAdq.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DividendosCobrados.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionMercados.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimGuissona.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimonioConjuntoGuissona.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionRentabilidadGuissona.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoBenchMark.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoCompPatrimonioTipoProducto.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IIC_ComprasVentasEjercicio.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IndicePreconfiguradoNovarex.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_OperacionesRentaVariable_II.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_PlusvaliasDividendos.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RatiosCarteraRV.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_Rentabilidad_carteraII.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RFComprasVentasEjercicio.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RVComprasRealizadasEjercicio.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_VariacionPatrimonialB.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarBloomberg.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarPage.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\ListadoPrueba.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\PlantillasPage.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\SortSeccion.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\CarteraWizard.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\PreviewChangesWindow.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\CompraVentaPrecAdq_CHN.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaFija_CHN.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaVariable_CHN.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditAportaciones.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditParticipesSalat_Periodos.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\EditableTextBox.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos_First.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizard.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizardPage.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC_Small.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC_Small.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\UserControl1.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_Preview.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Seccion.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\AddEditSeccion.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionDetalle.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesListado.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesPage.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Home.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_11_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_12_UC.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\GraficoComposicionCartera\NewFolder1\UserControl1.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\App.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs_Content.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs_MarkupCompile.cache
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs_MarkupCompile.lref
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Reports_IICs.exe.config
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.ReportViewer.Wpf.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\UserControlPrueba.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\VisorInformes.g.cs
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\MahApps.Metro.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Reporting.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.ReportViewer.Wpf.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Controls.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Controls.GridView.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Controls.Input.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Controls.Navigation.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Data.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Expression_Dark.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Office2013.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Office_Black.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Office_Blue.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Office_Silver.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Summer.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Transparent.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Vista.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.VisualStudio2013.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Windows7.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Windows8.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Lib\Telerik.Windows.Themes.Windows8Touch.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Button-Delete-icon.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\changes.jpg
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Indicador perfil riesgo_1.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Indicador perfil riesgo_2.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Indicador perfil riesgo_3.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Indicador perfil riesgo_4.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Indicador perfil riesgo_5.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Indicador perfil riesgo_6.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Indicador perfil riesgo_7.png
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\Note.ico
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Images\logo.jpg
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Reports_IICs.exe
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Reports_IICs.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\es\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\aa-DJ\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\aa\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\es-ES\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ca-ES\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ClosedXML.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Core.EntityFramework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Core.Framework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\EntityFramework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\EntityFramework.MappingAPI.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ExcelNumberFormat.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\FastMember.Signed.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\LinqToExcel.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\log4net.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\MahApps.Metro.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\NCalc.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\PropertyChanged.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Remotion.Data.Linq.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Remotion.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Remotion.Interfaces.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.AppContext.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Console.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.IO.Compression.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.IO.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.IO.Packaging.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Linq.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Net.Http.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Net.Sockets.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Reflection.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Runtime.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Reporting.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.ReportViewer.Wpf.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.Charting.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Themes.Expression_Dark.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Themes.Office_Black.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\TrackerEnabledDbContext.Common.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\TrackerEnabledDbContext.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Core.EntityFramework.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Core.Framework.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ClosedXML.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ClosedXML.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\EntityFramework.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\EntityFramework.MappingAPI.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ExcelNumberFormat.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\LinqToExcel.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\log4net.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\PropertyChanged.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Windows.Controls.Charting.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Reporting.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.Reporting.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.ReportViewer.Wpf.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Telerik.ReportViewer.Wpf.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\MainWindow.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\AddEditMaster.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarEquivalenciasIsins.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarInstrumentos.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\BottonLoadingPanel.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReportIsin.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReport.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\CircularProgressBar.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ProgressDialog\ProgressDialog.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ReportProgressBar.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\Resources\LoadingFlyoutStyle.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ShowError.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIndices.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIsin.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditParticipes.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditPlantilla.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccion.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccionMulti.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditEstrategia.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditDistriPatrimNovarex.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionPatrimConjGuissona_Fondos.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionRentabGuissona_Fondos.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditFormula.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamEvolucionMercados.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamIndicePreconfiguradoNovarex.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_GraficoBenchMark.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos_ISIN.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CarteraRF.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DistriPatrimNovarex.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CompraVentaPrecAdq.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DividendosCobrados.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionMercados.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimGuissona.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimonioConjuntoGuissona.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionRentabilidadGuissona.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoBenchMark.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoCompPatrimonioTipoProducto.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IIC_ComprasVentasEjercicio.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IndicePreconfiguradoNovarex.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_OperacionesRentaVariable_II.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_PlusvaliasDividendos.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RatiosCarteraRV.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_Rentabilidad_carteraII.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RFComprasVentasEjercicio.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RVComprasRealizadasEjercicio.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_VariacionPatrimonialB.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarBloomberg.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\ListadoPrueba.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\PlantillasPage.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\SortSeccion.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\CarteraWizard.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\PreviewChangesWindow.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\CompraVentaPrecAdq_CHN.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaFija_CHN.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaVariable_CHN.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditAportaciones.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditParticipesSalat_Periodos.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\EditableTextBox.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos_First.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizard.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizardPage.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC_Small.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC_Small.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\UserControl1.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_Preview.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\AddEditSeccion.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_11_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_12_UC.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\UserControlPrueba.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\GraficoComposicionCartera\NewFolder1\UserControl1.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\VisorInformes.baml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.g.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Properties.Resources.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CARTERA_RF.ReportCARTERA_RF.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CARTERA_RF.ReportCARTERA_RF_CPLAZO.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CARTERA_RF.ReportCARTERA_RF_LPLAZO.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CarteraCcrVolgaGamar.Report_CarteraCcrVolgaGamar.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cartera.Report_Cartera.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cartera.Report_PRO_12.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.BeneficiosPerdidas_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.ReportCompraVenta.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.ReportCompraVentaRespectoPrecioAdquisicion.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.ReportCompraVentaRespectoPrecioAdquisicion_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cupones_Cobrados.ReportCuponesCobrados.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DesgloseGastos.ReportDesgloseGastos.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DesgloseGastos.ReportDesgloseGastos_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Disclaimer.ReportDisclaimer.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex_Cartera_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex_Tesoreria_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex_Total_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Diversificacion.ReportDiversificacion.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Dividendos_Cobrados.ReportDividendosCobradosPRO_10.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.EvolucionMercados.ReportEvolucionMercados.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissona.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissonaTotal_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissonaVariacio_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissona_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Guissona.ReportEvolucionPatriOperacionesRealizadasGuissona.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Valor_Liquidativo.ReportPatrimonio_ValorLiquidativoPRO_02.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Rentabilidad_Guissona.ReportEvoluciónRentabilidadGuissona.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Rentabilidad_Guissona.ReportEvoluciónRentabilidadGuissona_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_índices_de_referencia.ReportEvolucionIndicesBench.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.SubReportGraficoBenchmark.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.Report2.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.ReportBenchMarkPRO_25.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.Old_SubReportGraficoBenchmark.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionCarteraRF.ReportCompCartRF.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionCartera.ReportCompCartRV.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.ReportCompPatrimonioTipoActivo.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.ReportCompPatrimonioTipodeProducto.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.ReportGraficoCompPatrimonioDivisas.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.Report_BARS_CompPatrimonioTipoActivo.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.Report_BARS_CompPatrimonioTipodeProducto.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.Report_BARS_GraficoCompPatrimonioDivisas.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Gráficos_Burbujas.ReportGráficosBurbujas.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Gráficos_Burbujas.ReportGráficosBurbujasUTA.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Gráficos_Burbujas.ReportGráficosBurbujasVALUE_GROWTH.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IIC_ComprasVentasEjercicio.Report_IIC_ComprasEjercicio_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IIC_ComprasVentasEjercicio.Report_IIC_ComprasVentasEjercicio.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IIC_ComprasVentasEjercicio.Report_IIC_VentasEjercicio_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IndicePreconfiguradoNovarex.Report_IndicePreconfiguradoNovarex.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ListadoRentaFijaNovarex.Report_ListadoRentaFijaNovarex.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.OPERACIONES_RENTA_VARIABLE__II_.ReportOperacionesRentaVariableII.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.OPERACIONES_RENTA_VARIABLE__II_.ReportOperacionesRentaVariableIICompras_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.OPERACIONES_RENTA_VARIABLE__II_.ReportOperacionesRentaVariableIIVentas_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Aportaciones_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Participes_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Periodos_First_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Periodos_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Participes.Report_Participes.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Plusvalias_y_Dividendos.Report_PlusvaliasDividendos.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Portada.Report1.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Portada.Report_Portada2.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Portada.Report_Portada.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RatiosCarteraRV.Report_RatiosCarteraRV.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_DIVISAS_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_COMMODITIES_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GARANTIZADOSESTRUCTURADOS_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO1_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO2_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO3_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO4_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO_SUB_Posiciones.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO_SUB_TYPE2.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_RETORNOABSOLUTO_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_Totales_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraIndiceV2_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV1.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV1Copy.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV2.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV2_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemeg.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3_NOTRV_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3_NOTSPAINRV_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3_SPAINRV_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemeg_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija_SUB_Large.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija_SUB_Short.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija_Totales_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RvComprasRealizadas.Report_RvComprasRealizadasEjercicio.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.SituacionPatrimonialRentabilidad.ReportSituacionPatrimRentab.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Subscripciones_Reembolsos.ReportReembolsos_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Subscripciones_Reembolsos.ReportSubscripcionesReembolsos.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Subscripciones_Reembolsos.ReportSubscripciones_SUB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.TableOfContents.ReportTableOfContents.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialA.ReportVariacionPatrimonialA.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialA.SubReportRendimientos.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialB.SubReportVariacionPatrimonialB.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Resources.Resource.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cartera.Report_Cartera.es.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.aa-DJ.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.aa.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.es-ES.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.es.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.ca-ES.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.es-ES.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.es.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialA.ReportVariacionPatrimonialA.es-ES.resources
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.csproj.GenerateResource.Cache
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.exe.licenses
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\es\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\aa-DJ\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\aa\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\es-ES\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\ca-ES\Reports_IICs.resources.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.exe
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.pdb
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.csprojAssemblyReference.cache
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Instrumentos\InstrumentosPage.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarPage.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Seccion.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionDetalle.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesListado.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesPage.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Home.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\System.Windows.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.ReportViewer.Wpf.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.Windows.Controls.Input.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.Windows.Controls.Navigation.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Themes\Telerik.Windows.Controls.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\App.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\MainWindow.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\AddEditMaster.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarEquivalenciasIsins.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarInstrumentos.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\BottonLoadingPanel.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReportIsin.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReport.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\CircularProgressBar.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ProgressDialog\ProgressDialog.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ReportProgressBar.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ShowError.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Instrumentos\InstrumentosPage.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIndices.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIsin.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditParticipes.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditPlantilla.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccion.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccionMulti.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditEstrategia.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditDistriPatrimNovarex.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionPatrimConjGuissona_Fondos.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionRentabGuissona_Fondos.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditFormula.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamEvolucionMercados.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamIndicePreconfiguradoNovarex.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_GraficoBenchMark.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos_ISIN.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CarteraRF.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DistriPatrimNovarex.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CompraVentaPrecAdq.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DividendosCobrados.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionMercados.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimGuissona.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimonioConjuntoGuissona.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionRentabilidadGuissona.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoBenchMark.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoCompPatrimonioTipoProducto.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IIC_ComprasVentasEjercicio.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IndicePreconfiguradoNovarex.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_OperacionesRentaVariable_II.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_PlusvaliasDividendos.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RatiosCarteraRV.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_Rentabilidad_carteraII.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RFComprasVentasEjercicio.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RVComprasRealizadasEjercicio.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_VariacionPatrimonialB.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarBloomberg.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarPage.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\ListadoPrueba.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\PlantillasPage.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\SortSeccion.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\CarteraWizard.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\PreviewChangesWindow.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\CompraVentaPrecAdq_CHN.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaFija_CHN.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaVariable_CHN.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditAportaciones.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditParticipesSalat_Periodos.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\EditableTextBox.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos_First.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizard.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizardPage.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC_Small.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC_Small.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\UserControl1.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_Preview.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Seccion.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\AddEditSeccion.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionDetalle.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesListado.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\SeccionesPage.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Home.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_11_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_12_UC.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\UserControlPrueba.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\GraficoComposicionCartera\NewFolder1\UserControl1.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\VisorInformes.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\App.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs_Content.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs_MarkupCompile.cache
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs_MarkupCompile.lref
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\MainWindow.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\AddEditMaster.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarEquivalenciasIsins.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarInstrumentos.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\BottonLoadingPanel.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReportIsin.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ChooseReport.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\CircularProgressBar.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ProgressDialog\ProgressDialog.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ReportProgressBar.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\Resources\LoadingFlyoutStyle.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Informes\ShowError.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIndices.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditIsin.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditParticipes.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditPlantilla.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccion.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditSeccionMulti.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\AddEditEstrategia.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditDistriPatrimNovarex.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionPatrimConjGuissona_Fondos.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditEvolucionRentabGuissona_Fondos.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditFormula.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamEvolucionMercados.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParamIndicePreconfiguradoNovarex.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_GraficoBenchMark.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\AddEditParam_PlusvaliasDividendos_ISIN.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CarteraRF.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DistriPatrimNovarex.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_CompraVentaPrecAdq.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_DividendosCobrados.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionMercados.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimGuissona.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionPatrimonioConjuntoGuissona.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_EvolucionRentabilidadGuissona.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoBenchMark.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_GraficoCompPatrimonioTipoProducto.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IIC_ComprasVentasEjercicio.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_IndicePreconfiguradoNovarex.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_OperacionesRentaVariable_II.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_PlusvaliasDividendos.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RatiosCarteraRV.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_Rentabilidad_carteraII.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RFComprasVentasEjercicio.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_RVComprasRealizadasEjercicio.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\ControlesParametros\Param_VariacionPatrimonialB.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Importar\ImportarBloomberg.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\ListadoPrueba.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\PlantillasPage.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Plantillas\SortSeccion.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CARTERA RF\CARTERA_RF_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\CarteraCcrVolgaGamar\CarteraCcrVolgaGamar_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\CarteraWizard.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\RatiosCarteraRV\RatiosCarteraRV_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\PreviewChangesWindow.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\CompraVentaPrecAdq_CHN.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaFija_CHN.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Changes\UserControls\RentaVariable_CHN.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\COMPRA-VENTA\CompraVentaRespectoPrecioAdquisicion_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cupones Cobrados\CuponesCobrados_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Distribucion Patrimonio Novarex\DistribucionPatrimonioNovarex_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Dividendos Cobrados\DividendosCobrados_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Mercados\EvolucionMercado_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Patrimonio Guissona\EvolucionPatrimonioGuissona_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Evolución\Evolución Rentabilidad Guissona\EvolucionRentabilidadGuissona_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Gráficos Burbujas\Burbujas_SmallBig_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\IIC_ComprasVentasEjercicio\IIC_ComprasVentasEjercicio_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Indice Preconfigurado NOVAREX\IndicePreconfiguradoNovarex_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ListadoRentaFijaNovarex\ListadoRentaFijaNovarex_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\OPERACIONES RENTA VARIABLE (II)\OperacionesRentaVariable_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditAportaciones.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\AddEditParticipesSalat_Periodos.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\EditableTextBox.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\Param_ParticipesSalat_Periodos_First.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\ParticipesSalat\ParticipesSalat_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Participes\Participes_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Plusvalias y Dividendos\PlusvaliasDividendos_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewGeneral_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizard.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\PreviewWizardPage.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV1\RentabilidadCarteraV1_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RENTABILIDAD CARTERA\RENTABILIDAD CARTERAV2\RentabilidadCarteraV2_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentabilidadCarteraSolemeg\RentabilidadCarteraSolemeg_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC_Small.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaFija\RentaFija_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC_Small.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\RentaVariable_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RentaVariable\UserControl1.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RFCOMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO\RF_ComprasyVentasRealizadasDuranteEjercicio_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\RVCOMPRAS REALIZADAS DURANTE EL EJERCICIO\RV_ComprarRealizadasDuranteEjercicio_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\SUSCRIPCIONES REEMBOLSOS\SuscripcionesReembolsos_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_Preview.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Variacion Patrimonial B\VariacionPatrimonialB_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Secciones\AddEditSeccion.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_11_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\Previews\Cartera\PRO_12_UC.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Pages\UserControlPrueba.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\GraficoComposicionCartera\NewFolder1\UserControl1.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports\VisorInformes.baml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.g.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.pdb
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Properties.Resources.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CARTERA_RF.ReportCARTERA_RF.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CARTERA_RF.ReportCARTERA_RF_CPLAZO.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CARTERA_RF.ReportCARTERA_RF_LPLAZO.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.CarteraCcrVolgaGamar.Report_CarteraCcrVolgaGamar.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cartera.Report_Cartera.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cartera.Report_PRO_12.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.BeneficiosPerdidas_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.ReportCompraVenta.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.ReportCompraVentaRespectoPrecioAdquisicion.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.COMPRA_VENTA.ReportCompraVentaRespectoPrecioAdquisicion_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cupones_Cobrados.ReportCuponesCobrados.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DesgloseGastos.ReportDesgloseGastos.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DesgloseGastos.ReportDesgloseGastos_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Disclaimer.ReportDisclaimer.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex_Cartera_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex_Tesoreria_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.DistribucionPatrimonioNovarex.Report_DistribucionPatrimonioNovarex_Total_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Diversificacion.ReportDiversificacion.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Dividendos_Cobrados.ReportDividendosCobradosPRO_10.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.EvolucionMercados.ReportEvolucionMercados.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissona.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissonaTotal_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissonaVariacio_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Conjunto_Guissona.ReportEvoluciónPatrimonioConjuntoGuissona_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Guissona.ReportEvolucionPatriOperacionesRealizadasGuissona.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Patrimonio_Valor_Liquidativo.ReportPatrimonio_ValorLiquidativoPRO_02.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Rentabilidad_Guissona.ReportEvoluciónRentabilidadGuissona.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_Rentabilidad_Guissona.ReportEvoluciónRentabilidadGuissona_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Evolución.Evolución_índices_de_referencia.ReportEvolucionIndicesBench.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.SubReportGraficoBenchmark.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.Report2.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.ReportBenchMarkPRO_25.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoBenchmark.Old_SubReportGraficoBenchmark.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionCarteraRF.ReportCompCartRF.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionCartera.ReportCompCartRV.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.ReportCompPatrimonioTipoActivo.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.ReportCompPatrimonioTipodeProducto.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.ReportGraficoCompPatrimonioDivisas.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.Report_BARS_CompPatrimonioTipoActivo.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.Report_BARS_CompPatrimonioTipodeProducto.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.GraficoComposicionPatrimonio.Report_BARS_GraficoCompPatrimonioDivisas.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Gráficos_Burbujas.ReportGráficosBurbujas.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Gráficos_Burbujas.ReportGráficosBurbujasUTA.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Gráficos_Burbujas.ReportGráficosBurbujasVALUE_GROWTH.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IIC_ComprasVentasEjercicio.Report_IIC_ComprasEjercicio_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IIC_ComprasVentasEjercicio.Report_IIC_ComprasVentasEjercicio.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IIC_ComprasVentasEjercicio.Report_IIC_VentasEjercicio_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.IndicePreconfiguradoNovarex.Report_IndicePreconfiguradoNovarex.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ListadoRentaFijaNovarex.Report_ListadoRentaFijaNovarex.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.OPERACIONES_RENTA_VARIABLE__II_.ReportOperacionesRentaVariableII.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.OPERACIONES_RENTA_VARIABLE__II_.ReportOperacionesRentaVariableIICompras_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.OPERACIONES_RENTA_VARIABLE__II_.ReportOperacionesRentaVariableIIVentas_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Aportaciones_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Participes_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Periodos_First_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat_Periodos_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Participes.Report_Participes.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Plusvalias_y_Dividendos.Report_PlusvaliasDividendos.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Portada.Report1.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Portada.Report_Portada2.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Portada.Report_Portada.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RatiosCarteraRV.Report_RatiosCarteraRV.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_DIVISAS_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_COMMODITIES_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GARANTIZADOSESTRUCTURADOS_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO1_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO2_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO3_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO4_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO_SUB_Posiciones.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_GRUPO_SUB_TYPE2.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_RETORNOABSOLUTO_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Renta_Variable.ReportRentabilidadVariable_Totales_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraIndiceV2_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV1.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV1Copy.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV2.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Rentabilidad_Cartera.ReportRentabilidadCarteraV2_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemeg.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3_NOTRV_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3_NOTSPAINRV_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemegGroup3_SPAINRV_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentabilidadCarteraSolemeg.Report_RentabilidadCarteraSolemeg_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija_SUB_Large.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija_SUB_Short.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RentaFija.ReportRentaFija_Totales_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RvComprasRealizadas.Report_RvComprasRealizadasEjercicio.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.SituacionPatrimonialRentabilidad.ReportSituacionPatrimRentab.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Subscripciones_Reembolsos.ReportReembolsos_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Subscripciones_Reembolsos.ReportSubscripcionesReembolsos.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Subscripciones_Reembolsos.ReportSubscripciones_SUB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.TableOfContents.ReportTableOfContents.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialA.ReportVariacionPatrimonialA.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialA.SubReportRendimientos.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialB.SubReportVariacionPatrimonialB.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Resources.Resource.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.Cartera.Report_Cartera.es.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.aa-DJ.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.aa.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.es-ES.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.ParticipesSalat.ReportParticipesSalat.es.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.ca-ES.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.es-ES.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.RfComprasVentasEjercicio.Report_RfComprasVentasEjercicio.es.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.Reports.VariacionPatrimonialA.ReportVariacionPatrimonialA.es-ES.resources
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.csproj.GenerateResource.cache
+D:\Rajeshri\Projects\WPF_Reports_IICS\Reports_IICs\obj\Debug\Reports_IICs.exe.licenses

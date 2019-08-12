@@ -1,0 +1,232 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.Changes.UserControls.RentaFija_CHN"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.Changes"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <telerik:RadGridView  x:Name="RadGridView1"                             
+							 RowHeight="50" 
+                             GroupRenderMode="Flat"
+							 SelectionMode="Extended"
+							 RowIndicatorVisibility="Collapsed"
+							 CanUserFreezeColumns="False"
+							 AutoGenerateColumns="False"
+                             AutoExpandGroups="True"
+                             ShowGroupPanel="False"  
+                             CanUserDeleteRows="True" 
+                             >
+
+            <telerik:RadGridView.Columns>
+                <telerik:GridViewSelectColumn />
+
+                <telerik:GridViewDataColumn Style="{StaticResource ColumnPreview}" MinWidth="120">
+                    <telerik:GridViewDataColumn.Header>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Margin="2"
+									   Text="Descripción Nueva"
+									   Grid.Row="0" />
+                            <TextBlock Margin="2"
+									   Text="Descripción Original"
+									   Grid.Row="1" />
+                        </Grid>
+                    </telerik:GridViewDataColumn.Header>
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Orientation="Horizontal"
+											Grid.Column="1"
+											Grid.RowSpan="2">
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal"
+											Grid.Row="0">
+                                    <TextBlock Margin="2"
+											   Text="{Binding DescripcionNew}" />
+                                </StackPanel>
+                                <StackPanel Orientation="Horizontal"
+											Grid.Row="1">
+                                    <TextBlock Margin="2"
+											   Text="{Binding Descripcion}" />
+                                </StackPanel>
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn  Style="{StaticResource ColumnPreview}" Header="Grupo" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <ContentControl Grid.Row="0" Margin="2" Content="{Binding GrupoNew}" Style="{StaticResource ContentControlN0}" />
+                                <ContentControl Grid.Row="1" Margin="2" Content="{Binding Grupo}" Style="{StaticResource ContentControlN0}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn  Style="{StaticResource ColumnPreview}" Header="Títulos" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <ContentControl Grid.Row="0" Margin="2" Content="{Binding NumTitNew}" Style="{StaticResource ContentControlN0}" />
+                                <ContentControl Grid.Row="1" Margin="2" Content="{Binding NumTit}" Style="{StaticResource ContentControlN0}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn Style="{StaticResource ColumnPreview}" Header="Efectivo Ini" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <ContentControl Grid.Row="0" Margin="2" Content="{Binding EfectivoIniNew}" Style="{StaticResource ContentControlN2}" />
+                                <ContentControl Grid.Row="1" Margin="2" Content="{Binding EfectivoIni}" Style="{StaticResource ContentControlN2}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn Style="{StaticResource ColumnPreview}" Header="Efectivo Fin" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <ContentControl Grid.Row="0" Margin="2" Content="{Binding EfectivoFinNew}" Style="{StaticResource ContentControlN2}" />
+                                <ContentControl Grid.Row="1" Margin="2" Content="{Binding EfectivoFin}" Style="{StaticResource ContentControlN2}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn Style="{StaticResource ColumnPreview}" Header="Divisa" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <ContentControl Grid.Row="0" Margin="2" Content="{Binding BoPDivisaNew}" Style="{StaticResource ContentControlN2}" />
+                                <ContentControl Grid.Row="1" Margin="2" Content="{Binding BoPDivisa}" Style="{StaticResource ContentControlN2}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn Style="{StaticResource ColumnPreview}" Header="Posición Cartera" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <ContentControl Grid.Row="0" Margin="2" Content="{Binding PosicionCarteraNew}" Style="{StaticResource ContentControlN2}" />
+                                <ContentControl Grid.Row="1" Margin="2" Content="{Binding PosicionCartera}" Style="{StaticResource ContentControlN2}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn Style="{StaticResource ColumnPreview}" Header="Posiciones Cerradas" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+
+                                <ContentControl Grid.Row="0" Margin="2" Content="{Binding PosicionesCerradasNew}" Style="{StaticResource ContentControlN2}" />
+                                <ContentControl Grid.Row="1" Margin="2" Content="{Binding PosicionesCerradas}" Style="{StaticResource ContentControlN2}" />
+
+                            </Grid>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+                <telerik:GridViewDataColumn Style="{StaticResource ColumnPreview}" Header="Comentario" >
+                    <telerik:GridViewDataColumn.CellTemplate>
+                        <DataTemplate>
+                            <telerik:RadExpander x:Name="RadExpander1" IsExpanded="False" VerticalContentAlignment="Top"
+                                                 telerik:AnimationManager.IsAnimationEnabled="True">
+                                <telerik:RadExpander.Header>
+                                    <TextBlock x:Name="expanderCaption"></TextBlock>
+                                </telerik:RadExpander.Header>
+                                <telerik:RadExpander.Content>
+                                    <TextBlock Text="{Binding Comentario}" TextWrapping="Wrap"></TextBlock>
+                                </telerik:RadExpander.Content>
+                            </telerik:RadExpander>
+                        </DataTemplate>
+                    </telerik:GridViewDataColumn.CellTemplate>
+                </telerik:GridViewDataColumn>
+
+            </telerik:RadGridView.Columns>
+        </telerik:RadGridView>
+    </Grid>
+</UserControl>

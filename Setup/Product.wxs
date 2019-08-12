@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define Reports_IICs_TargetDir=$(var.Reports_IICs.TargetDir)?>
+	<Product Id="3af6e188-ed96-4f64-95ce-b169f6c734b2" Name="Reports_IICs" Language="1033" Version="1.0.0.0" Manufacturer="GVC Gaesco2" UpgradeCode="d806e215-687d-4659-b138-2cc4c68b7b03">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="Reports_IICs" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+			<ComponentGroupRef Id="DataModels_files" />
+			<ComponentGroupRef Id="es_files" />
+			<ComponentGroupRef Id="Lib_files" />
+			<ComponentGroupRef Id="Images_files" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Reports_IICs">
+				  <Directory Id="DataModels" Name="DataModels" />
+				  <Directory Id="es" Name="es" />
+				  <Directory Id="Images" Name="Images" />
+				  <Directory Id="Lib" Name="Lib" />
+				</Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+
+			
+			<Component Id="ClosedXML.dll" Guid="b2172709-4eec-4258-b0a3-4e58a79cba97">
+			  <File Id="ClosedXML.dll" Name="ClosedXML.dll" Source="$(var.Reports_IICs_TargetDir)ClosedXML.dll" />
+			</Component>
+			<Component Id="DocumentFormat.OpenXml.dll" Guid="88981efb-127c-424c-9ee7-6ed8509255a2">
+			  <File Id="DocumentFormat.OpenXml.dll" Name="DocumentFormat.OpenXml.dll" Source="$(var.Reports_IICs_TargetDir)DocumentFormat.OpenXml.dll" />
+			</Component>
+			<Component Id="EntityFramework.dll" Guid="174ed266-0166-4e78-bf9b-6040d19b5cfd">
+			  <File Id="EntityFramework.dll" Name="EntityFramework.dll" Source="$(var.Reports_IICs_TargetDir)EntityFramework.dll" />
+			</Component>
+			<Component Id="EntityFramework.SqlServer.dll" Guid="e950ed1f-3c2d-4848-b229-1dc636a14463">
+			  <File Id="EntityFramework.SqlServer.dll" Name="EntityFramework.SqlServer.dll" Source="$(var.Reports_IICs_TargetDir)EntityFramework.SqlServer.dll" />
+			</Component>
+			<Component Id="EntityFramework.MappingAPI.dll" Guid="9ac9af4f-7421-4cd1-8797-e7b4df4119a5">
+			  <File Id="EntityFramework.MappingAPI.dll" Name="EntityFramework.MappingAPI.dll" Source="$(var.Reports_IICs_TargetDir)EntityFramework.MappingAPI.dll" />
+			</Component>
+			<Component Id="Remotion.Data.Linq.dll" Guid="5d26220c-9c8d-4e47-9d60-d7a7bc604ada">
+			  <File Id="Remotion.Data.Linq.dll" Name="Remotion.Data.Linq.dll" Source="$(var.Reports_IICs_TargetDir)Remotion.Data.Linq.dll" />
+			</Component>
+			<Component Id="LinqToExcel.dll" Guid="1933183f-5755-4603-ad62-9b23f0937dfe">
+			  <File Id="LinqToExcel.dll" Name="LinqToExcel.dll" Source="$(var.Reports_IICs_TargetDir)LinqToExcel.dll" />
+			</Component>
+			<Component Id="Remotion.dll" Guid="90e50726-e5f9-46c6-b2b3-fa868c66b3ab">
+			  <File Id="Remotion.dll" Name="Remotion.dll" Source="$(var.Reports_IICs_TargetDir)Remotion.dll" />
+			</Component>
+			<Component Id="Remotion.Interfaces.dll" Guid="04639bbf-8a0d-4ea3-8b74-42db5b8981b8">
+			  <File Id="Remotion.Interfaces.dll" Name="Remotion.Interfaces.dll" Source="$(var.Reports_IICs_TargetDir)Remotion.Interfaces.dll" />
+			</Component>
+			<Component Id="log4net.dll" Guid="d87e4f4e-8801-4804-b1e1-d93eef395852">
+			  <File Id="log4net.dll" Name="log4net.dll" Source="$(var.Reports_IICs_TargetDir)log4net.dll" />
+			</Component>
+			<Component Id="FirstFloor.ModernUI.dll" Guid="5810cc68-a4ca-498e-9bf2-b4e51c1214af">
+			  <File Id="FirstFloor.ModernUI.dll" Name="FirstFloor.ModernUI.dll" Source="$(var.Reports_IICs_TargetDir)FirstFloor.ModernUI.dll" />
+			</Component>
+			<Component Id="NCalc.dll" Guid="0d9a2a3b-768d-4d29-84fe-575719d45922">
+			  <File Id="NCalc.dll" Name="NCalc.dll" Source="$(var.Reports_IICs_TargetDir)NCalc.dll" />
+			</Component>
+			<Component Id="Newtonsoft.Json.dll" Guid="e8a80d4e-c40a-44d1-ad65-b09d6043a488">
+			  <File Id="Newtonsoft.Json.dll" Name="Newtonsoft.Json.dll" Source="$(var.Reports_IICs_TargetDir)Newtonsoft.Json.dll" />
+			</Component>
+			<Component Id="System.Linq.Dynamic.dll" Guid="fc9f64a0-424b-43a3-b1d0-6e8966295b9d">
+			  <File Id="System.Linq.Dynamic.dll" Name="System.Linq.Dynamic.dll" Source="$(var.Reports_IICs_TargetDir)System.Linq.Dynamic.dll" />
+			</Component>
+			<Component Id="TrackerEnabledDbContext.dll" Guid="b5ff7077-663c-41fc-ab04-02cda56b3ffd">
+			  <File Id="TrackerEnabledDbContext.dll" Name="TrackerEnabledDbContext.dll" Source="$(var.Reports_IICs_TargetDir)TrackerEnabledDbContext.dll" />
+			</Component>
+			<Component Id="TrackerEnabledDbContext.Common.dll" Guid="2e645dca-cf14-4070-997a-d1a5ddcbf700">
+			  <File Id="TrackerEnabledDbContext.Common.dll" Name="TrackerEnabledDbContext.Common.dll" Source="$(var.Reports_IICs_TargetDir)TrackerEnabledDbContext.Common.dll" />
+			</Component>
+			<Component Id="Telerik.Reporting.dll" Guid="c08aee97-8bd8-46b9-8d32-80f6342247f1">
+			  <File Id="Telerik.Reporting.dll" Name="Telerik.Reporting.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Reporting.dll" />
+			</Component>
+			<Component Id="MahApps.Metro.dll" Guid="fa0e4413-1b4f-4a21-96fb-b6d84cd3920c">
+			  <File Id="MahApps.Metro.dll" Name="MahApps.Metro.dll" Source="$(var.Reports_IICs_TargetDir)MahApps.Metro.dll" />
+			</Component>
+			<Component Id="Telerik.ReportViewer.Wpf.dll" Guid="f5bf377c-951f-41f8-a00f-25d1ef557eb5">
+			  <File Id="Telerik.ReportViewer.Wpf.dll" Name="Telerik.ReportViewer.Wpf.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.ReportViewer.Wpf.dll" />
+			</Component>
+			<Component Id="Telerik.Windows.Controls.dll" Guid="ab8df0cf-653a-40e5-b551-aabf40b9742a">
+			  <File Id="Telerik.Windows.Controls.dll" Name="Telerik.Windows.Controls.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Windows.Controls.dll" />
+			</Component>
+			<Component Id="Telerik.Windows.Controls.GridView.dll" Guid="53e7aff6-0e28-488a-b27c-45ce4e1ab0b0">
+			  <File Id="Telerik.Windows.Controls.GridView.dll" Name="Telerik.Windows.Controls.GridView.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Windows.Controls.GridView.dll" />
+			</Component>
+			<Component Id="Telerik.Windows.Controls.Input.dll" Guid="331844bd-f04b-4365-8e81-044cadfbca67">
+			  <File Id="Telerik.Windows.Controls.Input.dll" Name="Telerik.Windows.Controls.Input.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Windows.Controls.Input.dll" />
+			</Component>
+			<Component Id="Telerik.Windows.Controls.Navigation.dll" Guid="93f5de3d-fc47-41e4-99ca-3c33e89a8305">
+			  <File Id="Telerik.Windows.Controls.Navigation.dll" Name="Telerik.Windows.Controls.Navigation.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Windows.Controls.Navigation.dll" />
+			</Component>
+			<Component Id="Telerik.Windows.Data.dll" Guid="f64215fa-a47d-45c5-af27-7093efd37e7a">
+			  <File Id="Telerik.Windows.Data.dll" Name="Telerik.Windows.Data.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Windows.Data.dll" />
+			</Component>
+			<Component Id="Telerik.Windows.Themes.Expression_Dark.dll" Guid="6cf3b139-6cda-4b44-ac43-7dc3d1997032">
+			  <File Id="Telerik.Windows.Themes.Expression_Dark.dll" Name="Telerik.Windows.Themes.Expression_Dark.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Windows.Themes.Expression_Dark.dll" />
+			</Component>
+			<Component Id="Telerik.Windows.Themes.Office_Black.dll" Guid="b5a48fb7-fd9f-4eef-8dc2-bb9b14b07fca">
+			  <File Id="Telerik.Windows.Themes.Office_Black.dll" Name="Telerik.Windows.Themes.Office_Black.dll" Source="$(var.Reports_IICs_TargetDir)Telerik.Windows.Themes.Office_Black.dll" />
+			</Component>
+			<Component Id="Core.EntityFramework.dll" Guid="b959e9bb-00fa-4fb8-bad4-7b67975ec539">
+			  <File Id="Core.EntityFramework.dll" Name="Core.EntityFramework.dll" Source="$(var.Reports_IICs_TargetDir)Core.EntityFramework.dll" />
+			</Component>
+			<Component Id="Core.Framework.dll" Guid="3fe977d9-1c55-490f-9979-ec092fa9fb34">
+			  <File Id="Core.Framework.dll" Name="Core.Framework.dll" Source="$(var.Reports_IICs_TargetDir)Core.Framework.dll" />
+			</Component>
+			<Component Id="Reports_IICs.exe" Guid="7d5e183d-3189-4416-b3bf-e49a772e1534">
+			  <File Id="Reports_IICs.exe" Name="Reports_IICs.exe" Source="$(var.Reports_IICs_TargetDir)Reports_IICs.exe" />
+			</Component>
+			<Component Id="Reports_IICs.exe.config" Guid="a52b9774-0268-41ac-954b-cd80a6acc8f6">
+			  <File Id="Reports_IICs.exe.config" Name="Reports_IICs.exe.config" Source="$(var.Reports_IICs_TargetDir)Reports_IICs.exe.config" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+
+	<Fragment>
+
+	  <ComponentGroup Id="DataModels_files" Directory="DataModels">
+
+	    <Component Id="DataModels_BiaEntityDataModel.Context.tt" Guid="c91c41b3-683f-496b-a227-1b8ea9ac3dbf">
+
+	      <File Id="DataModels_BiaEntityDataModel.Context.tt" Name="BiaEntityDataModel.Context.tt" Source="$(var.Reports_IICs_TargetDir)DataModels\BiaEntityDataModel.Context.tt" />
+
+	    </Component>
+
+	    <Component Id="DataModels_BiaEntityDataModel.tt" Guid="0d813080-e1d0-4c4e-a233-6a32ce027f79">
+
+	      <File Id="DataModels_BiaEntityDataModel.tt" Name="BiaEntityDataModel.tt" Source="$(var.Reports_IICs_TargetDir)DataModels\BiaEntityDataModel.tt" />
+
+	    </Component>
+
+	    <Component Id="DataModels_ReportsIICSEntityDataModel.Context.tt" Guid="a10f2e74-2022-4903-87a8-5b6f9f41dd9c">
+
+	      <File Id="DataModels_ReportsIICSEntityDataModel.Context.tt" Name="ReportsIICSEntityDataModel.Context.tt" Source="$(var.Reports_IICs_TargetDir)DataModels\ReportsIICSEntityDataModel.Context.tt" />
+
+	    </Component>
+
+	    <Component Id="DataModels_ReportsIICSEntityDataModel.tt" Guid="7e22aa37-d41c-4df3-8737-6ce40248d2dd">
+
+	      <File Id="DataModels_ReportsIICSEntityDataModel.tt" Name="ReportsIICSEntityDataModel.tt" Source="$(var.Reports_IICs_TargetDir)DataModels\ReportsIICSEntityDataModel.tt" />
+
+	    </Component>
+
+	  </ComponentGroup>
+
+	</Fragment>
+
+	<Fragment>
+
+	  <ComponentGroup Id="es_files" Directory="es">
+
+	    <Component Id="es_Reports_IICs.resources.dll" Guid="c3952892-abe2-4d92-a3e6-a9ce36272023">
+
+	      <File Id="es_Reports_IICs.resources.dll" Name="Reports_IICs.resources.dll" Source="$(var.Reports_IICs_TargetDir)es\Reports_IICs.resources.dll" />
+
+	    </Component>
+
+	  </ComponentGroup>
+
+	</Fragment>
+
+	<Fragment>
+
+	  <ComponentGroup Id="Lib_files" Directory="Lib">
+
+	    <Component Id="Lib_MahApps.Metro.dll" Guid="8fba1259-0f28-41a5-89cd-be30f4088724">
+
+	      <File Id="Lib_MahApps.Metro.dll" Name="MahApps.Metro.dll" Source="$(var.Reports_IICs_TargetDir)Lib\MahApps.Metro.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Reporting.dll" Guid="af904a42-f6ef-4d72-a861-0908848191f1">
+
+	      <File Id="Lib_Telerik.Reporting.dll" Name="Telerik.Reporting.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Reporting.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.ReportViewer.Wpf.dll" Guid="ce97668a-98d8-42b3-bafa-c55831e4f2dd">
+
+	      <File Id="Lib_Telerik.ReportViewer.Wpf.dll" Name="Telerik.ReportViewer.Wpf.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.ReportViewer.Wpf.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Controls.dll" Guid="51fed9b2-0220-487a-8c14-4e1438bc5de7">
+
+	      <File Id="Lib_Telerik.Windows.Controls.dll" Name="Telerik.Windows.Controls.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Controls.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Controls.GridView.dll" Guid="c04a9a45-1b86-4835-a433-c80fcac89926">
+
+	      <File Id="Lib_Telerik.Windows.Controls.GridView.dll" Name="Telerik.Windows.Controls.GridView.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Controls.GridView.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Controls.Input.dll" Guid="fe581d0b-37ba-43a2-aaa4-7f083745efb9">
+
+	      <File Id="Lib_Telerik.Windows.Controls.Input.dll" Name="Telerik.Windows.Controls.Input.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Controls.Input.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Controls.Navigation.dll" Guid="6d3857aa-ff0a-45b8-bdc9-285b5c8a183c">
+
+	      <File Id="Lib_Telerik.Windows.Controls.Navigation.dll" Name="Telerik.Windows.Controls.Navigation.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Controls.Navigation.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Data.dll" Guid="1f71aba4-1404-413c-b20e-7a32fff1a35c">
+
+	      <File Id="Lib_Telerik.Windows.Data.dll" Name="Telerik.Windows.Data.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Data.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Expression_Dark.dll" Guid="ff74042a-f1ce-452a-98a9-403462bd7ea4">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Expression_Dark.dll" Name="Telerik.Windows.Themes.Expression_Dark.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Expression_Dark.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Office2013.dll" Guid="000947fc-bf2d-4274-8838-d0a5bfb0258b">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Office2013.dll" Name="Telerik.Windows.Themes.Office2013.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Office2013.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Office_Black.dll" Guid="91ae85a7-932f-4531-9f0b-7d7baf0239d0">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Office_Black.dll" Name="Telerik.Windows.Themes.Office_Black.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Office_Black.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Office_Blue.dll" Guid="8317a340-4147-4d8b-9101-a278e4555801">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Office_Blue.dll" Name="Telerik.Windows.Themes.Office_Blue.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Office_Blue.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Office_Silver.dll" Guid="28ac8346-debe-4e64-a71b-55be8ee651a7">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Office_Silver.dll" Name="Telerik.Windows.Themes.Office_Silver.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Office_Silver.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Summer.dll" Guid="94927926-f7f1-4e60-89f6-91c216e5be58">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Summer.dll" Name="Telerik.Windows.Themes.Summer.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Summer.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Transparent.dll" Guid="0c0f037e-08f4-4b36-b583-3f7c55b895f1">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Transparent.dll" Name="Telerik.Windows.Themes.Transparent.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Transparent.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Vista.dll" Guid="9993e7a3-3dea-4d0a-b956-9125b7b31ef0">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Vista.dll" Name="Telerik.Windows.Themes.Vista.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Vista.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.VisualStudio2013.dll" Guid="7eca38cb-0f65-4f0a-9695-565375403377">
+
+	      <File Id="Lib_Telerik.Windows.Themes.VisualStudio2013.dll" Name="Telerik.Windows.Themes.VisualStudio2013.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.VisualStudio2013.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Windows7.dll" Guid="68480124-60a8-4044-b9fc-685d50c3fb00">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Windows7.dll" Name="Telerik.Windows.Themes.Windows7.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Windows7.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Windows8.dll" Guid="39c2d8e2-6f72-4445-badd-d4f593ee42f0">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Windows8.dll" Name="Telerik.Windows.Themes.Windows8.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Windows8.dll" />
+
+	    </Component>
+
+	    <Component Id="Lib_Telerik.Windows.Themes.Windows8Touch.dll" Guid="8f46caff-3ba7-4d98-b743-5f67c87df3fa">
+
+	      <File Id="Lib_Telerik.Windows.Themes.Windows8Touch.dll" Name="Telerik.Windows.Themes.Windows8Touch.dll" Source="$(var.Reports_IICs_TargetDir)Lib\Telerik.Windows.Themes.Windows8Touch.dll" />
+
+	    </Component>
+
+	  </ComponentGroup>
+
+	</Fragment>
+
+	<Fragment>
+
+	  <ComponentGroup Id="Images_files" Directory="Images">
+
+	    <Component Id="Images_logo.jpg" Guid="7de33369-4594-4ecf-af41-f7e68b8c777c">
+
+	      <File Id="Images_logo.jpg" Name="logo.jpg" Source="$(var.Reports_IICs_TargetDir)Images\logo.jpg" />
+
+	    </Component>
+
+	  </ComponentGroup>
+
+	</Fragment>
+</Wix>

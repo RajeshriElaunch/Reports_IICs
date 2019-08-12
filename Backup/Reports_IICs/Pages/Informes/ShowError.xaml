@@ -1,0 +1,24 @@
+﻿<Controls:MetroWindow x:Class="Reports_IICs.Pages.Informes.ShowError"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Informes"
+             BorderThickness="0" 
+             GlowBrush="Black"
+             ShowInTaskbar="False"
+             ShowIconOnTitleBar="False"
+             mc:Ignorable="d" Width="528.2" Height="324.7">
+    <Grid>
+        <ScrollViewer MinHeight="215" Margin="20,41,-0.4,40.8">
+            <TextBlock x:Name="TBox_Error_descript" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="500" Cursor="Arrow"/>
+        </ScrollViewer>
+        <Label x:Name="lbl_header_error" Content="Label" HorizontalAlignment="Left" Height="30" Margin="20,10,0,0" VerticalAlignment="Top" Width="325" FontWeight="Bold"/>
+        <Button x:Name="btn_Export" Content="Exportar a Excel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="310,262,0,0" Click="btn_Export_Click"/>
+        <Button x:Name="btn_CopyClip" Content="Copiar error Portapapeles" HorizontalAlignment="Left" Height="25" Margin="61,262,0,0" VerticalAlignment="Top" Width="175" IsCancel="True" IsDefault="True" Click="btn_CopyClip_Click" Visibility="Hidden"/>
+        <Button x:Name="btn_OK" Content="Aceptar" HorizontalAlignment="Left" Height="25" Margin="425,262,0,0" VerticalAlignment="Top" Width="65" IsCancel="True" IsDefault="True"/>
+
+
+    </Grid>
+</Controls:MetroWindow>

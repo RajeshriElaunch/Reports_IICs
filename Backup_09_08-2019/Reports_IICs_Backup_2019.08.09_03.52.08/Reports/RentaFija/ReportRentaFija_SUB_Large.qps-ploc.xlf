@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="es-ES" target-language="qps-ploc" original="Report1.resx" tool-id="MultilingualAppToolkit" product-name="Reports_IICs" product-version="1.0.0.0" build-num="0">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/vencimientoCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Vencimiento</source>
+          <target state="new">Vencimiento</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoActualCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Efectivo Actual</source>
+          <target state="new">Efectivo Actual</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajePDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.PorcentajeP</source>
+          <target state="new">= Fields.PorcentajeP</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoCompraSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.EfectivoCompra)</source>
+          <target state="new">= Sum(Fields.EfectivoCompra)</target>
+        </trans-unit>
+        <trans-unit id="Resx/plusvaliasSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Plusvalias)</source>
+          <target state="new">= Sum(Fields.Plusvalias)</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajeCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Porcentaje</source>
+          <target state="new">Porcentaje</target>
+        </trans-unit>
+        <trans-unit id="Resx/plusvaliasDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Plusvalias</source>
+          <target state="new">= Fields.Plusvalias</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoActualSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.EfectivoActual)</source>
+          <target state="new">= Sum(Fields.EfectivoActual)</target>
+        </trans-unit>
+        <trans-unit id="Resx/plusvaliasSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Plusvalias)</source>
+          <target state="new">= Sum(Fields.Plusvalias)</target>
+        </trans-unit>
+        <trans-unit id="Resx/divisaCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Divisa</source>
+          <target state="new">Divisa</target>
+        </trans-unit>
+        <trans-unit id="Resx/valorActualDivisaSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.ValorActualDivisa)</source>
+          <target state="new">= Sum(Fields.ValorActualDivisa)</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoCompraDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.EfectivoCompra</source>
+          <target state="new">= Fields.EfectivoCompra</target>
+        </trans-unit>
+        <trans-unit id="Resx/minusvaliasSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Minusvalias)</source>
+          <target state="new">= Sum(Fields.Minusvalias)</target>
+        </trans-unit>
+        <trans-unit id="Resx/costeMedioSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.CosteMedio)</source>
+          <target state="new">= Sum(Fields.CosteMedio)</target>
+        </trans-unit>
+        <trans-unit id="Resx/cambioSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Cambio)</source>
+          <target state="new">= Sum(Fields.Cambio)</target>
+        </trans-unit>
+        <trans-unit id="Resx/valorActualDivisaDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.ValorActualDivisa</source>
+          <target state="new">= Fields.ValorActualDivisa</target>
+        </trans-unit>
+        <trans-unit id="Resx/cambioCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Cambio</source>
+          <target state="new">Cambio</target>
+        </trans-unit>
+        <trans-unit id="Resx/diasSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Dias)</source>
+          <target state="new">= Sum(Fields.Dias)</target>
+        </trans-unit>
+        <trans-unit id="Resx/tIR_C_FifCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>TIR_C_Fif</source>
+          <target state="new">TIR_C_Fif</target>
+        </trans-unit>
+        <trans-unit id="Resx/minusvaliasSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Minusvalias)</source>
+          <target state="new">= Sum(Fields.Minusvalias)</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajePSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.PorcentajeP)</source>
+          <target state="new">= Sum(Fields.PorcentajeP)</target>
+        </trans-unit>
+        <trans-unit id="Resx/vencimientoCountFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.Vencimiento)</source>
+          <target state="new">= Count(Fields.Vencimiento)</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoActualSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.EfectivoActual)</source>
+          <target state="new">= Sum(Fields.EfectivoActual)</target>
+        </trans-unit>
+        <trans-unit id="Resx/interesesSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Intereses)</source>
+          <target state="new">= Sum(Fields.Intereses)</target>
+        </trans-unit>
+        <trans-unit id="Resx/tIR_C_FifSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.TIR_C_Fif)</source>
+          <target state="new">= Sum(Fields.TIR_C_Fif)</target>
+        </trans-unit>
+        <trans-unit id="Resx/interesesDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Intereses</source>
+          <target state="new">= Fields.Intereses</target>
+        </trans-unit>
+        <trans-unit id="Resx/diasSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Dias)</source>
+          <target state="new">= Sum(Fields.Dias)</target>
+        </trans-unit>
+        <trans-unit id="Resx/cantidadSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Cantidad)</source>
+          <target state="new">= Sum(Fields.Cantidad)</target>
+        </trans-unit>
+        <trans-unit id="Resx/diasCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Dias</source>
+          <target state="new">Dias</target>
+        </trans-unit>
+        <trans-unit id="Resx/nominalSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Nominal)</source>
+          <target state="new">= Sum(Fields.Nominal)</target>
+        </trans-unit>
+        <trans-unit id="Resx/pageInfoTextBox.Value" translate="yes" xml:space="preserve">
+          <source>=PageNumber</source>
+          <target state="new">=PageNumber</target>
+        </trans-unit>
+        <trans-unit id="Resx/cambioDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Cambio</source>
+          <target state="new">= Fields.Cambio</target>
+        </trans-unit>
+        <trans-unit id="Resx/costeMedioDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.CosteMedio</source>
+          <target state="new">= Fields.CosteMedio</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoCompraSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.EfectivoCompra)</source>
+          <target state="new">= Sum(Fields.EfectivoCompra)</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajeSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Porcentaje)</source>
+          <target state="new">= Sum(Fields.Porcentaje)</target>
+        </trans-unit>
+        <trans-unit id="Resx/titleTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Report1</source>
+          <target state="new">Report1</target>
+        </trans-unit>
+        <trans-unit id="Resx/tipoCountFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.Tipo)</source>
+          <target state="new">= Count(Fields.Tipo)</target>
+        </trans-unit>
+        <trans-unit id="Resx/descripcionValorDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.DescripcionValor</source>
+          <target state="new">= Fields.DescripcionValor</target>
+        </trans-unit>
+        <trans-unit id="Resx/interesesCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Intereses</source>
+          <target state="new">Intereses</target>
+        </trans-unit>
+        <trans-unit id="Resx/divisaCountFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.Divisa)</source>
+          <target state="new">= Count(Fields.Divisa)</target>
+        </trans-unit>
+        <trans-unit id="Resx/cantidadDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Cantidad</source>
+          <target state="new">= Fields.Cantidad</target>
+        </trans-unit>
+        <trans-unit id="Resx/vencimientoCountFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.Vencimiento)</source>
+          <target state="new">= Count(Fields.Vencimiento)</target>
+        </trans-unit>
+        <trans-unit id="Resx/tipoCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Tipo</source>
+          <target state="new">Tipo</target>
+        </trans-unit>
+        <trans-unit id="Resx/valorActualDivisaCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Valor Actual Divisa</source>
+          <target state="new">Valor Actual Divisa</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoActualDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.EfectivoActual</source>
+          <target state="new">= Fields.EfectivoActual</target>
+        </trans-unit>
+        <trans-unit id="Resx/costeMedioCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Coste Medio</source>
+          <target state="new">Coste Medio</target>
+        </trans-unit>
+        <trans-unit id="Resx/cantidadCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Cantidad</source>
+          <target state="new">Cantidad</target>
+        </trans-unit>
+        <trans-unit id="Resx/vencimientoDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Vencimiento</source>
+          <target state="new">= Fields.Vencimiento</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajeDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Porcentaje</source>
+          <target state="new">= Fields.Porcentaje</target>
+        </trans-unit>
+        <trans-unit id="Resx/divisaDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Divisa</source>
+          <target state="new">= Fields.Divisa</target>
+        </trans-unit>
+        <trans-unit id="Resx/nominalDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Nominal</source>
+          <target state="new">= Fields.Nominal</target>
+        </trans-unit>
+        <trans-unit id="Resx/plusvaliasCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Plusvalias</source>
+          <target state="new">Plusvalias</target>
+        </trans-unit>
+        <trans-unit id="Resx/diasDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Dias</source>
+          <target state="new">= Fields.Dias</target>
+        </trans-unit>
+        <trans-unit id="Resx/nominalCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Nominal</source>
+          <target state="new">Nominal</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajePSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.PorcentajeP)</source>
+          <target state="new">= Sum(Fields.PorcentajeP)</target>
+        </trans-unit>
+        <trans-unit id="Resx/divisaCountFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.Divisa)</source>
+          <target state="new">= Count(Fields.Divisa)</target>
+        </trans-unit>
+        <trans-unit id="Resx/interesesSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Intereses)</source>
+          <target state="new">= Sum(Fields.Intereses)</target>
+        </trans-unit>
+        <trans-unit id="Resx/reportNameTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Report1</source>
+          <target state="new">Report1</target>
+        </trans-unit>
+        <trans-unit id="Resx/cambioSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Cambio)</source>
+          <target state="new">= Sum(Fields.Cambio)</target>
+        </trans-unit>
+        <trans-unit id="Resx/minusvaliasDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Minusvalias</source>
+          <target state="new">= Fields.Minusvalias</target>
+        </trans-unit>
+        <trans-unit id="Resx/tIR_C_FifSumFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.TIR_C_Fif)</source>
+          <target state="new">= Sum(Fields.TIR_C_Fif)</target>
+        </trans-unit>
+        <trans-unit id="Resx/currentTimeTextBox.Value" translate="yes" xml:space="preserve">
+          <source>=NOW()</source>
+          <target state="new">=NOW()</target>
+        </trans-unit>
+        <trans-unit id="Resx/valorActualDivisaSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.ValorActualDivisa)</source>
+          <target state="new">= Sum(Fields.ValorActualDivisa)</target>
+        </trans-unit>
+        <trans-unit id="Resx/cantidadSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Cantidad)</source>
+          <target state="new">= Sum(Fields.Cantidad)</target>
+        </trans-unit>
+        <trans-unit id="Resx/tIR_C_FifDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.TIR_C_Fif</source>
+          <target state="new">= Fields.TIR_C_Fif</target>
+        </trans-unit>
+        <trans-unit id="Resx/tipoDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Tipo</source>
+          <target state="new">= Fields.Tipo</target>
+        </trans-unit>
+        <trans-unit id="Resx/descripcionValorCountFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.DescripcionValor)</source>
+          <target state="new">= Count(Fields.DescripcionValor)</target>
+        </trans-unit>
+        <trans-unit id="Resx/costeMedioSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.CosteMedio)</source>
+          <target state="new">= Sum(Fields.CosteMedio)</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox2.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Tipo</source>
+          <target state="new">= Fields.Tipo</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajePCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Porcentaje P</source>
+          <target state="new">Porcentaje P</target>
+        </trans-unit>
+        <trans-unit id="Resx/tipoCountFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.Tipo)</source>
+          <target state="new">= Count(Fields.Tipo)</target>
+        </trans-unit>
+        <trans-unit id="Resx/minusvaliasCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Minusvalias</source>
+          <target state="new">Minusvalias</target>
+        </trans-unit>
+        <trans-unit id="Resx/descripcionValorCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Descripcion Valor</source>
+          <target state="new">Descripcion Valor</target>
+        </trans-unit>
+        <trans-unit id="Resx/descripcionValorCountFunctionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Count(Fields.DescripcionValor)</source>
+          <target state="new">= Count(Fields.DescripcionValor)</target>
+        </trans-unit>
+        <trans-unit id="Resx/porcentajeSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Porcentaje)</source>
+          <target state="new">= Sum(Fields.Porcentaje)</target>
+        </trans-unit>
+        <trans-unit id="Resx/nominalSumFunctionTextBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Sum(Fields.Nominal)</source>
+          <target state="new">= Sum(Fields.Nominal)</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox1.Value" translate="yes" xml:space="preserve">
+          <source>Tipo:</source>
+          <target state="new">Tipo:</target>
+        </trans-unit>
+        <trans-unit id="Resx/efectivoCompraCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Efectivo Compra</source>
+          <target state="new">Efectivo Compra</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

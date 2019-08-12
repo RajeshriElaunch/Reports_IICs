@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="74d8b8a387f64118a6d16d6428e224c8" Name="Diagram1" ZoomLevel="72">
+        <EntityTypeShape EntityType="Reports_IICSModel.Bloomberg" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.CompraVentaPrecAdq_Added" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.CompraVentaPrecAdq_Deleted" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.CuentasContablesDerivado" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.DesgloseGastos_Cuentas" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.DistribucionPatrimonioNovarex_CuentasTesoreria" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Errore" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.EvolucionRentabilidadGuissona_Old" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Formulas_Tipos" Width="1.5" PointX="12" PointY="142" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.GraficoCompPatrimonioDivisas_CtasTesorNoEur" Width="1.5" PointX="11.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Hist_Plantillas_Secciones" Width="1.5" PointX="8.25" PointY="135.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Indices_Referencia_Tipos" Width="1.5" PointX="9" PointY="153.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.IndicesPreconfiguradosNovarex" Width="1.5" PointX="14.25" PointY="145.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumento" Width="1.5" PointX="12" PointY="148.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Categorias" Width="1.5" PointX="12" PointY="152.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Divisas" Width="1.5" PointX="15" PointY="142.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Empresas" Width="1.5" PointX="12" PointY="145.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Equivalencias" Width="1.5" PointX="11.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Importados" Width="1.5" PointX="17.25" PointY="152.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Paises" Width="1.5" PointX="15" PointY="166.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Sectores" Width="1.5" PointX="15" PointY="169" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Tipos" Width="1.5" PointX="12" PointY="169.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Instrumentos_Zonas" Width="1.5" PointX="12" PointY="138.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Mercado" Width="1.5" PointX="12" PointY="173.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_CarteraRF" Width="1.5" PointX="5.25" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_CompraVentaPrecAdq" Width="1.5" PointX="5.25" PointY="38.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_DistribucionPatrimonioNovarex" Width="1.5" PointX="5.25" PointY="41.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_DistribucionPatrimonioNovarex_Tipos" Width="1.5" PointX="5.25" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_Diversificacion" Width="1.5" PointX="15" PointY="139.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_Diversificacion_Instrumentos" Width="1.5" PointX="17.25" PointY="149" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_Diversificacion_Instrumentos_Divisas" Width="1.5" PointX="19.5" PointY="149.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_DividendosCobrados" Width="1.5" PointX="5.25" PointY="46.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_EvolucionMercados" Width="1.5" PointX="5.25" PointY="48.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_EvolucionPatrimGuissona" Width="1.5" PointX="5.25" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_EvolucionPatrimonioConjuntoGuissona" Width="1.5" PointX="5.25" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_EvolucionPatrimonioConjuntoGuissona_Fondos" Width="1.5" PointX="5.25" PointY="56.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_EvolucionRentabilidadGuissona" Width="1.5" PointX="5.25" PointY="60" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_EvolucionRentabilidadGuissona_Fondos" Width="1.5" PointX="5.25" PointY="62.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_GraficoBenchmark" Width="1.5" PointX="5.25" PointY="65.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_GraficoBenchmark_Indices" Width="1.5" PointX="5.25" PointY="68.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_GraficoCompPatrimonioTipoProducto" Width="1.5" PointX="5.25" PointY="71.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_IIC_ComprasVentasEjercicio" Width="1.5" PointX="5.25" PointY="74" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_IndicePreconfiguradoNovarex" Width="1.5" PointX="5.25" PointY="76.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_IndicePreconfiguradoNovarex_Otros" Width="1.5" PointX="5.25" PointY="80.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_OperacionesRentaVariable_II" Width="1.5" PointX="5.25" PointY="83.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_Participes" Width="1.5" PointX="11.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_PlusvaliasDividendos" Width="1.5" PointX="5.25" PointY="86.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_PlusvaliasDividendos_ISINS" Width="1.5" PointX="7.5" PointY="86.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_RatiosCarteraRV" Width="1.5" PointX="5.25" PointY="91.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_Rentabilidad_CarteraII" Width="1.5" PointX="5.25" PointY="88.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_RFComprasVentasEjercicio" Width="1.5" PointX="5.25" PointY="97.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_RVComprasRealizadasEjercicio" Width="1.5" PointX="5.25" PointY="100.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Parametros_VariacionPatrimonialB" Width="1.5" PointX="5.25" PointY="102.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.ParamPredet_EvolucionMercados" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.ParticipesSalat" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.ParticipesSalat_Aportaciones" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.ParticipesSalat_Participes" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.ParticipesSalat_Periodos" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.ParticipesSalat_Periodos_Lineas" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantilla" Width="1.5" PointX="3" PointY="153.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Estrategias" Width="1.5" PointX="8.25" PointY="161.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Generaciones" Width="1.5" PointX="5.25" PointY="108.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Generaciones_Isins" Width="1.5" PointX="5.25" PointY="110.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Generaciones_Participes" Width="1.5" PointX="5.25" PointY="113.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Generaciones_Plantilla" Width="1.5" PointX="8.25" PointY="164.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Generaciones_Secciones" Width="1.5" PointX="8.25" PointY="158.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Hist" Width="1.5" PointX="3" PointY="290.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Indices_Referencia" Width="1.5" PointX="11.25" PointY="161.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Isins" Width="1.5" PointX="5.25" PointY="125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Isins_Hist" Width="1.5" PointX="5.25" PointY="128" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Participes" Width="1.5" PointX="5.25" PointY="131.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Secciones" Width="1.5" PointX="8.25" PointY="155.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Plantillas_Secciones_Hist" Width="1.5" PointX="11.25" PointY="157.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PlusvaliasDividendos_Cuentas" Width="1.5" PointX="13.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Preview_CompraVentaPrecAdq" Width="1.5" PointX="5.25" PointY="140.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Preview_RentaFija" Width="1.5" PointX="5.25" PointY="149" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Preview_RentaVariable" Width="1.5" PointX="5.25" PointY="145.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_01_Table" Width="1.5" PointX="13.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_02_Table" Width="1.5" PointX="5.25" PointY="156.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_025_Table" Width="1.5" PointX="5.25" PointY="159.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_03_Table" Width="1.5" PointX="5.25" PointY="162.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_09_Table" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_10_Table" Width="1.5" PointX="5.25" PointY="165.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_11_Table" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_12_Table" Width="1.5" PointX="6.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_13_Table" Width="1.5" PointX="5.25" PointY="168.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_14_Table" Width="1.5" PointX="8.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.PRO_17_Table" Width="1.5" PointX="5.25" PointY="172.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.RentabilidadCarteraSolemeg" Width="1.5" PointX="5.25" PointY="176.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.RentabilidadIndiceNovarex" Width="1.5" PointX="10.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.RentabilidadIndiceNovarexAcumulada" Width="1.5" PointX="12.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.RentaVariable_Equivalencias" Width="1.5" PointX="14.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.RentaVariable_PrecioAjustado" Width="1.5" PointX="7.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.RentaVariable_PrecioAjustado_NumO" Width="1.5" PointX="10" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Seccione" Width="1.5" PointX="6" PointY="135.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.SeccionesParametro" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.SeccionesProcedimiento" Width="1.5" PointX="8.25" PointY="138.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.session_state" Width="1.5" PointX="15.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_Burbujas" Width="1.5" PointX="5.25" PointY="180.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_CarteraCcrVolgaGamar" Width="1.5" PointX="5.25" PointY="185.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_CarteraRF" Width="1.5" PointX="5.25" PointY="189.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_CompraVentaPrecAdq" Width="1.5" PointX="5.25" PointY="194.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_CuponesCobrados" Width="1.5" PointX="15.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_DesgloseGastos" Width="1.5" PointX="5.25" PointY="199.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_DistribucionPatrimonioNovarex_Cartera" Width="1.5" PointX="5.25" PointY="204.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_DistribucionPatrimonioNovarex_Tesoreria" Width="1.5" PointX="5.25" PointY="209.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_Diversificacion" Width="1.5" PointX="17.25" PointY="144.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_DividendosCobrados" Width="1.5" PointX="5.25" PointY="212" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionIndBench" Width="1.5" PointX="5.25" PointY="215.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionMercados" Width="1.5" PointX="5.25" PointY="219" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionPatrGuissonaIndBench" Width="1.5" PointX="5.25" PointY="222.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionPatrGuissonaRentabilidad" Width="1.5" PointX="5.25" PointY="226.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionPatrGuissonaValLiq" Width="1.5" PointX="5.25" PointY="229.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionPatrimonioConjuntoGuissona" Width="1.5" PointX="15.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionPatrValLiq" Width="1.5" PointX="5.25" PointY="232.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionRentabilidadGuissona" Width="1.5" PointX="5.25" PointY="235.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_EvolucionRentabilidadGuissona_TAE" Width="1.5" PointX="5.25" PointY="238.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoCompCarteraRF" Width="1.5" PointX="5.25" PointY="241.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoCompCarteraRV" Width="1.5" PointX="5.25" PointY="246.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoCompPatrimonioDivisas" Width="1.5" PointX="5.25" PointY="251.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoCompPatrimonioTipoActivo" Width="1.5" PointX="5.25" PointY="254.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoCompPatrimonioTipoProducto" Width="1.5" PointX="11.25" PointY="165.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoExposMercDivisas" Width="1.5" PointX="5.25" PointY="261.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoExposMercTipoActivo" Width="1.5" PointX="8.25" PointY="168.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoExposMercTipoProducto" Width="1.5" PointX="5.25" PointY="267.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_GraficoIBenchmark" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_IIC_ComprasVentasEjercicio" Width="1.5" PointX="5.25" PointY="270.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_IndicePreconfiguradoNovarex" Width="1.5" PointX="5.25" PointY="274.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_ListadoRentaFijaNovarex" Width="1.5" PointX="5.25" PointY="277.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_OperacionesRentaVariable_II" Width="1.5" PointX="5.25" PointY="280.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_Participes" Width="1.5" PointX="5.25" PointY="285.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_Participes_Hist" Width="1.5" PointX="5.25" PointY="288.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_PlusvaliasDividendos" Width="1.5" PointX="5.25" PointY="292.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_PRO_11" Width="1.5" PointX="16.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_PRO_12" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RatiosCarteraRV" Width="1.5" PointX="5.25" PointY="295.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RentabilidadCarteraSolemeg" Width="1.5" PointX="14.25" PointY="160.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RentabilidadCarteraV1" Width="1.5" PointX="17.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RentabilidadCarteraV2" Width="1.5" PointX="17.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RentaFija" Width="1.5" PointX="14.25" PointY="150.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RentaVariable" Width="1.5" PointX="10.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RFComprasVentasEjercicio" Width="1.5" PointX="6.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_RVComprasRealizadasEjercicio" Width="1.5" PointX="18.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_SuscripcionesReembolsos" Width="1.5" PointX="5.25" PointY="316.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_VariacionPatrimonialA" Width="1.5" PointX="5.25" PointY="319.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_VariacionPatrimonialA_Totales" Width="1.5" PointX="5.25" PointY="325.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Temp_VariacionPatrimonialB" Width="1.5" PointX="5.25" PointY="328" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Tipos" Width="1.5" PointX="0.75" PointY="163.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.Versione" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.RatingsEquivalencia" Width="1.5" PointX="14.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.VariacionPatrimonial_Cuentas" Width="1.5" PointX="18.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Reports_IICSModel.VariacionPatrimonialA_Cuentas" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="Reports_IICSModel.FK_IndicesPreconfiguradosNovarex_Formulas_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Hist_Plantillas_Secciones_Hist_Plantillas_Secciones" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Indices_Referencia_Indices_Referencia_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_IndicesPreconfiguradosNovarex_Instrumentos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_IndicesPreconfiguradosNovarex_Instrumentos_Zonas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_Diversificacion_Instrumentos_Parametros_Diversificacion_Instrumentos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_Diversificacion_Temp_Diversificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompCarteraTipoActivo_Instrumentos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompPatrimonioTipoProducto_Temp_GraficoCompPatrimonioTipoProducto" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RentaFija_Instrumentos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Sectores_Instrumentos_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RentaFija_Instrumentos_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_Diversificacion_Instrumentos_Divisas_Instrumentos_Divisas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_Diversificacion_Instrumentos_Divisas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Empresas_Instrumentos_Empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RentaFija_Instrumentos_Empresas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Paises" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Sectores" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Tipos1" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Tipos2" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Instrumentos_Importados_Instrumentos_Zonas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Estrategias_Instrumentos_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompPatrimonioTipoProducto_Instrumentos_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RentaFija_Instrumentos_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RentabilidadCarteraSolemeg_Mercados" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_CarteraRF_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_CompraVentaPrecAdq_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_DistribucionPatrimonioNovarex_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_DistribucionPatrimonioNovarex_Tipos_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_Diversificacion_Instrumentos_Parametros_Diversificacion" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_Diversificacion_Instrumentos_Divisas_Parametros_Diversificacion_Instrumentos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_DividendosCobrados_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_EvolucionMercados_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_EvolucionPatrimGuissona_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_EvolucionPatrimonioConjuntoGuissona_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_EvolucionPatrimonioConjuntoGuissona_Fondos_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_EvolucionRentabilidadGuissona_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_EvolucionRentabilidadGuissona_Fondos_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_GraficoBenchmark_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_GraficoBenchmark_Indices_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_GraficoCompPatrimonioTipoProducto_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_IIC_ComprasVentasEjercicio_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_IndicePreconfiguradoNovarex_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_IndicePreconfiguradoNovarex_Otros_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_OperacionesRentaVariable_II_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_PlusvaliasDividendos_ISINS_Parametros_PlusvaliasDividendos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_PlusvaliasDividendos_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_RatiosCarteraRV_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_Rentabilidad_carteraII_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_RFComprasVentasEjercicio_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_RVComprasRealizadasEjercicio_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Parametros_VariacionPatrimonialB_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_ParticipesSalat_Aportaciones_Temp_ParticipesSalat" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_ParticipesSalat_Participes_Temp_ParticipesSalat" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_ParticipesSalat_Periodos_Temp_ParticipesSalat" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_ParticipesSalat_Periodos_Lineas_Plantillas_Participes" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_ParticipesSalat_Periodos_Lineas_ParticipesSalat_Periodos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Estrategias_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Generaciones_Isins_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Generaciones_Participes_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Generaciones_Plantilla_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Generaciones_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Generaciones_Secciones_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Indices_Referencia_Plantillas_Indices_Referencia" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Isins_Hist_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Isins_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Participes_Plantillas_Participes" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Secciones_Hist_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Secciones_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Preview_CompraVentaPrecAdq_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Preview_RentaFija_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Preview_RentaVariable_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_PRO_02_Table_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_PRO_025_Table_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_PRO_03_Table_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_PRO_10_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_PRO_13_Table_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_PRO_17_Table_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_RentabilidadCarteraSolemeg_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_Burbujas_SmallBig_Plantillas1" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_CarteraCcrVolgaGamar_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_CarteraRF_Temp_CarteraRF" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_CompraVentaPrecAdq_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_DistribucionPatrimonioNovarex_Cartera_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_DistribucionPatrimonioNovarex_Tesoreria_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_DividendosCobrados_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_EvolucionIndBench_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_EvolucionMercados_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_EvolucionPatrGuissonaIndBench_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_EvolucionPatrGuissonaRentabilidad_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_EvolucionPatrGuissonaValLiq_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_EvolucionRentabilidadGuissona_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_EvolucionRentabilidadGuissona_TAE_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompCarteraDivisas_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompCarteraRF_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompCarteraRV_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompCarteraTipoActivo_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompPatrimonioDivisas_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompPatrimonioTipoActivo_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoCompPatrimonioTipoProducto_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_GraficoExposMercTipoProducto_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_IIC_ComprasVentasEjercicio_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_IndicePreconfiguradoNovarex_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_ListadoRentaFijaNovarex_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_OperacionesRentaVariable_II_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_Participes_Hist_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_Participes_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_PlusvaliasDividendos_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_PRO_02_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RatiosCarteraRentaVariable_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RentabilidadCarteraSolemeg_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_RentaFija_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_SuscripcionesReembolsos_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_VariacionPatrimonial_B_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_VariacionPatrimonial_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_VariacionPatrimonialA_Totales_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Temp_VariacionPatrimonialB_Plantillas" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Generaciones_Plantilla_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Generaciones_Secciones_Secciones" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Hist_Tipos" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Secciones_Secciones" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_Plantillas_Secciones_Hist_Secciones" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_RentaVariable_PrecioAjustado_NumO_RentaVariable_PrecioAjustado" ManuallyRouted="false" />
+        <AssociationConnector Association="Reports_IICSModel.FK_SeccionesProcedimientos_Secciones" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

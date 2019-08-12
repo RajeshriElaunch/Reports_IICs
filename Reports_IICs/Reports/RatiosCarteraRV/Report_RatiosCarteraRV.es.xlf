@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="es-ES" target-language="es" original="Report_RatiosCarteraRV.resx" tool-id="MultilingualAppToolkit" product-name="Reports_IICs" product-version="1.0.1" build-num="1">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="3.1.1250.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="Resx">
+        <trans-unit id="Resx/textBox13.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.ValorAdquisicion</source>
+          <target state="new">= Fields.ValorAdquisicion</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox24.Value" translate="yes" xml:space="preserve">
+          <source>= Parameters.Fecha.Value.Year + 1</source>
+          <target state="new">= Parameters.Fecha.Value.Year + 1</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox36.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.GvcBloomberg</source>
+          <target state="new">= Fields.GvcBloomberg</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox10.Value" translate="yes" xml:space="preserve">
+          <source>= Parameters.Fecha.Value.Year</source>
+          <target state="new">= Parameters.Fecha.Value.Year</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox26.Value" translate="yes" xml:space="preserve">
+          <source>PER</source>
+          <target state="new">PER</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox31.Value" translate="yes" xml:space="preserve">
+          <source>Precio / VC</source>
+          <target state="new">Precio / VC</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox21.Value" translate="yes" xml:space="preserve">
+          <source>= Parameters.Fecha.Value.Year + 1</source>
+          <target state="new">= Parameters.Fecha.Value.Year + 1</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox34.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.ValorFundamental</source>
+          <target state="new">= Fields.ValorFundamental</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox22.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.RentabilidadDividendoAño</source>
+          <target state="new">= Fields.RentabilidadDividendoAño</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox16.Value" translate="yes" xml:space="preserve">
+          <source>Beneficios (BPA)</source>
+          <target state="new">Beneficios (BPA)</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox11.Value" translate="yes" xml:space="preserve">
+          <source>Adq.</source>
+          <target state="new">Adq.</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox7.Value" translate="yes" xml:space="preserve">
+          <source>% Sector</source>
+          <target state="new">% Sector</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox14.Value" translate="yes" xml:space="preserve">
+          <source>= Parameters.Fecha.Value.Year + 1</source>
+          <target state="new">= Parameters.Fecha.Value.Year + 1</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox3.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.CapitalizacionBursatilEuros</source>
+          <target state="new">= Fields.CapitalizacionBursatilEuros</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox37.Value" translate="yes" xml:space="preserve">
+          <source>Descuento Fundamental</source>
+          <target state="new">Descuento Fundamental</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox5.Value" translate="yes" xml:space="preserve">
+          <source>% Cartera</source>
+          <target state="new">% Cartera</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox19.Value" translate="yes" xml:space="preserve">
+          <source>Rent. Dividendo</source>
+          <target state="new">Rent. Dividendo</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox27.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.PerAño</source>
+          <target state="new">= Fields.PerAño</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox1.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Sector</source>
+          <target state="new">= Fields.Sector</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox6.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.PorcentajeCartera</source>
+          <target state="new">= Fields.PorcentajeCartera</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox2.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Precio</source>
+          <target state="new">= Fields.Precio</target>
+        </trans-unit>
+        <trans-unit id="Resx/descripcionValorDataTextBox.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.DescripcionInstrumento</source>
+          <target state="new">= Fields.DescripcionInstrumento</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox9.Value" translate="yes" xml:space="preserve">
+          <source>x</source>
+          <target state="new">x</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox17.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.BpaAño</source>
+          <target state="new">= Fields.BpaAño</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox12.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.ValorAñoInforme</source>
+          <target state="new">= Fields.ValorAñoInforme</target>
+        </trans-unit>
+        <trans-unit id="Resx/titleTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Report1</source>
+          <target state="new">Report1</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox38.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.DescuentoFundamental</source>
+          <target state="new">= Fields.DescuentoFundamental</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox35.Value" translate="yes" xml:space="preserve">
+          <source>GVC / Bloomberg</source>
+          <target state="new">GVC / Bloomberg</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox28.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.PerPrevision</source>
+          <target state="new">= Fields.PerPrevision</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox25.Value" translate="yes" xml:space="preserve">
+          <source>= Parameters.Fecha.Value.Year</source>
+          <target state="new">= Parameters.Fecha.Value.Year</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox29.Value" translate="yes" xml:space="preserve">
+          <source>Deuda Neta / Capitalización</source>
+          <target state="new">Deuda Neta / Capitalización</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox33.Value" translate="yes" xml:space="preserve">
+          <source>Valor Fundamental</source>
+          <target state="new">Valor Fundamental</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox23.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.RentabilidadDividendoPrevision</source>
+          <target state="new">= Fields.RentabilidadDividendoPrevision</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox4.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.Rank</source>
+          <target state="new">= Fields.Rank</target>
+        </trans-unit>
+        <trans-unit id="Resx/descripcionValorCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Capitalización Bursátil (€)</source>
+          <target state="new">Capitalización Bursátil (€)</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox18.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.BpaPrevision</source>
+          <target state="new">= Fields.BpaPrevision</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox32.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.PrecioVc</source>
+          <target state="new">= Fields.PrecioVc</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox15.Value" translate="yes" xml:space="preserve">
+          <source>= Parameters.Fecha.Value.Year</source>
+          <target state="new">= Parameters.Fecha.Value.Year</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox30.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.DeudaNeta</source>
+          <target state="new">= Fields.DeudaNeta</target>
+        </trans-unit>
+        <trans-unit id="Resx/tipoCaptionTextBox.Value" translate="yes" xml:space="preserve">
+          <source>Precio</source>
+          <target state="new">Precio</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox20.Value" translate="yes" xml:space="preserve">
+          <source>= Parameters.Fecha.Value.Year</source>
+          <target state="new">= Parameters.Fecha.Value.Year</target>
+        </trans-unit>
+        <trans-unit id="Resx/textBox8.Value" translate="yes" xml:space="preserve">
+          <source>= Fields.PorcentajeSector</source>
+          <target state="new">= Fields.PorcentajeSector</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

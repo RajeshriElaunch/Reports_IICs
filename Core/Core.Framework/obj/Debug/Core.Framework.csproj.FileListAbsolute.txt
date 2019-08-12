@@ -1,0 +1,11 @@
+C:\Users\Julio\Desktop\Core.Framework\bin\Debug\Core.Framework.dll
+C:\Users\Julio\Desktop\Core.Framework\bin\Debug\Core.Framework.pdb
+C:\Users\Julio\Desktop\Core.Framework\obj\Debug\Core.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Desktop\Core.Framework\obj\Debug\Core.Framework.dll
+C:\Users\Julio\Desktop\Core.Framework\obj\Debug\Core.Framework.pdb
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.Framework\bin\Debug\Core.Framework.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.Framework\bin\Debug\Core.Framework.pdb
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.Framework\obj\Debug\Core.Framework.csprojAssemblyReference.cache
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.Framework\obj\Debug\Core.Framework.csproj.CoreCompileInputs.cache
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.Framework\obj\Debug\Core.Framework.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.Framework\obj\Debug\Core.Framework.pdb

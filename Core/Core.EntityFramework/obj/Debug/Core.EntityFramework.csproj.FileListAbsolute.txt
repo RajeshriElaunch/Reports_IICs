@@ -1,0 +1,30 @@
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.EntityFramework.dll.config
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.EntityFramework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.EntityFramework.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.Framework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.Framework.pdb
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.dll
+C:\Users\Julio\Documents\Visual Studio 2015\Projects\_others\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.pdb
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.EntityFramework.dll.config
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.EntityFramework.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.EntityFramework.pdb
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.Framework.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Newtonsoft.Json.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Core.Framework.pdb
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.xml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\bin\Debug\Newtonsoft.Json.xml
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.csprojAssemblyReference.cache
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.csproj.CoreCompileInputs.cache
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.csproj.CopyComplete
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.dll
+D:\Rajeshri\Projects\WPF_Reports_IICS\Core\Core.EntityFramework\obj\Debug\Core.EntityFramework.pdb

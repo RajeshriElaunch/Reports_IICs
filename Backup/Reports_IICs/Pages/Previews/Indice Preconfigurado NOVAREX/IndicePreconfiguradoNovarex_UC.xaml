@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.Indice_Preconfigurado_NOVAREX.IndicePreconfiguradoNovarex_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+              xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.Indice_Preconfigurado_NOVAREX"
+              xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             mc:Ignorable="d" 
+               Language="es-ES"
+             d:DesignHeight="300" d:DesignWidth="400">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource VM_Instrumentos}">
+        <Grid Margin="0,0,-130,0" Grid.Row="0">
+            <telerik:RadGridView x:Name="myGrid" MinWidth="200" ShowGroupPanel="False"  ShowColumnFooters="True" RowIndicatorVisibility="Collapsed" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False"  CellEditEnded="myGrid_CellEditEnded" FontSize="10" DataLoaded="myGrid_DataLoaded" RowLoaded="myGrid_RowLoaded"  ColumnWidth="*"
+                                 SelectionMode= "Single"
+                                 SelectionUnit = "FullRow">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn   DataMemberBinding="{Binding Id}" IsVisible="False" />
+                    <telerik:GridViewDataColumn Width="200" IsSortable="False" IsFilterable="False" Header="Descripcion" DataMemberBinding="{Binding Descripcion}" HeaderTextAlignment="Left" TextAlignment="Left"  IsReadOnly="True"  Footer="Total" />
+                    <telerik:GridViewDataColumn Width="90" IsSortable="False" IsFilterable="False" Header="Euros" DataMemberBinding="{Binding Euros}" HeaderTextAlignment="Right" TextAlignment="Right" FooterTextAlignment="Right" DataFormatString="{}{0:N0}" >
+                        <telerik:GridViewDataColumn.AggregateFunctions>
+                            <telerik:SumFunction Caption="" ResultFormatString="{}{0:N0}"/>
+                        </telerik:GridViewDataColumn.AggregateFunctions>
+                    </telerik:GridViewDataColumn>
+                    <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Porcentaje" DataMemberBinding="{Binding Porcentaje}" HeaderTextAlignment="Right" TextAlignment="Right" FooterTextAlignment="Right" DataFormatString="{}{0:N2}" IsReadOnly="True" >
+                        <telerik:GridViewDataColumn.AggregateFunctions>
+                            <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                        </telerik:GridViewDataColumn.AggregateFunctions>
+                    </telerik:GridViewDataColumn>
+                    <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="IndexNovarex" DataMemberBinding="{Binding IndexNovarex}" HeaderTextAlignment="Right" TextAlignment="Right" FooterTextAlignment="Right" DataFormatString="{}{0:N2}">
+                        <telerik:GridViewDataColumn.AggregateFunctions>
+                            <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                        </telerik:GridViewDataColumn.AggregateFunctions>
+                    </telerik:GridViewDataColumn>
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+        </Grid>
+
+
+
+    </Grid>
+</UserControl>

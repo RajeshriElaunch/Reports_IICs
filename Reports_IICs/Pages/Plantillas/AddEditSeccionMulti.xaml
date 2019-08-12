@@ -1,0 +1,86 @@
+﻿<Controls:MetroWindow x:Class="Reports_IICs.Pages.Plantillas.AddEditSeccionMulti"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas"
+              xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:Dialogs="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" 
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Plantillas"
+             Title="Añadir/Editar Sección" 
+             mc:Ignorable="d" 
+             Width="702"
+             Height="200"
+             MinHeight="200"
+             BorderThickness="0" 
+             GlowBrush="Black"
+             ShowInTaskbar="False"
+             d:DesignHeight="375" d:DesignWidth="702" ShowIconOnTitleBar="False" Closing="MetroWindow_Closing">
+    <Controls:MetroWindow.Resources>
+        <my:PlantillasPage_VM x:Key="PlantillasPage_VM"/>
+        <my:CommaSeparatedConverter x:Key="ValueConverter" />
+        <my:DataViewModelComboBoxSeccion x:Key="DataViewModelComboBoxSeccion"/>
+    </Controls:MetroWindow.Resources>
+    <Grid Width="auto" Height="auto">
+        <Grid.CommandBindings>
+            <CommandBinding Command="New" CanExecute="AddElement_CanExecute" Executed="AddElement_Executed" />
+        </Grid.CommandBindings>
+
+        <Grid>
+            <Label x:Name="labelSección" Content="Sección" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Margin="14,25,0,0"/>
+
+            <telerik:RadComboBox  Name="ComboBoxSeccion" 
+                                DataContext="{StaticResource DataViewModelComboBoxSeccion}"
+                                  OpenDropDownOnFocus="True"
+                                  IsFilteringEnabled="True"
+                                  FontFamily="Calibri" 
+                                  ItemsSource="{Binding DataItems, Source={StaticResource DataViewModelComboBoxSeccion}}" 
+                                  SelectedIndex="0"
+                                    VerticalAlignment="Top" Height="26"  Margin="80,21,23.2,0" 
+                                  SelectionChanged="ComboBoxSeccion_SelectionChanged" 
+                                  DropDownClosed="ComboBoxSeccion_DropDownClosed">
+                <telerik:RadComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <CheckBox IsChecked="{Binding IsChecked, Mode=TwoWay}" Content="{Binding Text}" />
+                    </DataTemplate>
+                </telerik:RadComboBox.ItemTemplate>
+
+                <telerik:RadComboBox.SelectionBoxTemplate>
+                    <DataTemplate>
+                        <TextBlock
+							Text="{Binding Owner.CheckedItems, Converter={StaticResource ValueConverter}}" />
+                    </DataTemplate>
+                </telerik:RadComboBox.SelectionBoxTemplate>
+
+            </telerik:RadComboBox>
+        </Grid>
+
+        <StackPanel Margin="0,70,0,0">
+
+            <Grid MinHeight="25">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80*"/>
+                    <RowDefinition Height="20*"/>
+                </Grid.RowDefinitions>
+                <Grid  Name="gridConfigParam"  Width="710">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                         <StackPanel HorizontalAlignment="Center" Grid.Row="0" Name="StackConfigParam" />
+                    </ScrollViewer>
+                </Grid>
+                <!-- Botton buttons -->
+                <Grid Grid.Row="1" Margin="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100*"/>
+                        <ColumnDefinition Width="100*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="ButtonGuardar" Grid.Row="1" TabIndex="30" Grid.Column="0" Content="Guardar"  HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Width="75" Command="New" Height="20" Click="ButtonGuardar_Click"/>
+                    <Button x:Name="ButtonCancelar" Grid.Row="1" TabIndex="31" Grid.Column="1" Content="Cancelar" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="ButtonCancelar_Click" />
+
+                </Grid>
+            </Grid>
+        </StackPanel>
+    </Grid>
+
+</Controls:MetroWindow>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f888dc9a1dfb4ecf94a3bbf1b4aff84b" Name="Diagram1">
+        <EntityTypeShape EntityType="BASEModel.a1006" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b1001" Width="1.5" PointX="3" PointY="52" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b2001" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b2004" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3001" Width="1.5" PointX="0.75" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3002" Width="1.5" PointX="3" PointY="33" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3003" Width="1.5" PointX="5.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3006" Width="1.5" PointX="0.75" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3017" Width="1.5" PointX="3" PointY="41.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3022" Width="1.5" PointX="8" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3040" Width="1.5" PointX="3" PointY="68.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3050" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3056" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3085" Width="1.5" PointX="0.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b3089" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b4001" Width="1.5" PointX="9.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b4002" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b4051" Width="1.5" PointX="5.25" PointY="71.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b5001" Width="1.5" PointX="8.25" PointY="53.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b5004" Width="1.5" PointX="5.25" PointY="46.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b5040" Width="1.5" PointX="5.25" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b5041" Width="1.5" PointX="11.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b5042" Width="1.5" PointX="7.5" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b5052" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.dtproperty" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.m1016" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.MSmerge_partition_groups" Width="1.5" PointX="13.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.b5006" Width="1.5" PointX="13.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.sysmergearticle" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BASEModel.gestioPf" Width="1.5" PointX="15.75" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="BASEModel.FK_b2004_b1001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b4051_b1001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b2001_b3085" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b2004_b2001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5001_b2001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5004_b2001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5040_b2001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3002_b3001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3017_b3001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3022_b3001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3040_b3001_cod" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5001_b3001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5004_b3001" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3003_b3002" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5004_b3002" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3017_b3006" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3022_b3085" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5001_b3040" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5004_b3040" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b3089_b3085" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5040_b5040" ManuallyRouted="false" />
+        <AssociationConnector Association="BASEModel.FK_b5042_b5040" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

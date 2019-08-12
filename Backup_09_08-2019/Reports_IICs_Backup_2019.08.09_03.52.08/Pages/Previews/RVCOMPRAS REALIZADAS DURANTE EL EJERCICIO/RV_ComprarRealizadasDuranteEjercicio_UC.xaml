@@ -1,0 +1,95 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.RVCOMPRAS_REALIZADAS_DURANTE_EL_EJERCICIO.RV_ComprarRealizadasDuranteEjercicio_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.RVCOMPRAS_REALIZADAS_DURANTE_EL_EJERCICIO"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             mc:Ignorable="d" 
+             Language="es-ES"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource VM_Instrumentos}">
+        <Grid Margin="0,0,-130,0" Grid.Row="0">
+            <Grid.Resources>
+                <local:RV_ComprarRealizadasDuranteEjercicio_Calc x:Key="RV_ComprarRealizadasDuranteEjercicio_Calc"></local:RV_ComprarRealizadasDuranteEjercicio_Calc>
+                <!--<Style TargetType="TextBlock">
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+            </Style>-->
+            </Grid.Resources>
+            <telerik:RadGridView x:Name="myGrid" MinWidth="200" ShowGroupPanel="False" RowIndicatorVisibility="Collapsed" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False"  CellEditEnded="myGrid_CellEditEnded" FontSize="10" DataLoaded="myGrid_DataLoaded" RowLoaded="myGrid_RowLoaded"  ColumnWidth="*"
+                                 SelectionMode= "Single"
+                                 SelectionUnit = "FullRow" BeginningEdit="myGrid_BeginningEdit">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn   DataMemberBinding="{Binding Id}" IsVisible="False" />
+                    <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Oper." DataMemberBinding="{Binding Fecha}" HeaderTextAlignment="Left" TextAlignment="Left" DataFormatString="{}{0:dd/MM/yyyy}" IsReadOnly="True"/>
+                    <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="T.Mov" DataMemberBinding="{Binding TipoMovimiento}" HeaderTextAlignment="Left" TextAlignment="Left" IsReadOnly="True" />
+                    <telerik:GridViewDataColumn Width="150" IsSortable="False" IsFilterable="False" Header="Nombre valor" DataMemberBinding="{Binding DescripcionValor}" HeaderTextAlignment="Left" TextAlignment="Left"  IsReadOnly="True"/>
+                    <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Cant." DataMemberBinding="{Binding Cantidad}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N0}" />
+                    <telerik:GridViewMaskedInputColumn x:Name="Precio" Header="Precio" Width="100" TextAlignment="Right" HeaderTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=Precio}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N2" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="DividendosCobrados" Header="Dividendos Cobrados" Width="100" TextAlignment="Right" HeaderTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=DividendosCobrados}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N2" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="Cotizacion" Header="Cotizacion" Width="100" TextAlignment="Center" HeaderTextAlignment="Center"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=CotizacionFechaFin}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N2" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+                    
+                   
+                    <telerik:GridViewDataColumn Width="120" IsSortable="False" IsFilterable="False" Header="Variación desde Compra" DataMemberBinding="{Binding Variacion}" HeaderTextAlignment="Center" TextAlignment="Center" DataFormatString="{}{0:P2}" IsReadOnly="True" />
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+        </Grid>
+    </Grid>
+</UserControl>

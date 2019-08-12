@@ -1,0 +1,56 @@
+﻿<Controls:MetroWindow x:Class="Reports_IICs.Pages.Plantillas.ControlesParametros.AddEditEvolucionRentabGuissona_Fondos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:Dialogs="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas.ControlesParametros"
+             mc:Ignorable="d" 
+             Title="Añadir/Editar Evolucion Rentabilidad Guissona Fondos" 
+             Width="450"
+             Height="260"
+             BorderThickness="0" 
+             Language="es-ES"
+             GlowBrush="Black"
+             ShowInTaskbar="False"
+             d:DesignHeight="260" d:DesignWidth="450" ShowIconOnTitleBar="False">
+    <Grid x:Name="grid">
+        <Grid.CommandBindings>
+            <CommandBinding Command="New" CanExecute="AddElement_CanExecute" Executed="AddElement_Executed" />
+        </Grid.CommandBindings>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="235*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="71*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="ButtonGuardar" TabIndex="2" Content="Guardar"  HorizontalAlignment="Left" Margin="32.2,179,0,0" VerticalAlignment="Top" Width="75"  Command="New" Grid.Column="1" Height="26"/>
+        <Button x:Name="ButtonCancelar" TabIndex="3" Content="Cancelar" HorizontalAlignment="Left" Margin="112.2,179,0,0" VerticalAlignment="Top" Width="75" Click="ButtonCancelar_Click" Grid.Column="1" Height="26"/>
+        <Label x:Name="labelCodigo" Content="CódigoIC Fondo" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Margin="11,25,0,0" Width="106"/>
+        <TextBox x:Name="textBoxCodigoFondo" TabIndex="0" MaxLength="50" HorizontalAlignment="Left" Validation.Error="Validation_Error"  
+                 TextWrapping="Wrap" Text="{Binding  UpdateSourceTrigger=PropertyChanged, Path=CodigoICFondo,
+                        ValidatesOnDataErrors=True, NotifyOnValidationError=True}"  VerticalAlignment="Top" Width="101" Margin="4.2,25,0,0" Grid.Column="1" Height="26" />
+
+        <Label x:Name="labelIsinFondo" Content="Isin Fondo" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Margin="11,59,0,0" Width="72"/>
+        <TextBox x:Name="textBoxIsinFondo" TabIndex="0" MaxLength="50" HorizontalAlignment="Left" Validation.Error="Validation_Error"  
+                 TextWrapping="Wrap" Text="{Binding  UpdateSourceTrigger=PropertyChanged, Path=IsinFondo,
+                        ValidatesOnDataErrors=True, NotifyOnValidationError=True}"  VerticalAlignment="Top" Width="101" Margin="4.2,59,0,0" Grid.Column="1" Height="26" />
+
+
+        <Label x:Name="labelDescripcion" Content="Descripción" HorizontalAlignment="Left" Validation.Error="Validation_Error"  Height="30" VerticalAlignment="Top" Margin="11,89,0,0" Width="72"/>
+        <TextBox x:Name="textBoxDescripcion" MaxLength="150" TabIndex="1" HorizontalAlignment="Left"  
+                 TextWrapping="Wrap" Text="{Binding  UpdateSourceTrigger=PropertyChanged, Path=Descripcion,
+                        ValidatesOnDataErrors=True, NotifyOnValidationError=True}" VerticalAlignment="Top" Width="304" Margin="4.2,89,0,0" Grid.ColumnSpan="3" Grid.Column="1" Height="26"/>
+        <Label x:Name="labelReferenciaTAE" Content="V.L. desde creación" HorizontalAlignment="Left" Validation.Error="Validation_Error"  Height="30" VerticalAlignment="Top" Margin="11,119,0,0" Width="110"/>
+        <TextBox x:Name="textBoxReferenciaTAE" MaxLength="150" TabIndex="1" HorizontalAlignment="Left"  
+                 TextWrapping="Wrap" Text="{Binding  UpdateSourceTrigger=PropertyChanged, Path=ReferenciaTAE ,
+                        ValidatesOnDataErrors=True, NotifyOnValidationError=True, StringFormat={}{0:N9}}" VerticalAlignment="Top" Width="304" Margin="4.2,119,0,0" Grid.ColumnSpan="3" Grid.Column="1" Height="26"/>
+        <Label x:Name="labelFecha" Content="Fecha Constitución" HorizontalAlignment="Left" Validation.Error="Validation_Error"  Height="26" VerticalAlignment="Top" Margin="11,149,0,0" Width="110"/>
+        <DatePicker x:Name="DpFechaConstitucion" TabIndex="1" HorizontalAlignment="Left" Height="26" Margin="4.2,149,0,0" Grid.Column="1"
+                    Validation.Error="Validation_Error"  
+                    SelectedDate="{Binding Path=FechaConstitucion,
+                    ValidatesOnDataErrors=True,UpdateSourceTrigger=PropertyChanged,NotifyOnValidationError=True}" 
+                    VerticalAlignment="Top" Width="150" />
+    </Grid>
+</Controls:MetroWindow>

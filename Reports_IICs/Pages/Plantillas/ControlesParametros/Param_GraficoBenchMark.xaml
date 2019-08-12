@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Plantillas.ControlesParametros.Param_GraficoBenchMark"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas.ControlesParametros"
+              xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+              xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="460">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+
+        <Style TargetType="{x:Type TextBox}" x:Key="Max3GroupCodeStyle">
+            <Setter Property= "MaxLength" Value="3" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max50GroupCodeStyle">
+            <Setter Property="MaxLength" Value="50" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max100GroupCodeStyle">
+            <Setter Property="MaxLength" Value="100" />
+        </Style>
+        <Style TargetType="telerik:RadComboBox">
+            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+        </Style>
+
+    </UserControl.Resources>
+    <Grid x:Name="grid" DataContext="{StaticResource VM_Instrumentos}">
+        <GroupBox x:Name="Isin" Header="Grafico BenchMark" Margin="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="683" >
+            <StackPanel>
+                <Grid>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition MinHeight="50"></RowDefinition>
+                        <RowDefinition Height="38"></RowDefinition>
+                        <RowDefinition Height="35"></RowDefinition>
+                        
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" >
+                        <telerik:RadGridView Grid.Row="0" x:Name="myEvoMercadosGrid" MaxHeight="165"  MinWidth="100" MaxWidth="400"  AutoGenerateColumns="False"  FontSize="10" 
+                	EditTriggers="CellClick"
+                    Deleting="myEvoMercadosGrid_Deleting" 
+                    SelectionMode= "Single"
+                	SelectionUnit = "FullRow"
+                	
+                	CanUserFreezeColumns="False"
+                	RowIndicatorVisibility="Collapsed"
+                	ShowGroupPanel="False"
+                    SelectedItem="{Binding CurrentItem}"
+                    ColumnWidth="*">
+
+                            <telerik:RadGridView.Columns>
+                                <telerik:GridViewComboBoxColumn Width="120" Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource VM_Instrumentos}}">
+                                    <telerik:GridViewComboBoxColumn.EditorStyle>
+                                        <Style TargetType="telerik:RadComboBox">
+                                            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                            <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                        </Style>
+                                    </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                    <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                        <DataTemplate>
+                                            <Grid >
+                                                <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                            </Grid>
+                                        </DataTemplate>
+
+                                    </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                </telerik:GridViewComboBoxColumn>
+                                <telerik:GridViewDataColumn Width="60" IsReadOnly="True" IsSortable="False" IsVisible="False" IsFilterable="False" DataMemberBinding="{Binding Id}" Header="Id" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                                <telerik:GridViewDataColumn Width="60" IsReadOnly="True" IsSortable="False" IsVisible="False" IsFilterable="False" DataMemberBinding="{Binding CodigoIC}" Header="CodigoIC" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                                <telerik:GridViewDataColumn Width="80" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Indice}" Header="Indice" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+                                <telerik:GridViewDataColumn Width="*" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Descripcion}" Header="Descripción" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+
+                            </telerik:RadGridView.Columns>
+                        </telerik:RadGridView>
+
+                    </Grid>
+                    <Grid Grid.Row="1" >
+                        <Button x:Name="btn_ADD" Margin="6" Grid.Row="2" Content="Añadir" HorizontalAlignment="Center" Height="24"  VerticalAlignment="Top" Width="65" Click="AddNewRow"  />
+
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6*"/>
+                            <ColumnDefinition Width="45*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="2" Grid.Column="0" x:Name="lblFechaInicio" Content="Fecha Inicio" HorizontalAlignment="Left" Height="25"  VerticalAlignment="Top" Width="75"/>
+
+                        <DatePicker Grid.Row="2" Grid.Column="1" x:Name="DpFechainicio" TabIndex="1" HorizontalAlignment="Left" Height="26" 
+                    Validation.Error="Validation_Error"  
+                   
+                    VerticalAlignment="Top" Width="150" />
+                    </Grid>
+                    
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Aceptar_Button" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="AñadirInstrumentosEmpresas_Title" xml:space="preserve">
+    <value>Añadir Empresa</value>
+  </data>
+  <data name="Año_Text" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="Cancelar_Button" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CodigoIcObligatorio_Mens" xml:space="preserve">
+    <value>El campo 'Código IC' es obligatorio.</value>
+  </data>
+  <data name="CodigoYaExiste_Message" xml:space="preserve">
+    <value>El código introducido ya existe.</value>
+  </data>
+  <data name="Correcion_SubMens" xml:space="preserve">
+    <value> - Corrección necesaria: </value>
+  </data>
+  <data name="DescripcionLarga_Label" xml:space="preserve">
+    <value>Descripción larga</value>
+  </data>
+  <data name="Descripcion_Label" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="DNIExiste_Message" xml:space="preserve">
+    <value>El DNI introducido ya existe.</value>
+  </data>
+  <data name="DocumentoNoValido_Mens" xml:space="preserve">
+    <value>Documento no válido o sin datos.</value>
+  </data>
+  <data name="EditarInstrumentosEmpresas_Title" xml:space="preserve">
+    <value>Editar Empresa</value>
+  </data>
+  <data name="Error_Message" xml:space="preserve">
+    <value>Se ha producido un error:</value>
+  </data>
+  <data name="GenerarInforme_Button" xml:space="preserve">
+    <value>Generar Informe</value>
+  </data>
+  <data name="Guardar_Button" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="HeaderGVC_MessageBox" xml:space="preserve">
+    <value>GVC Gaesco</value>
+  </data>
+  <data name="ImportarBloomberg_Title" xml:space="preserve">
+    <value>Importar Bloomberg</value>
+  </data>
+  <data name="ImportarExcel_Text" xml:space="preserve">
+    <value>Seleccione la plantilla Excel que contenga los instrumentos a importar.</value>
+  </data>
+  <data name="ImportarInstrumentos_Title" xml:space="preserve">
+    <value>Importar Instrumentos</value>
+  </data>
+  <data name="IntroduceCodigo_Message" xml:space="preserve">
+    <value>Introduzca código.</value>
+  </data>
+  <data name="IntroduzcaBPAAñoMax" xml:space="preserve">
+    <value>Introduzca BPA año informe máximo.</value>
+  </data>
+  <data name="IntroduzcaBPAAñoMin" xml:space="preserve">
+    <value>Introduzca BPA año informe mínimo.</value>
+  </data>
+  <data name="IntroduzcaCodigoIsin_Message" xml:space="preserve">
+    <value>Introduzca código ISIN.</value>
+  </data>
+  <data name="IntroduzcaDescripcion_Message" xml:space="preserve">
+    <value>Introduzca descripción.</value>
+  </data>
+  <data name="IntroduzcaDeudaNetaCapPrevMax" xml:space="preserve">
+    <value>Introduzca deuda neta capitalización previsión máxima.</value>
+  </data>
+  <data name="IntroduzcaDeudaNetaCapPrevMin" xml:space="preserve">
+    <value>Introduzca deuda neta capitalización previsión mínima.</value>
+  </data>
+  <data name="IntroduzcaDeudaNetCapMax" xml:space="preserve">
+    <value>Introduzca deuda neta capitalización máxima.</value>
+  </data>
+  <data name="IntroduzcaDeudaNetCapMin" xml:space="preserve">
+    <value>Introduzca deuda neta capitalización mínima.</value>
+  </data>
+  <data name="IntroduzcaDNI_Message" xml:space="preserve">
+    <value>Introduzca DNI.</value>
+  </data>
+  <data name="IntroduzcaDtoFundamentalMax" xml:space="preserve">
+    <value>Introduzca descuento fundamental máximo.</value>
+  </data>
+  <data name="IntroduzcaDtoFundamentalMin" xml:space="preserve">
+    <value>Introduzca descuento fundamental mínimo.</value>
+  </data>
+  <data name="IntroduzcaFecha_Message" xml:space="preserve">
+    <value>Introduzca fecha.</value>
+  </data>
+  <data name="IntroduzcaIndice_Message" xml:space="preserve">
+    <value>Introduzca índice.</value>
+  </data>
+  <data name="IntroduzcaPERAñoMax" xml:space="preserve">
+    <value>Introduzca PER año informe máximo.</value>
+  </data>
+  <data name="IntroduzcaPERAñoMin" xml:space="preserve">
+    <value>Introduzca PER año informe mínimo.</value>
+  </data>
+  <data name="IntroduzcaPERPrevisiónMax" xml:space="preserve">
+    <value>Introduzca PER previsión máximo.</value>
+  </data>
+  <data name="IntroduzcaPERPrevisiónMin" xml:space="preserve">
+    <value>Introduzca PER previsión mínimo.</value>
+  </data>
+  <data name="IntroduzcaPrecioVCMax" xml:space="preserve">
+    <value>Introduzca precio VC máximo.</value>
+  </data>
+  <data name="IntroduzcaPrecioVCMin" xml:space="preserve">
+    <value>Introduzca precio VC mínimo.</value>
+  </data>
+  <data name="IntroduzcaPrevisionMax" xml:space="preserve">
+    <value>Introduzca previsión máxima.</value>
+  </data>
+  <data name="IntroduzcaPrevisionMin" xml:space="preserve">
+    <value>Introduzca previsión mínima.</value>
+  </data>
+  <data name="IntroduzcaRentabilidadesAñoMax" xml:space="preserve">
+    <value>Introduzca rentabilidades año informe máximas.</value>
+  </data>
+  <data name="IntroduzcaRentabilidadesAñoMin" xml:space="preserve">
+    <value>Introduzca rentabilidades año informe mínimas.</value>
+  </data>
+  <data name="IntroduzcaRentabilidadesPrevisionMax" xml:space="preserve">
+    <value>Introduzca rentabilidades previsión máximas.</value>
+  </data>
+  <data name="IntroduzcaRentabilidadesPrevisionMin" xml:space="preserve">
+    <value>Introduzca rentabilidades previsión mínimas.</value>
+  </data>
+  <data name="IntroduzcaValorFundamentalMax" xml:space="preserve">
+    <value>Introduzca valor fundamental máximo.</value>
+  </data>
+  <data name="IntroduzcaValorFundamentalMin" xml:space="preserve">
+    <value>Introduzca valor fundamental mínimo.</value>
+  </data>
+  <data name="IsinExiste_Message" xml:space="preserve">
+    <value>El código ISIN introducido ya existe.</value>
+  </data>
+  <data name="MMOLiq" xml:space="preserve">
+    <value>Mercado Monetario / Liquidez</value>
+  </data>
+  <data name="NoBloomImp_Men" xml:space="preserve">
+    <value>BLOOMBERG: No se encuentran los siguientes ISINS en la plantilla de  Bloomberg importada.</value>
+  </data>
+  <data name="NoInstrImp_Mens" xml:space="preserve">
+    <value>INSTRUMENTOS: No se encuentran los siguientes ISINS en la plantilla de instrumentos importados.</value>
+  </data>
+  <data name="ParametrosSeccionIncompletos" xml:space="preserve">
+    <value>Edite esta sección dentro de la plantilla para rellenar todos los parámetros necesarios.</value>
+  </data>
+  <data name="ReviseValidaciones_Mens" xml:space="preserve">
+    <value>Revise las validaciones previas necesarias para poder generar el informe</value>
+  </data>
+  <data name="Seccion_SubMens" xml:space="preserve">
+    <value>Sección: </value>
+  </data>
+  <data name="SeleccionePlantilla_Message" xml:space="preserve">
+    <value>Seleccione una plantilla.</value>
+  </data>
+  <data name="UltimaVersion_Message" xml:space="preserve">
+    <value>Para poder ejecutar la aplicación debe instalar la última versión.</value>
+  </data>
+  <data name="IntroduzcaComisionDepositaria_Message" xml:space="preserve">
+    <value>Introduzca valor ComisionDepositaria.</value>
+  </data>
+  <data name="IntroduzcaTasaGestionAnual_Message" xml:space="preserve">
+    <value>Introduzca valor TasaGestionAnual.</value>
+  </data>
+  <data name="TituloReportEvolucionPatriOperacionesRealizadasGuissona" xml:space="preserve">
+    <value>EVOLUCIÓN PATRIMONIO-VALOR LIQUIDATIVO</value>
+  </data>
+  <data name="TituloReport_RvComprasRealizadasEjercicio" xml:space="preserve">
+    <value>RENTA VARIABLE: COMPRAS REALIZADAS DURANTE EL EJERCICIO </value>
+  </data>
+  <data name="SubTituloComprasRF" xml:space="preserve">
+    <value>RENTA FIJA: COMPRAS EJERCICIO </value>
+  </data>
+  <data name="SubTituloVentasRF" xml:space="preserve">
+    <value>RENTA FIJA: VENTAS Y AMORTIZACIONES EJERCICIO </value>
+  </data>
+  <data name="TituloReport_RfComprasVentasEjercicio" xml:space="preserve">
+    <value>RF: COMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO </value>
+  </data>
+  <data name="SubtituloGestionadoRP_ValorLiquidativo" xml:space="preserve">
+    <value>EVOLUCIÓN PATRIMONIO GESTIONADO</value>
+  </data>
+  <data name="SubtituloLiquidativoRP_ValorLiquidativo" xml:space="preserve">
+    <value>EVOLUCIÓN VALOR LIQUIDATIVO</value>
+  </data>
+  <data name="TituloReportEvolucionIndicesBenchMarkPRO_03" xml:space="preserve">
+    <value>EVOLUCIÓN ÍNDICES REFERENCIA</value>
+  </data>
+  <data name="TituloReportEvolucionMercados" xml:space="preserve">
+    <value>EVOLUCIÓN DE LOS MERCADOS</value>
+  </data>
+  <data name="TituloReportPatrimonio_ValorLiquidativoPRO_02" xml:space="preserve">
+    <value>EVOLUCIÓN DE PATRIMONIO-VALOR LIQUIDATIVO</value>
+  </data>
+  <data name="TituloReportRentabilidadCarteraV1" xml:space="preserve">
+    <value>RENTABILIDAD CARTERA</value>
+  </data>
+  <data name="TituloReport_Participes" xml:space="preserve">
+    <value>PARTICIPACIONES</value>
+  </data>
+  <data name="TituloReportBenchMarkPRO_25" xml:space="preserve">
+    <value>GRAFICO (BENCHMARK)</value>
+  </data>
+  <data name="TituloReportCompraVentaRespectoPrecioAdquisicion" xml:space="preserve">
+    <value>RESULTADOS EN RENTA VARIABLE E IICS DESDE ADQUISICIÓN</value>
+  </data>
+  <data name="TituloReportDividendosCobradosPRO_10" xml:space="preserve">
+    <value>DIVIDENDOS COBRADOS DURANTE EL EJERCICIO</value>
+  </data>
+  <data name="TituloReportCompCarteraTipodeProducto" xml:space="preserve">
+    <value>DISTRIBUCIÓN DE PATRIMONIO (TIPO PRODUCTO)</value>
+  </data>
+  <data name="TituloReportCompCartRV" xml:space="preserve">
+    <value>COMPOSICIÓN CARTERA RENTA VARIABLE</value>
+  </data>
+  <data name="TituloReportCompCarteraTipoActivo" xml:space="preserve">
+    <value>DISTRIBUCIÓN DE PATRIMONIO(TIPO ACTIVO)</value>
+  </data>
+  <data name="TituloReportGraficoCompCarteraDivisas" xml:space="preserve">
+    <value>DISTRIBUCIÓN DE PATRIMONIO POR DIVISAS</value>
+  </data>
+  <data name="TituloReportCuponesCobrados" xml:space="preserve">
+    <value>CUPONES NETOS COBRADOS DURANTE EJERCICIO</value>
+  </data>
+  <data name="TituloReport_SubscripcionesReembolso" xml:space="preserve">
+    <value>SUSCRIPCIONES-REEMBOLSOS</value>
+  </data>
+  <data name="TituloReportOperacionesRentaVariable_II" xml:space="preserve">
+    <value>OPERACIONES R.V</value>
+  </data>
+  <data name="Report_IIC_VentasEjercicio" xml:space="preserve">
+    <value>IIC: COMPRAS Y VENTAS REALIZADAS DURANTE EL EJERCICIO</value>
+  </data>
+  <data name="TituloReportPlusvaliasDividendos" xml:space="preserve">
+    <value>RENTA VARIABLE: PLUSVALÍAS Y DIVIDENDOS</value>
+  </data>
+  <data name="CodigoICFondo_Message" xml:space="preserve">
+    <value>Introduzca CodigoICFondo.</value>
+  </data>
+  <data name="IsinFondo_Message" xml:space="preserve">
+    <value>Introduzca IsinFondo</value>
+  </data>
+  <data name="ReportFromText" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="ReportPageText" xml:space="preserve">
+    <value>Página</value>
+  </data>
+  <data name="DescripcionExiste_Message" xml:space="preserve">
+    <value>La descripción introducida ya existe.</value>
+  </data>
+  <data name="IntroduzcaFormula_Message" xml:space="preserve">
+    <value>Introduzca Fórmula</value>
+  </data>
+  <data name="Report_DistribucionPatrimonioNovarex" xml:space="preserve">
+    <value>DISTRIBUCIÓN PATRIMONIO</value>
+  </data>
+  <data name="TituloReportEvolucionPatrimonioGuissona" xml:space="preserve">
+    <value>EVOLUCIÓN PATRIMONIO</value>
+  </data>
+  <data name="TituloReportEvolucionRentabilidadGuissona" xml:space="preserve">
+    <value>EVOLUCIÓN RENTABILIDAD ANUAL</value>
+  </data>
+  <data name="TituloReportCompCartRF" xml:space="preserve">
+    <value>COMPOSICIÓN CARTERA RENTA FIJA</value>
+  </data>
+  <data name="Vto1Año" xml:space="preserve">
+    <value>&lt; 1 año</value>
+  </data>
+  <data name="Vto1Mes" xml:space="preserve">
+    <value>&lt;1 mes</value>
+  </data>
+  <data name="Vto2Años" xml:space="preserve">
+    <value>1-2 años</value>
+  </data>
+  <data name="Vto3Años" xml:space="preserve">
+    <value>2-3 años</value>
+  </data>
+  <data name="Vto3Meses" xml:space="preserve">
+    <value>1-3 meses</value>
+  </data>
+  <data name="Vto5Años" xml:space="preserve">
+    <value>3-5 años</value>
+  </data>
+  <data name="Vto6Meses" xml:space="preserve">
+    <value>3-6 meses</value>
+  </data>
+  <data name="VtoSuperior" xml:space="preserve">
+    <value>&gt;5 años</value>
+  </data>
+  <data name="TituloReport_VariacionPatrimonialTituloReport_DesgloseGastos" xml:space="preserve">
+    <value>DESGLOSE DE GASTOS</value>
+  </data>
+  <data name="Report_IndicePreconfiguradoNovarex" xml:space="preserve">
+    <value>ÍNDICE SEGÚN MERCADOS Y DIVISAS</value>
+  </data>
+  <data name="TituloReportCompPatrimonioTipodeProducto" xml:space="preserve">
+    <value>DISTRIBUCIÓN PATRIMONIO (TIPO PRODUCTO)</value>
+  </data>
+  <data name="Report_ListadoRentaFijaNovarex" xml:space="preserve">
+    <value>LISTADO RENTA FIJA</value>
+  </data>
+  <data name="IntroduzcaAportacion_Message" xml:space="preserve">
+    <value>Introduzca Aportación</value>
+  </data>
+  <data name="IntroduzcaTitular_Message" xml:space="preserve">
+    <value>Introduzca Titular</value>
+  </data>
+  <data name="TituloReportCompPatrimonioTipoActivo" xml:space="preserve">
+    <value>DISTRIBUCIÓN PATRIMONIO (TIPO ACTIVO)</value>
+  </data>
+  <data name="TituloReportGraficoCompPatrimonioDivisas" xml:space="preserve">
+    <value>DISTRIBUCIÓN EXPOSICIÓN MERCADO POR DIVISAS</value>
+  </data>
+  <data name="ReferenciaTAE_Message" xml:space="preserve">
+    <value>Introduzca ReferenciaTAE</value>
+  </data>
+  <data name="TituloReportCarteraRF" xml:space="preserve">
+    <value>CARTERA DE RENTA FIJA</value>
+  </data>
+  <data name="TituloReport_RentabilidadCarteraSolemeg" xml:space="preserve">
+    <value>RENTABILIDAD DE LA CARTERA DESDE ORIGEN</value>
+  </data>
+  <data name="SuscripcionesReembolsosRep_Reintegros" xml:space="preserve">
+    <value>RELACIÓN REINTEGROS</value>
+  </data>
+  <data name="SuscripcionesReembolsosVM_Reintegro" xml:space="preserve">
+    <value>REINTEGRO</value>
+  </data>
+  <data name="DividendosCobrados_VM_Ajustes" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="PlusvaliasDividendos_VM_Ajustes" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="IndiceExiste_Message" xml:space="preserve">
+    <value>El código Indice introducido ya existe.</value>
+  </data>
+  <data name="MMO" xml:space="preserve">
+    <value>Mercado Monetario</value>
+  </data>
+  <data name="TituloReportRentabilidadVariable" xml:space="preserve">
+    <value>RENTA VARIABLE</value>
+  </data>
+  <data name="TituloGrafExposMercTipoAct" xml:space="preserve">
+    <value>DISTRIBUCIÓN EXPOSICIÓN MERCADO (TIPO DE ACTIVO)</value>
+  </data>
+  <data name="TituloGrafExposMercTipoProd" xml:space="preserve">
+    <value>DISTRIBUCIÓN EXPOSICIÓN MERCADO (TIPO DE PRODUCTO)</value>
+  </data>
+  <data name="RVCabCompra" xml:space="preserve">
+    <value>COMPRA</value>
+  </data>
+  <data name="RVCabPrecio" xml:space="preserve">
+    <value>PRECIO</value>
+  </data>
+  <data name="EliminarConfirmacion" xml:space="preserve">
+    <value>¿Esta seguro que desea eliminar?</value>
+  </data>
+  <data name="RVGrupo01" xml:space="preserve">
+    <value>1) Valores que teníamos en cartera a {0} y no se han vendido en {1}</value>
+  </data>
+  <data name="RVGrupo02" xml:space="preserve">
+    <value>2) Valores que teníamos en cartera el {0} y se han vendido en {1}</value>
+  </data>
+  <data name="RVGrupo03" xml:space="preserve">
+    <value>3) Valores que se han comprado y vendido en {0}</value>
+  </data>
+  <data name="RVGrupo04" xml:space="preserve">
+    <value>4) Valores que se han comprado en {0} y no se han vendido en {1}</value>
+  </data>
+  <data name="RVGrupo05" xml:space="preserve">
+    <value>5) Derivados</value>
+  </data>
+  <data name="RVGrupo06" xml:space="preserve">
+    <value>6) IIC</value>
+  </data>
+  <data name="RVGrupo07" xml:space="preserve">
+    <value>7) PATRIMONIALISTA</value>
+  </data>
+  <data name="RVGrupo08" xml:space="preserve">
+    <value>8) CCCP</value>
+  </data>
+  <data name="RVGrupo09" xml:space="preserve">
+    <value>9) PERSISTENCIA</value>
+  </data>
+  <data name="RVGrupo10" xml:space="preserve">
+    <value>10) OTROS</value>
+  </data>
+  <data name="RVGrupo11" xml:space="preserve">
+    <value>11) Garantizados / Estructurados</value>
+  </data>
+  <data name="RVGrupo12" xml:space="preserve">
+    <value>12) Divisas</value>
+  </data>
+  <data name="RVGrupo13" xml:space="preserve">
+    <value>13) Commodities</value>
+  </data>
+  <data name="TituloReportRentaFija" xml:space="preserve">
+    <value>RENTA FIJA</value>
+  </data>
+  <data name="TextCabeceraEfectivoFinFechaSinCup" xml:space="preserve">
+    <value>Efectivo {0} sin cupón corrido</value>
+  </data>
+  <data name="TextCabeceraEfectivoFinVtaSinCup" xml:space="preserve">
+    <value>Efectivo venta sin cupón corrido</value>
+  </data>
+  <data name="TextCabeceraEfectivoIniFecha" xml:space="preserve">
+    <value>Efectivo {0} sin cupón corrido</value>
+  </data>
+  <data name="TextCabeceraEfectivoIniNoFecha" xml:space="preserve">
+    <value>Efectivo compra sin cupón corrido</value>
+  </data>
+  <data name="TituloReportVariacionPatrimonialA" xml:space="preserve">
+    <value>VARIACIÓN PATRIMONIAL</value>
+  </data>
+  <data name="TextoAmpliacionesCapitalReduccionesCapitalAutocartera" xml:space="preserve">
+    <value>+ Ampliaciones de capital/- Reducciones de capital / Autocartera</value>
+  </data>
+  <data name="TextoSuscripcionesReembolsos" xml:space="preserve">
+    <value>+ Suscripciones/- Reembolsos</value>
+  </data>
+  <data name="ParticipesIncompletos" xml:space="preserve">
+    <value>Debe añadir algún partícipe para generar la sección PartícipesSalat</value>
+  </data>
+  <data name="ErrorSeccion" xml:space="preserve">
+    <value>Error al generar sección: </value>
+  </data>
+  <data name="PorcEstratRaIncompleto" xml:space="preserve">
+    <value>Debe rellenar el parámetro "% Estrategias RA"</value>
+  </data>
+  <data name="VtoIIC" xml:space="preserve">
+    <value>IIC’s R.F</value>
+  </data>
+  <data name="Vto10Años" xml:space="preserve">
+    <value>7-10 años</value>
+  </data>
+  <data name="Vto7Años" xml:space="preserve">
+    <value>5- 7 años</value>
+  </data>
+  <data name="VtoMas10Años" xml:space="preserve">
+    <value>&gt; 10 años</value>
+  </data>
+  <data name="DuplicateKeyExceptionMessage" xml:space="preserve">
+    <value>Registro duplicado. No se ha podido insertar.</value>
+  </data>
+  <data name="TituloReportBurbujas" xml:space="preserve">
+    <value>ANÁLISIS POSICIONAMIENTO CARTERA</value>
+  </data>
+  <data name="SinRating" xml:space="preserve">
+    <value>SIN RATING</value>
+  </data>
+  <data name="HojaDades" xml:space="preserve">
+    <value>El documento no tiene ninguna Hoja con el nombre "dades".</value>
+  </data>
+  <data name="ImportarIsins_Title" xml:space="preserve">
+    <value>Importar equivalencias ISINS</value>
+  </data>
+  <data name="ColumnaExcelErronea" xml:space="preserve">
+    <value>No se ha encontrado la columna "{0}" o no se encuentra en la posición correcta.</value>
+  </data>
+  <data name="ImportCoreTrading" xml:space="preserve">
+    <value>El campo "CORE/TRADING" no ha sido informado en la importación para los siguientes instrumentos: </value>
+  </data>
+  <data name="CcrCore" xml:space="preserve">
+    <value>CORE</value>
+  </data>
+  <data name="CcrCoreFondos" xml:space="preserve">
+    <value>Fondos Renta Variable</value>
+  </data>
+  <data name="CcrCoreRvaEur" xml:space="preserve">
+    <value>Renta Variable Euro</value>
+  </data>
+  <data name="CcrCoreRvaUsd" xml:space="preserve">
+    <value>Renta Variable Dólar</value>
+  </data>
+    <data name="CcrCoreRvaOtros" xml:space="preserve">
+    <value>Renta Variable Otros</value>
+  </data>
+  <data name="CcrLiquidez" xml:space="preserve">
+    <value>LIQUIDEZ</value>
+  </data>
+  <data name="CcrLiqMmo" xml:space="preserve">
+    <value>Mercado Monetario</value>
+  </data>
+  <data name="CcrRab" xml:space="preserve">
+    <value>RETORNO ABSOLUTO</value>
+  </data>
+  <data name="CcrRfi" xml:space="preserve">
+    <value>RENTA FIJA</value>
+  </data>
+  <data name="CcrRfiEmisiones" xml:space="preserve">
+    <value>Emisiones</value>
+  </data>
+  <data name="CcrRfiFondos" xml:space="preserve">
+    <value>Fondos</value>
+  </data>
+  <data name="CcrRfm" xml:space="preserve">
+    <value>RENTA FIJA MIXTA</value>
+  </data>
+  <data name="CcrRfmFondos" xml:space="preserve">
+    <value>Fondos</value>
+  </data>
+  <data name="CcrRvm" xml:space="preserve">
+    <value>RENTA VARIABLE MIXTA</value>
+  </data>
+  <data name="CcrRvmFondos" xml:space="preserve">
+    <value>Fondos</value>
+  </data>
+  <data name="CcrLiqTesoreriaOtros" xml:space="preserve">
+    <value>Tesorería y otros (garantías, pendientes de liquidar)</value>
+  </data>
+  <data name="CcrTrading" xml:space="preserve">
+    <value>TRADING</value>
+  </data>
+  <data name="CcrTradingFondosEur" xml:space="preserve">
+    <value>Fondos Euro</value>
+  </data>
+  <data name="CcrTradingRvaEur" xml:space="preserve">
+    <value>Renta Variable Euro</value>
+  </data>
+  <data name="CcrTradingRvaUsd" xml:space="preserve">
+    <value>Renta Variable Dólar</value>
+  </data>
+  <data name="TituloReportCarteraCcrVolgaGamar" xml:space="preserve">
+    <value>DETALLE CARTERA</value>
+  </data>
+  <data name="RfGrupo01" xml:space="preserve">
+    <value>1) Deuda que teníamos en cartera a {0:dd/MM/yyyy} y no se han vendido en {1:yyyy}</value>
+  </data>
+  <data name="RfGrupo02" xml:space="preserve">
+    <value>2) Deuda que teníamos en cartera el {0:dd/MM/yyyy} y se ha amortizado en {1:yyyy}</value>
+  </data>
+  <data name="RfGrupo03" xml:space="preserve">
+    <value>3) Deuda que teníamos en cartera el {0:dd/MM/yyyy} y se ha vendido en {1:yyyy}</value>
+  </data>
+  <data name="RfGrupo04" xml:space="preserve">
+    <value>4) Deuda que se ha comprado en {0:yyyy} y no se ha vendido en {0:yyyy}</value>
+  </data>
+  <data name="RfGrupo05" xml:space="preserve">
+    <value>5) Deuda comprada y vendida en {0:yyyy}</value>
+  </data>
+  <data name="RfGrupo06" xml:space="preserve">
+    <value>6) IICs</value>
+  </data>
+  <data name="RfGrupo07" xml:space="preserve">
+    <value>7) Derivados</value>
+  </data>
+  <data name="ErrorConexion" xml:space="preserve">
+    <value>Se ha producido un error de conexión con la base de datos.</value>
+  </data>
+  <data name="AlertaVarPatrADescuadreCicDef" xml:space="preserve">
+    <value>Descuadre CÍCLICO-DEFENSIVO: {0:N2}.</value>
+  </data>
+  <data name="AlertaVarPatrADescuadreColTotalFilaTotal" xml:space="preserve">
+    <value>Descuadre entre la suma de la columna TOTAL y la suma de la fila TOTAL RENDIMIENTOS: {0:N2}. </value>
+  </data>
+  <data name="AlertaVarPatrADescuadrePrecios" xml:space="preserve">
+    <value>Descuadre elevado en variación de precios: {0:N2}.</value>
+  </data>
+  <data name="AlertaVarPatrADescuadreSmallMidLar" xml:space="preserve">
+    <value>Descuadre SMALL-LARGE: {0:N2}.</value>
+  </data>
+  <data name="AlertaRentaVarOperCorpCods" xml:space="preserve">
+    <value>Los siguientes códigos no se han tratado como operaciones corporativas:</value>
+  </data>
+  <data name="AlertaRentaVarAmplCap" xml:space="preserve">
+    <value>Se han encontrado ampliaciones de capital:</value>
+  </data>
+  <data name="AlertaPlusvMinusvTotalRV" xml:space="preserve">
+    <value>Descuadre entre TOTAL RV y PLUSVALÍAS/MINUSVALÍAS: {0}</value>
+  </data>
+  <data name="AlertaDivCobIngrFinanRV" xml:space="preserve">
+    <value>Descuadre entre dividendos cobrados y el "TOTAL INGRESOS FINANCIEROS" de RV (VARIACIÓN PATRIMONIAL A): {0:N2}.</value>
+  </data>
+  <data name="AlertaDividendosCobradosCta7600002" xml:space="preserve">
+    <value>El saldo de la cuenta 7600002 (Ingresos fin. participaciones ext.) es: {0:N2}.</value>
+  </data>
+  <data name="AlertaVarPatrADescuadrePatrimonioFinal" xml:space="preserve">
+    <value>Descuadre en Total Patrimonio Final: {0:N2}.</value>
+  </data>
+  <data name="AlertaRentaVarCambiosIsins" xml:space="preserve">
+    <value>Se han encontrado cambios de ISIN:</value>
+  </data>
+  <data name="TituloSituacionPatrimonialRentabilidad" xml:space="preserve">
+    <value>SITUACIÓN PATRIMONIAL Y RENTABILIDAD</value>
+  </data>
+  <data name="AlertaVarPatrBFijaPagada" xml:space="preserve">
+    <value>¿Ha introducido la comisión fija pagada?</value>
+  </data>
+  <data name="Disclaimer" xml:space="preserve">
+    <value>Esta documento publicitario, así como los datos, opiniones, estimaciones, previsiones y recomendaciones contenidas en la misma, han sido elaborados por GVC Gaesco Gestión, S.G.I.I.C., S.A.U. (en adelante "GVC Gaesco Gestión"), con la finalidad de proporcionar información general a la fecha de emisión del informe respecto a la Institución de Inversión Colectiva identificada en el mismo, y están sujetos a cambio sin previo aviso por parte de la sociedad gestora. GVC Gaesco Gestión no asume compromiso alguno de comunicar dichos cambios ni de actualizar el contenido del presente documento.
+  
+GVC Gaesco Gestión considera que la información y/o las interpretaciones, estimaciones y/u opiniones relacionadas con los instrumentos financieros y/o emisores de los cuales trata este documento publicitario, están basados en fuentes que se consideran fiables y de reconocido prestigio, disponibles para el público en general. GVC Gaesco Gestión no garantiza la precisión, integridad, corrección o el carácter completo de dichas fuentes, al no haber sido objeto de verificación independiente por parte de GVC Gaesco Gestión y, en cualquier caso, los receptores de este documento no deberán confiar exclusivamente en el mismo, antes de llevar a cabo cualquier decisión de inversión. 
+
+La información contenida en el presente documento publicitario hace o puede hacer referencia a rendimientos pasados o a datos sobre rendimientos pasados de instrumentos financieros, índices financieros, medidas financieras o servicios de inversión, en consecuencia, el receptor de este documento publicitario es advertido de manera general de que dichas referencias a rendimientos pasados no son, ni pueden servir, como indicador fiable de posibles resultados futuros, ni como garantía de alcanzar tales resultados.
+ 
+Ni el presente documento, ni su contenido, constituyen una oferta, invitación o solicitud de compra, venta o suscripción de valores o de otros instrumentos o de realización o cancelación de inversiones, ni pueden servir de base para ningún contrato, compromiso o decisión de ningún tipo. Los comentarios que figuran en este documento publicitario tienen una finalidad meramente divulgativa y no pretenden ser, no son y no pueden considerarse en ningún caso asesoramiento en materia de inversión ni ningún otro tipo de asesoramiento realizado por GVC Gaesco Gestión o cualquier empresa del Grupo GVC Gaesco.
+ 
+El receptor que tenga acceso al presente documento publicitario debe ser consciente de que los valores, instrumentos o inversiones a que el mismo se refiere pueden no ser adecuados para sus objetivos específicos de inversión, su posición financiera o su perfil de riesgo ya que no han sido tomadas en consideración para la elaboración del presente informe, por lo que debe adoptar sus propias decisiones de inversión teniendo en cuenta dichas circunstancias y procurándose el asesoramiento específico y especializado que pueda ser necesario.
+ 
+GVC Gaesco Gestión no asume responsabilidad alguna por cualquier pérdida, directa o indirecta, que pudiera resultar del uso de este documento publicitario o de su contenido. El receptor debe tener en cuenta que la evolución pasada de los valores o instrumentos o los resultados históricos de las inversiones, no garantizan la evolución o resultados futuros. El precio de los valores o instrumentos o los resultados de las inversiones pueden fluctuar en contra del interés del inversor e incluso suponerle la pérdida de la inversión inicial.
+  
+Es posible que entre la información contenida en el presente documento publicitario existan datos o referencias basadas o que puedan basarse en cifras expresadas en una divisa distinta de la utilizada en el Estado Miembro de residencia de los destinatarios o receptores posibles del presente documento. En tales casos, es necesario advertir de forma general que cualquier posible cambio al alza o a la baja en el valor de la divisa utilizada como base de dichas cifras puede provocar directa o indirectamente alteraciones (incrementos o disminuciones) de los resultados de los instrumentos financieros y/o servicios de inversión a los que hace referencia la información contenida en el presente documento.
+ 
+GVC Gaesco Gestión puede realizar por cuenta de institución de inversión colectiva identificada en el presente documento publicitario, operaciones vinculadas de las previstas en el artículo 67 de la LIIC. Para ello GVC Gaesco Gestión ha adoptado procedimientos, recogidos en su Reglamento Interno de Conducta, para evitar conflictos de interés y asegurarse de que las operaciones vinculadas se realizan en interés exclusivo de la institución de inversión colectiva y a precios o en condiciones iguales o mejores que los de mercado. GVC Gaesco Gestión o cualquier otra entidad del Grupo GVC Gaesco, así como sus respectivos directores o empleados, pueden tener una posición en cualquiera de los valores o instrumentos a los que se refiere el presente documento, directa o indirectamente, o en cualesquiera otros relacionados con los mismos; pueden negociar con dichos valores o instrumentos, por cuenta propia o ajena, proporcionar servicios de asesoramiento u otros servicios al emisor de dichos valores o instrumentos, a empresas relacionadas con los mismos o a sus accionistas, directivos o empleados y pueden tener intereses o llevar a cabo cualesquiera transacciones en dichos valores o instrumentos o inversiones relacionadas con los mismos, con carácter previo o posterior a la publicación del presente informe, en la medida permitida por la ley aplicable. Gaesco Gestión o cualquier otra entidad del Grupo GVC Gaesco puede adoptar decisiones de inversión por cuenta propia que sean inconsistentes con la información contenida en el presente documento publicitario.
+ 
+Ninguna parte de este documento puede ser (i) copiada, fotocopiada o duplicada en ningún modo, forma o medio (ii) redistribuida, o (iii) citada, sin el permiso previo por escrito de GVC Gaesco Gestión. Ninguna parte de este informe podrá reproducirse, llevarse o transmitirse a aquellos Países (o personas o entidades de los mismos) en los que su distribución pudiera estar prohibida por la normativa aplicable. El incumplimiento de estas restricciones podrá constituir infracción de la legislación de la jurisdicción relevante.</value>
+  </data>
+  <data name="ConexionDesarrollo" xml:space="preserve">
+    <value>Está conectado a un entorno de pruebas.</value>
+  </data>
+</root>

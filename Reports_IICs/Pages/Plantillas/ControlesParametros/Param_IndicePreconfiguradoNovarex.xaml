@@ -1,0 +1,107 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Plantillas.ControlesParametros.Param_IndicePreconfiguradoNovarex"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas.ControlesParametros"
+              xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+              xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             mc:Ignorable="d" 
+             Language="es-ES" Height="355" Width="544.29">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max3GroupCodeStyle">
+            <Setter Property= "MaxLength" Value="3" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max50GroupCodeStyle">
+            <Setter Property="MaxLength" Value="50" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max100GroupCodeStyle">
+            <Setter Property="MaxLength" Value="100" />
+        </Style>
+        <Style TargetType="telerik:RadComboBox">
+            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid x:Name="grid" DataContext="{StaticResource VM_Instrumentos}" Margin="0,0,0,10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="88*"/>
+        </Grid.RowDefinitions>
+        <GroupBox x:Name="Isin" Header="Parámetros Indice Preconfigurado Novarex" Margin="0,0,0,0.4" HorizontalAlignment="Left" Width="544" Grid.RowSpan="3" ScrollViewer.HorizontalScrollBarVisibility="Auto" Height="350" VerticalAlignment="Bottom" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30*" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="25*" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <telerik:RadGridView Grid.Row="0" x:Name="myIndicePreConfNovarexGrid" MaxHeight="165"  MinWidth="100" MaxWidth="520"  AutoGenerateColumns="False"  FontSize="10" 
+                	EditTriggers="CellClick"
+                    Deleting="myIndicePreConfNovarexGrid_Deleting" 
+                    SelectionMode= "Single"
+                	SelectionUnit = "FullRow"
+                	
+                	CanUserFreezeColumns="False"
+                	RowIndicatorVisibility="Collapsed"
+                	ShowGroupPanel="False"
+                    SelectedItem="{Binding CurrentItem}"
+                    ColumnWidth="*" BeginningEdit="myIndicePreConfNovarexGrid_BeginningEdit" RenderTransformOrigin="0.514,0.274" Margin="0,0,-1,10">
+
+                        <telerik:RadGridView.Columns>
+                            <telerik:GridViewComboBoxColumn Width="120" Header="Acciones" Name="DeleteRow" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource VM_Instrumentos}}">
+                                <telerik:GridViewComboBoxColumn.EditorStyle>
+                                    <Style TargetType="telerik:RadComboBox">
+                                        <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                        <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                    </Style>
+                                </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                    <DataTemplate>
+                                        <Grid >
+                                            <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                        </Grid>
+                                    </DataTemplate>
+
+                                </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                            </telerik:GridViewComboBoxColumn>
+                            <telerik:GridViewDataColumn Width="10" IsReadOnly="True" IsSortable="False" IsVisible="False" IsFilterable="False" DataMemberBinding="{Binding Id}" Header="Id" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                            <telerik:GridViewDataColumn Width="10" IsReadOnly="True" IsSortable="False" IsVisible="False" IsFilterable="False" DataMemberBinding="{Binding CodigoIC}" Header="CodigoIC" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                            <telerik:GridViewDataColumn Width="230" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Descripcion}" Header="Descripción" TextAlignment="Left" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+                            <telerik:GridViewDataColumn Width="*" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding IndiceReferencia}" Header="Índice Referencia" TextAlignment="left" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+
+                        </telerik:RadGridView.Columns>
+                    </telerik:RadGridView>
+
+                    
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button x:Name="btn_ADD" Margin="233,0,233.6,0" Content="Añadir" HorizontalAlignment="Center" Height="24"  VerticalAlignment="Center" Width="65" Click="AddNewRow"  />
+
+                </Grid>
+                <Grid Grid.Row="2" >
+                    <Label x:Name="lblIndiceRvOtros" Margin="10,0,0,88.2" Content="Índice RV Otros" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="155"/>
+                    <TextBox x:Name="txtBoxIndiceRvOtros"    
+                         TextWrapping="Wrap" HorizontalAlignment="Left" Height="26"  VerticalAlignment="Top" Width="76" TextAlignment="Right" Margin="112,9,0,0" LostFocus="txtBoxIndiceRvOtros_LostFocus"/>
+                    
+                    <Label x:Name="lblIndiceRfOtros" Margin="10,0,0,55.2" Content="Índice RF Otros" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="155"/>
+                    <TextBox x:Name="txtBoxIndiceRfOtros"    
+                        TextWrapping="Wrap" HorizontalAlignment="Left" Height="26"  VerticalAlignment="Top" Width="76" TextAlignment="Right" Margin="112,43,0,0" LostFocus="txtBoxIndiceRfOtros_LostFocus"/>
+                    <Label x:Name="lblIndiceRepo" Margin="10,0,0,22.2" Content="Índice REPO + TESORERÍA EURO + DEPÓSITOS + OTROS" HorizontalAlignment="Left"  VerticalAlignment="Bottom" Width="312"/>
+                    <TextBox x:Name="txtBoxIndiceRepo"    
+                        TextWrapping="Wrap" HorizontalAlignment="Left" Height="26"  VerticalAlignment="Top" Width="76" TextAlignment="Right" Margin="327,77,0,0" LostFocus="txtBoxIndiceRepo_LostFocus"/>
+                </Grid>
+                
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

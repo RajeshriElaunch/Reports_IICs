@@ -1,0 +1,103 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Plantillas.PlantillaDetalle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:mui="http://firstfloorsoftware.com/ModernUI"
+             xmlns:vm="clr-namespace:Reports_IICs.ViewModels"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <vm:Secciones_VM x:Key="Secciones_VM"/>
+        <vm:Tipos_VM x:Key="Tipos_VM"/>
+
+        <Style TargetType="telerik:RadListBoxItem" BasedOn="{StaticResource RadListBoxItemStyle}">
+            <Setter Property="telerik:DragDropManager.AllowCapturedDrag" Value="True"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <ScrollViewer>
+            <StackPanel MinWidth="200">
+
+
+                <TextBlock Text="DETALLE DE PLANTILLA" Style="{StaticResource Heading2}" Margin="0,0,0,8" />
+
+
+                <!-- actual form starts here -->
+                <StackPanel x:Name="Form" Orientation="Vertical">
+
+                    <StackPanel.Resources>
+                        <Style TargetType="StackPanel">
+                            <Setter Property="Orientation" Value="Horizontal" />
+                            <Setter Property="Margin" Value="0,0,0,4" />
+                        </Style>
+                        <Style TargetType="Label" BasedOn="{StaticResource {x:Type Label}}">
+                            <Setter Property="Width" Value="100" />
+                            <Setter Property="VerticalAlignment" Value="Center" />
+                        </Style>
+                        <Style TargetType="CheckBox" BasedOn="{StaticResource {x:Type CheckBox}}">
+                            <Setter Property="Padding" Value="0,3" />
+                        </Style>
+                        <Style TargetType="RadioButton" BasedOn="{StaticResource {x:Type RadioButton}}">
+                            <Setter Property="Padding" Value="0,3" />
+                        </Style>
+                    </StackPanel.Resources>
+
+
+
+                    <StackPanel>
+                        <Label Content="Tipo" Target="{Binding ElementName=ComboBoxTipo}" />
+                        <telerik:RadComboBox  IsEditable="False" Name="ComboBoxTipo" 
+                                DataContext="{StaticResource Tipos_VM}"
+                                  OpenDropDownOnFocus="True"
+                                  IsFilteringEnabled="True"
+                                  ItemsSource="{Binding DataItems}" 
+                                  FontFamily="Calibri" 
+                                  DisplayMemberPath="Descripcion" 
+                                              SelectedValuePath="Id"
+                                              Width="150" SelectionChanged="ComboBoxTipo_SelectionChanged"
+                                  />
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Código IC" Target="{Binding ElementName=TextBoxCodigoIc}"/>
+                        <TextBox x:Name="TextBoxCodigoIc" Width="150" />
+                    </StackPanel>
+                    <StackPanel Name="StackPanelIsin" Visibility="Hidden">
+                        <Label Content="ISIN" Target="{Binding ElementName=RadAutoCompleteBoxIsin}"/>
+                        <telerik:RadAutoCompleteBox Width="150"
+                                    AutoCompleteMode="Suggest"
+                                    DisplayMemberPath="Isin"
+                                    x:Name="RadAutoCompleteBoxIsin" 
+                                    VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <Button Content="Añadir" Width="95" Name="ButtonAñadir" Click="ButtonAñadir_Click"/>
+
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Fecha de creación" Target="{Binding ElementName=DatePickerFechaCreacion}" />
+                        <DatePicker x:Name="DatePickerFechaCreacion" FirstDayOfWeek="Monday" />
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Secciones" />
+                        <telerik:RadListBox x:Name="RadListBoxSecciones"
+                                        DataContext="{StaticResource Secciones_VM}"
+                                        ItemsSource="{Binding DataItems}" 
+                                        DisplayMemberPath="Descripcion"
+                                        SelectedValuePath="Id"
+                                         SelectionMode="Multiple" Width="245" Height="116" />
+                    </StackPanel>
+                    <StackPanel>
+                        <Label Content="Descripción" Target="{Binding ElementName=TextBoxDescripcion}"/>
+                        <TextBox x:Name="TextBoxDescripcion" Width="150" />
+                    </StackPanel>
+
+                    <StackPanel >
+                        <Label />
+                    </StackPanel>
+
+                    <Button Content="Guardar" Name="ButtonGuardar" Margin="100,16,0,0" HorizontalAlignment="Left" Click="ButtonGuardar_Click" />
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

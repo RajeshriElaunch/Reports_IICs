@@ -1,0 +1,400 @@
+﻿<Controls:MetroWindow
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas"
+             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+             xmlns:Dialogs="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="Reports_IICs.Pages.Plantillas.AddEditPlantilla"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Plantillas"
+             xmlns:vm="clr-namespace:Reports_IICs.ViewModels"
+             xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"   
+             xmlns:col="clr-namespace:System.Collections;assembly=mscorlib"
+             mc:Ignorable="d" 
+             BorderThickness="0" 
+             GlowBrush="Black"
+             Title="Añadir/Editar (Plantilla informe)" 
+              Height="Auto"
+              MaxHeight="810"  
+              MinHeight="270"
+              MinWidth="500"
+             ShowInTaskbar="False"
+              SizeToContent="WidthAndHeight"
+             d:DesignHeight="270" d:DesignWidth="524.252" ShowIconOnTitleBar="False">
+    <Controls:MetroWindow.Resources>
+        <my:PlantillasPage_VM x:Key="PlantillasPage_VM"/>
+        <vm:Tipos_VM x:Key="Tipos_VM"/>
+        <vm:Estrategias_VM x:Key="Estrategias_VM"/>
+
+        <Dialog:CustomDialog x:Key="CustomCloseDialogTest"
+                                 Title="Errores encontrados:"
+                                 x:Name="CustomCloseDialogTest">
+
+            <StackPanel Name="MessageContent">
+                <TextBlock Height="80" Margin="3"  Name="MessageTextBlock" Text="errorMessage" 
+                               TextWrapping="Wrap"
+                                />
+                <Button Name ="BtnClose" Content="Cerrar" Click="CloseCustomDialog"/>
+            </StackPanel>
+
+
+        </Dialog:CustomDialog>
+        <Int32Collection x:Key="PerfilesRiesgo">1,2,3,4,5,6,7</Int32Collection>
+    </Controls:MetroWindow.Resources>
+
+    <Grid x:Name="LayoutRoot" 
+          Background="White"  >
+        <Grid.CommandBindings>
+            <CommandBinding Command="New" CanExecute="AddElement_CanExecute" Executed="AddElement_Executed" />
+        </Grid.CommandBindings>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="30" />
+                <RowDefinition MaxHeight="810" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="60*"/>
+
+                </Grid.ColumnDefinitions>
+                <Label Margin="0,2,0,0" Grid.Column="0" x:Name="labelCodigo" Content="ICC" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" />
+                <TextBox Margin="0,2,0,0" Grid.Column="1" x:Name="textBoxICC" TabIndex="0" MaxLength="15" HorizontalAlignment="Left" Validation.Error="Validation_Error" 
+                 TextWrapping="Wrap"  Text="{Binding  UpdateSourceTrigger=PropertyChanged, Path=Codigo,
+                        ValidatesOnDataErrors=True, NotifyOnValidationError=True}" VerticalAlignment="Top" Width="107" />
+
+                <TextBox Margin="0,2,0,0" Grid.Column="2" x:Name="textBoxDescription" MaxLength="200" TabIndex="1" HorizontalAlignment="Left"  TextWrapping="Wrap"  VerticalAlignment="Top" Width="275" Height="26"   />
+            </Grid>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="55*"/>
+
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" x:Name="labelTipo" Content="Tipo" HorizontalAlignment="Left"  VerticalAlignment="Top"  Width="34"/>
+
+                <telerik:RadComboBox Grid.Column="1" TabIndex="2" Width="107" IsEditable="False" Name="ComboBoxTipo" 
+                                DataContext="{StaticResource Tipos_VM}"
+                                  OpenDropDownOnFocus="True"
+                                  IsFilteringEnabled="True"
+                                  ItemsSource="{Binding DataItems}" 
+                                  FontFamily="Calibri" 
+                                  DisplayMemberPath="Descripcion" 
+                                              SelectedValuePath="Id"
+                                             VerticalAlignment="Top" Height="26" SelectionChanged="ComboBoxTipo_SelectionChanged" />
+
+                <Label x:Name="labelFechaCreacion" Grid.Column="2" Content="Fecha de Creación" HorizontalAlignment="Left" Height="26"  VerticalAlignment="Top" Width="110"/>
+                <DatePicker Grid.Column="3" x:Name="FechaCreacion" TabIndex="3" HorizontalAlignment="Left" Height="26"  VerticalAlignment="Top" Width="185" />
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="25*"/>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="15*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Column="0" x:Name="labelReferenciaTae" Content="V.L. desde creación" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" />
+                <TextBox Grid.Column="1" x:Name="textBoxReferenciaTae"  TabIndex="4" PreviewTextInput="NumberValidationTextBox" Text="{Binding ReferenciaTAE, StringFormat={}{0:N2}}" MaxLength="15" HorizontalAlignment="Left" VerticalAlignment="Top" Width="47" Margin="4,4,0,0"  />
+                <Label Grid.Column="2" x:Name="labelPerfilRiesgo" Content="Perfil de riesgo" HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Margin="0,0,0,0"  />
+                <!--<TextBox Grid.Column="3" x:Name="textBoxPerfilRiesgo"  TabIndex="4" PreviewTextInput="NumberValidationTextBox" Text="{Binding PerfilRiesgo}" MaxLength="15" HorizontalAlignment="Left" VerticalAlignment="Top" Width="47" Margin="4,4,0,0"  />-->
+                <ComboBox  Grid.Column="3" x:Name="comboBoxPerfilRiesgo" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="4,4,0,0" ItemsSource="{StaticResource PerfilesRiesgo}" />
+
+                <!--Validation.Error="Validation_Error" 
+                 TextWrapping="Wrap"  Text="{Binding  UpdateSourceTrigger=PropertyChanged, Path=ReferenciaTAE,
+                        ValidatesOnDataErrors=True, NotifyOnValidationError=True}"-->
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <StackPanel >
+                    <Grid>
+                        <Grid.Resources>
+                            <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml" ></ResourceDictionary>
+                        </Grid.Resources>
+
+                        <TabControl MaxHeight="810">
+
+
+                            <Controls:MetroTabItem Name="Cabezeraisin" Header="Isin" >
+                                <!-- GroupBox Isin -->
+                                <StackPanel Name="StackPanelIsin" >
+                                    <GroupBox x:Name="Isin" Header="Isin" Margin="2,2,0,2" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="496" >
+                                        <StackPanel>
+                                            <telerik:RadGridView  x:Name="RadGridViewIsin" ShowGroupPanel="False" SelectionMode= "Single"
+                                     SelectionUnit = "FullRow"
+                                     ColumnWidth="*"
+                                     CanUserFreezeColumns="False"
+                                     RowIndicatorVisibility="Collapsed" HorizontalAlignment="Left" Margin="4,7,0,0" VerticalAlignment="Top" MaxHeight="300" Width="470">
+                                                <telerik:RadGridView.Columns>
+                                                    <telerik:GridViewComboBoxColumn Width="120" Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource PlantillasPage_VM}}">
+                                                        <telerik:GridViewComboBoxColumn.EditorStyle>
+                                                            <Style TargetType="telerik:RadComboBox">
+                                                                <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                                                <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                                            </Style>
+                                                        </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                                        <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                            <DataTemplate>
+                                                                <Grid >
+                                                                    <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                                                </Grid>
+                                                            </DataTemplate>
+
+                                                        </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                    </telerik:GridViewComboBoxColumn>
+                                                </telerik:RadGridView.Columns>
+                                            </telerik:RadGridView>
+                                            <Button x:Name="buttonAddIsin" Margin="4,1,0,0" Click="AddNewIsin" Content="Añadir" HorizontalAlignment="Left" Height="18"  Width="80"/>
+                                        </StackPanel>
+                                    </GroupBox>
+                                </StackPanel>
+                            </Controls:MetroTabItem>
+                            <Controls:MetroTabItem Header="Secciones" MaxHeight="800">
+                                <!-- GroupBox Secciones -->
+                                <GroupBox x:Name="GBSecciones" Margin="2" Header="Secciones" HorizontalAlignment="Left"  VerticalAlignment="Top" MinWidth="456"   Validation.Error="Validation_Error"  >
+                                    <GroupBox.DataContext>
+                                        <local:AddEditPlantillaValidation />
+                                    </GroupBox.DataContext>
+                                    <StackPanel>
+
+                                        <telerik:RadGridView x:Name="RadGridViewSecciones" ShowGroupPanel="False" SelectionMode= "Single" 
+                                     SelectionUnit = "FullRow"
+                                     ColumnWidth="*"
+                                     CanUserFreezeColumns="False"
+                                     RowIndicatorVisibility="Collapsed" HorizontalAlignment="Left" Margin="4,7,0,0" VerticalAlignment="Top" MaxHeight="230" MinWidth="432" RowLoaded="RadGridViewSecciones_RowLoaded" BeginningEdit="RadGridViewSecciones_BeginningEdit">
+                                            <telerik:RadGridView.Columns>
+                                                <telerik:GridViewComboBoxColumn Width="120" Name="DeleteRow"  Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding ActionsParam, Source={StaticResource PlantillasPage_VM}}">
+                                                    <telerik:GridViewComboBoxColumn.EditorStyle>
+                                                        <Style TargetType="telerik:RadComboBox">
+                                                            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                                            <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                                        </Style>
+                                                    </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                                    <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                        <DataTemplate>
+                                                            <Grid >
+                                                                <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                                            </Grid>
+                                                        </DataTemplate>
+
+                                                    </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                </telerik:GridViewComboBoxColumn>
+                                                <telerik:GridViewComboBoxColumn MinWidth="310" Header="Descripción" UniqueName="Descripción" DataMemberBinding="{Binding IdSeccion}"
+                                                SelectedValueMemberPath="Id"
+                                                DisplayMemberPath="Descripcion" 
+                                                IsReadOnly="True"
+                                                ItemsSource="{Binding Secciones, Source={StaticResource PlantillasPage_VM}}">
+
+
+                                                </telerik:GridViewComboBoxColumn>
+                                            </telerik:RadGridView.Columns>
+                                        </telerik:RadGridView >
+                                        <StackPanel>
+                                            <Grid>
+                                                <Button x:Name="buttonAddSeccion" TabIndex="50" Margin="4,1,0,0" Click="AddNewSeccion" Content="Añadir" HorizontalAlignment="Left" Height="18"  Width="80"/>
+                                                <Button x:Name="buttonSortSeccion" TabIndex="51" Margin="-180,1,0,0" Click="SortSeccion" Content="Ordenar" HorizontalAlignment="Center" Height="18"  Width="80"/>
+                                            </Grid>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </GroupBox>
+
+                            </Controls:MetroTabItem>
+                            <Controls:MetroTabItem Header="Participes">
+                                <!-- GroupBox Participes -->
+                                <GroupBox x:Name="Participes" Margin="2" Header="Participes" HorizontalAlignment="Left"   VerticalAlignment="Top" Width="456" >
+                                    <StackPanel>
+                                        <telerik:RadGridView x:Name="RadGridViewParticipes" ShowGroupPanel="False" SelectionMode= "Single"
+                                     SelectionUnit = "FullRow"
+                                     ColumnWidth="*"
+                                     CanUserFreezeColumns="False"
+                                     RowIndicatorVisibility="Collapsed" HorizontalAlignment="Left" Margin="4,7,0,0" VerticalAlignment="Top" MaxHeight="250" Width="432">
+                                            <telerik:RadGridView.Columns>
+                                                <telerik:GridViewComboBoxColumn Width="120" Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource PlantillasPage_VM}}">
+                                                    <telerik:GridViewComboBoxColumn.EditorStyle>
+                                                        <Style TargetType="telerik:RadComboBox">
+                                                            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                                            <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                                        </Style>
+                                                    </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                                    <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                        <DataTemplate>
+                                                            <Grid >
+                                                                <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                                            </Grid>
+                                                        </DataTemplate>
+
+                                                    </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                </telerik:GridViewComboBoxColumn>
+                                            </telerik:RadGridView.Columns>
+                                        </telerik:RadGridView>
+                                        <Button x:Name="buttonAddParticipe" TabIndex="53" Margin="4,1,0,0" Click="AddNewParticipe" Content="Añadir" HorizontalAlignment="Left" Height="18"  Width="80"/>
+                                    </StackPanel>
+                                </GroupBox>
+
+                            </Controls:MetroTabItem>
+                            <Controls:MetroTabItem Header="Indices">
+                                <!-- GroupBox Indices -->
+                                <GroupBox x:Name="Indices" Margin="2"  Header="Indices" HorizontalAlignment="Left"   VerticalAlignment="Top" Width="456" >
+                                    <StackPanel>
+                                        <telerik:RadGridView x:Name="RadGridViewIndices" ShowGroupPanel="False" SelectionMode= "Single"
+                                     SelectionUnit = "FullRow"
+                                     ColumnWidth="*"
+                                     CanUserFreezeColumns="False"
+                                     RowIndicatorVisibility="Collapsed" HorizontalAlignment="Left" Margin="4,7,0,0" VerticalAlignment="Top" MaxHeight="250" Width="432">
+                                            <telerik:RadGridView.Columns>
+                                                <telerik:GridViewComboBoxColumn Width="120" Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource PlantillasPage_VM}}">
+                                                    <telerik:GridViewComboBoxColumn.EditorStyle>
+                                                        <Style TargetType="telerik:RadComboBox">
+                                                            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                                            <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                                        </Style>
+                                                    </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                                    <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                        <DataTemplate>
+                                                            <Grid >
+                                                                <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                                            </Grid>
+                                                        </DataTemplate>
+
+                                                    </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                </telerik:GridViewComboBoxColumn>
+                                                <telerik:GridViewComboBoxColumn Width="120" Header="Tipo" UniqueName="Tipo" DataMemberBinding="{Binding IdTipoIndiceReferencia}"
+                                                SelectedValueMemberPath="Id"
+                                                DisplayMemberPath="Descripcion" 
+                                                IsReadOnly = "true"
+                                                ItemsSource="{Binding IndicesReferenciaTipos, Source={StaticResource PlantillasPage_VM}}">
+
+
+                                                </telerik:GridViewComboBoxColumn>
+                                            </telerik:RadGridView.Columns>
+                                        </telerik:RadGridView>
+                                        <Button x:Name="buttonAddIndice"  TabIndex="54" Margin="4,1,0,0" Click="AddNewIndice" Content="Añadir" HorizontalAlignment="Left" Height="18"  Width="80"/>
+                                    </StackPanel>
+                                </GroupBox>
+
+                            </Controls:MetroTabItem>
+                            <Controls:MetroTabItem Header="Estrategias" MaxHeight="800">
+
+
+                                <!-- GroupBox Secciones -->
+                                <GroupBox x:Name="GBEstrategias" Margin="2"  Header="Estrategias" HorizontalAlignment="Left"   VerticalAlignment="Top" Width="456" >
+                                    <GroupBox.DataContext>
+                                        <local:AddEditPlantillaValidation />
+                                    </GroupBox.DataContext>
+                                    <StackPanel>
+
+
+                                        <telerik:RadGridView x:Name="RadGridViewEstrategias" ShowGroupPanel="False" SelectionMode= "Single" 
+                                                 SelectionUnit = "FullRow"
+                                                 ColumnWidth="*"
+                                                 CanUserFreezeColumns="False"
+                                                 RowIndicatorVisibility="Collapsed" HorizontalAlignment="Left" Margin="4,7,0,0" VerticalAlignment="Top" MaxHeight="230" MinWidth="432" RowLoaded="RadGridViewTipos_RowLoaded" BeginningEdit="RadGridViewEstrategias_BeginningEdit" >
+                                            <telerik:RadGridView.Columns>
+                                                <telerik:GridViewComboBoxColumn Width="120" Name="DeleteRowEstrategia"  Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                                                                                                
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding ActionsOnlyDelete, Source={StaticResource Estrategias_VM}}">
+                                                    <telerik:GridViewComboBoxColumn.EditorStyle>
+                                                        <Style TargetType="telerik:RadComboBox">
+                                                            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                                            <Setter Property="EmptyText" Value="-Seleccionar-"/>
+                                                            <EventSetter Event="SelectionChanged" Handler="ComboBox_SelectionChanged" />
+                                                        </Style>
+                                                    </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                                    <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                        <DataTemplate>
+                                                            <Grid >
+                                                                <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                                            </Grid>
+                                                        </DataTemplate>
+
+                                                    </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                                </telerik:GridViewComboBoxColumn>
+                                                <!--<telerik:GridViewComboBoxColumn MinWidth="310" 
+                                                                                    Header="Descripción" 
+                                                                                    UniqueName="Descripción" 
+                                                                                    DataMemberBinding="{Binding IdTipoInstrumento}"
+                                                                                    SelectedValueMemberPath="Id"
+                                                                                    DisplayMemberPath="Descripcion" 
+                                                                                    IsReadOnly="True"
+                                                                                    ItemsSource="{Binding Estrategias, Source={StaticResource Estrategias_VM}}">
+
+
+                                                    </telerik:GridViewComboBoxColumn>-->
+                                            </telerik:RadGridView.Columns>
+                                        </telerik:RadGridView >
+
+                                        <StackPanel>
+                                            <Grid>
+                                                <Button x:Name="buttonAddTipo" TabIndex="50" Margin="4,1,0,0" Click="AddNewEstrategia" Content="Añadir" HorizontalAlignment="Left" Height="18"  Width="80"/>
+                                            </Grid>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </GroupBox>
+
+                            </Controls:MetroTabItem>
+
+                        </TabControl>
+                    </Grid>
+
+                    <Grid MinHeight="25" Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100*"/>
+                            <ColumnDefinition Width="100*"/>
+
+                        </Grid.ColumnDefinitions>
+                        <!-- Botton buttons -->
+                        <Button x:Name="ButtonGuardar" TabIndex="55" Grid.Column="0" Content="Guardar"  HorizontalAlignment="Right" Margin="0,0,10,0" VerticalAlignment="Top" Width="75" Command="New" Height="20" Click="ButtonGuardar_Click"/>
+                        <Button x:Name="ButtonCancelar" TabIndex="56" Grid.Column="1" Content="Cancelar" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="ButtonCancelar_Click" />
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Controls:MetroWindow>

@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Plantillas.ControlesParametros.Param_CarteraRF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas.ControlesParametros"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid x:Name="grid">
+        <GroupBox x:Name="Isin" Header="Cartera RF" Margin="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="683" >
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition Width="45*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" x:Name="lbl" Content="Vencimiento corto/medio plazo (años)" HorizontalAlignment="Left" Height="25"  VerticalAlignment="Top" Width="213" Grid.ColumnSpan="2"/>
+
+                    <TextBox Grid.Row="0" Grid.Column="1" x:Name="TextBox1" TabIndex="1" HorizontalAlignment="Left" Height="26" 
+                     PreviewTextInput="NumberValidationTextBox"
+                    TextWrapping="Wrap"
+                    Validation.Error="Validation_Error"  
+                   
+                    VerticalAlignment="Top" Width="45" Margin="117.6,0,0,0" />
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

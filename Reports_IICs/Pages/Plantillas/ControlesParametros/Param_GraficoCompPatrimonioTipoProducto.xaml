@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Plantillas.ControlesParametros.Param_GraficoCompPatrimonioTipoProducto"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas.ControlesParametros"
+             xmlns:uc="clr-namespace:Reports_IICs.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Margin="0,0,-57,0" HorizontalAlignment="Left" Width="357">
+        <GroupBox x:Name="Isin" Header="GRÁFICO DISTRIBUCIÓN PATRIMONIO (TIPO PRODUCTO)" Margin="2,2,0,0" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="322" >
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="165*"/>
+                        <ColumnDefinition Width="61*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"/>
+                        <RowDefinition Height="35"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0" x:Name="lblPorcEstrategiasRA" Content="% Estrategias RA" HorizontalAlignment="Left" Height="26"  VerticalAlignment="Top" Width="139" Grid.ColumnSpan="2" Margin="0,19,0,0" Grid.RowSpan="2"/>
+                    <uc:DoubleTextBox Grid.Column="1" x:Name="TxtPorcEstrategiasRA" TabIndex="1" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap"
+    					VerticalAlignment="Top" Width="76" Margin="50.6,19,0,0" Grid.RowSpan="2" TextAlignment="Right" MaxLength="7" />
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+
+    </Grid>
+</UserControl>

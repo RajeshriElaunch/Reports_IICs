@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Plantillas.ControlesParametros.Param_OperacionesRentaVariable_II"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas.ControlesParametros"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid x:Name="grid">
+        <GroupBox x:Name="Isin" Header="OPERACIONES RENTA VARIABLE (II)" Margin="2" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="683" >
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10*"/>
+                        <ColumnDefinition Width="45*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="35"></RowDefinition>
+                        <RowDefinition Height="35"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" x:Name="lblFechaUltimaReunion" Content="Fecha Última Reunión" HorizontalAlignment="Left" Height="25"  VerticalAlignment="Top" Width="139" Grid.ColumnSpan="2"/>
+
+                    <DatePicker Grid.Row="0" Grid.Column="1" x:Name="DpFechaUltimaReunion" TabIndex="1" HorizontalAlignment="Left" Height="26" 
+                    Validation.Error="Validation_Error"  
+                    VerticalAlignment="Top" Width="153" Margin="9.6,0,0,0" />
+                    
+                    <Label Grid.Row="1" Grid.Column="0" x:Name="lblEfectivoMinimo" Content="Efectivo Mínimo" HorizontalAlignment="Left" Height="25"  VerticalAlignment="Top" Width="139" Grid.ColumnSpan="2"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" x:Name="TxtEfectivoMinimo" TabIndex="1" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap"
+                    Validation.Error="Validation_Error"  
+                    VerticalAlignment="Top" Width="153" Margin="9.6,0,0,0" />
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</UserControl>

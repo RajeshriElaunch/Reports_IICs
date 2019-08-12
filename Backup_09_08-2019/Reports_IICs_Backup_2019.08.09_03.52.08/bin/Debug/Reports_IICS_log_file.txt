@@ -1,0 +1,2 @@
+2019-08-05 22:13:49,452 [9] INFO  <>f__AnonymousType0`2 [(null)] - Inicio de la app
+2019-08-05 22:20:00,228 [8] INFO  <>f__AnonymousType0`2 [(null)] - Inicio de la app

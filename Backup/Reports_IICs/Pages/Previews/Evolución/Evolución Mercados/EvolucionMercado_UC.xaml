@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.Evolución.Evolución_Mercados.EvolucionMercado_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.Evolución.Evolución_Mercados"
+             xmlns:my="clr-namespace:Reports_IICs.Pages.Previews.Evolución.Evolución_Mercados"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <local:EvolucionMercadosConverter x:Key="myConverter"/>
+        <my:EvolucionMercados x:Key="EvolucionMercados"/>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource EvolucionMercados}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*" />
+            <RowDefinition Height="10*" />
+
+        </Grid.RowDefinitions>
+ 
+        <Grid Margin="0,0,-130,0" Grid.Row="0">
+            <telerik:RadGridView Name="myGrid" Grid.Row="0"  RowLoaded="myGrid_RowLoaded" CellEditEnded="myGrid_CellEditEnded" AutoGenerateColumns="False" FontSize="10" IsFilteringAllowed="False" ShowGroupPanel="False" RowIndicatorVisibility="Collapsed" ColumnWidth="*"  >
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn DataMemberBinding="{Binding Id}" IsVisible="False" />
+                    <telerik:GridViewDataColumn Width="280" IsSortable="False" IsFilterable="False" Header="Descripción" DataMemberBinding="{Binding Descripcion}" IsReadOnly="True" />
+                    <telerik:GridViewDataColumn Width="80" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding CotizaDivDesde}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" />
+                    <telerik:GridViewDataColumn Width="80" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding CotizaDivHasta}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" />
+                    <telerik:GridViewDataColumn Width="80" IsSortable="False" IsFilterable="False" Header="VAR%" DataMemberBinding="{Binding VarCotizaDivisa}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" IsReadOnly="True"/>
+                    <telerik:GridViewDataColumn Width="80" IsSortable="False" IsFilterable="False" Header="VAR% EUR" DataMemberBinding="{Binding VarCotizaEuros}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" IsReadOnly="True"/>
+                    <!--<telerik:GridViewDataColumn Header="Sellout Revenue" DataMemberBinding="{Binding Path=., Converter={StaticResource myConverter}}" DataFormatString="{}{0:C2}"></telerik:GridViewDataColumn>-->
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+
+            
+        </Grid>
+        <StackPanel Name="ErrorPrices"  Grid.Row="1" Visibility="Collapsed">
+            <Grid HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="90*" />
+
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Margin="12" Text="Diferencia Fechas Cotización" TextAlignment="Center" TextWrapping="Wrap"  />
+
+                <telerik:RadGridView HorizontalAlignment="Center" Grid.Row="1" x:Name="myErrorGrid"   MinWidth="100" MaxWidth="360"  AutoGenerateColumns="False"  FontSize="10" 
+                                     SelectionMode= "Single"
+                                     SelectionUnit = "FullRow"
+                                     IsReadOnly="True"
+                                     CanUserFreezeColumns="False"
+                                     RowIndicatorVisibility="Collapsed"
+                                     ShowGroupPanel="False"
+                                     
+                                     ColumnWidth="*" RowLoaded="myErrorGrid_RowLoaded" >
+
+                    <telerik:RadGridView.Columns>
+
+                        <telerik:GridViewDataColumn Width="60" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Isin}" Header="Isin" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right">
+
+                        </telerik:GridViewDataColumn>
+                        <telerik:GridViewDataColumn Width="99" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding DescripcionInstrumento}" Header="Descripción" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right">
+
+                        </telerik:GridViewDataColumn>
+                        <telerik:GridViewDataColumn Width="65" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding FechaCotizacion}" Header="Fecha Desde" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" DataFormatString="{}{0:dd/MM/yyyy}">
+
+                        </telerik:GridViewDataColumn>
+                        <telerik:GridViewDataColumn Width="*" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding FechaReport}" Header="Fecha Hasta" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" DataFormatString="{}{0:dd/MM/yyyy}">
+
+                        </telerik:GridViewDataColumn>
+
+                    </telerik:RadGridView.Columns>
+                </telerik:RadGridView>
+
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

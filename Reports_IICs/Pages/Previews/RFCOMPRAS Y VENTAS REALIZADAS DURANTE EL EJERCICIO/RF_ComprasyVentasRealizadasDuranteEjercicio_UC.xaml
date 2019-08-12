@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.RFCOMPRAS_Y_VENTAS_REALIZADAS_DURANTE_EL_EJERCICIO.RF_ComprasyVentasRealizadasDuranteEjercicio_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.RFCOMPRAS_Y_VENTAS_REALIZADAS_DURANTE_EL_EJERCICIO"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             xmlns:myp="clr-namespace:Reports_IICs.ViewModels.Plantillas"
+             mc:Ignorable="d" 
+             Language="es-ES"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+        <myp:PlantillasPage_VM x:Key="PlantillasPage_VM"/>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource VM_Instrumentos}">
+        <Grid Margin="0,0,-130,0" Grid.Row="0">
+            <telerik:RadGridView x:Name="myGrid" MinWidth="200" ShowGroupPanel="False" RowIndicatorVisibility="Collapsed" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False"  CellEditEnded="myGrid_CellEditEnded" FontSize="10" DataLoaded="myGrid_DataLoaded" RowLoaded="myGrid_RowLoaded"  ColumnWidth="*"
+                                 SelectionMode= "Single"
+                                 SelectionUnit = "FullRow">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewComboBoxColumn Width="120" Name="DeleteRow"  Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding ActionsOnlyDelete, Source={StaticResource PlantillasPage_VM}}">
+                        <telerik:GridViewComboBoxColumn.EditorStyle>
+                            <Style TargetType="telerik:RadComboBox">
+                                <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                            </Style>
+                        </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                        <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                            <DataTemplate>
+                                <Grid >
+                                    <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                </Grid>
+                            </DataTemplate>
+
+                        </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                    </telerik:GridViewComboBoxColumn>
+                    <telerik:GridViewDataColumn   DataMemberBinding="{Binding Id}" IsVisible="False" />
+                    <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Oper." DataMemberBinding="{Binding Fecha}" HeaderTextAlignment="Center" TextAlignment="Left" DataFormatString="{}{0:dd/MM/yyyy}" IsReadOnly="True"/>
+                    <telerik:GridViewDataColumn Width="80" IsSortable="False" IsFilterable="False" Header="T.Mov" DataMemberBinding="{Binding TipoMovimiento}" HeaderTextAlignment="Center" TextAlignment="Left" IsReadOnly="True" />
+                    <telerik:GridViewDataColumn Width="190" IsSortable="False" IsFilterable="False" Header="Nombre valor" DataMemberBinding="{Binding DescripcionValor}" HeaderTextAlignment="Center" TextAlignment="Left"  IsReadOnly="True"/>
+                    <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Cant." DataMemberBinding="{Binding Cantidad}" HeaderTextAlignment="Center" TextAlignment="Right" DataFormatString="{}{0:N0}" />
+                     <telerik:GridViewMaskedInputColumn x:Name="Precio" Header="Precio" Width="60" TextAlignment="Right" HeaderTextAlignment="Center"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=Precio}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N2" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+        </Grid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,76 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.Cartera.PRO_11_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.Cartera"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style TargetType="telerik:GridViewHeaderRow">
+            <Setter Property="Height" Value="4"/>
+        </Style>
+        <Style TargetType="telerik:GridViewFooterRow">
+            <Setter Property="Height" Value="8"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <telerik:RadGridView x:Name="myGrid" ShowGroupPanel="False" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False" ShowColumnFooters="True" CellEditEnded="myGrid_CellEditEnded" FontSize="8" RowHeight="12" >
+            <telerik:RadGridView.Columns>
+                <telerik:GridViewDataColumn DataMemberBinding="{Binding Id}" IsVisible="False" />
+                <telerik:GridViewDataColumn Width="30" IsSortable="False" IsFilterable="False" Header="CI" DataMemberBinding="{Binding Tipo}" IsReadOnly="True" />
+                <telerik:GridViewDataColumn Width="200" IsSortable="False" IsFilterable="False" Header="Valor" DataMemberBinding="{Binding DescripcionValor}" HeaderTextAlignment="Left" IsReadOnly="True" />
+                <telerik:GridViewDataColumn Width="30" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Divisa}" HeaderTextAlignment="Right" IsReadOnly="True" />
+                <telerik:GridViewDataColumn Width="30" IsSortable="False" IsFilterable="False" IsReadOnly="True" Header="Días" DataMemberBinding="{Binding Dias}" HeaderTextAlignment="Right" TextAlignment="Right" />
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" IsReadOnly="True" Header="Vencim." DataMemberBinding="{Binding Vencimiento}" HeaderTextAlignment="Right" DataFormatString="{}{0:dd/MM/yyyy}" />
+                
+                <telerik:GridViewDataColumn Width="70" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Nominal}" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Cantidad}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" />
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Efect. compra" DataMemberBinding="{Binding EfectivoCompra}" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" Header="TIR/C.Fif" DataMemberBinding="{Binding TIR_C_Fif}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N4}" />
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Coste med." DataMemberBinding="{Binding CosteMedio}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" />
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" Header="Valor Actual" DataMemberBinding="{Binding ValorActualDivisa}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N4}" />
+                <telerik:GridViewDataColumn Width="60" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Cambio}" HeaderTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N10}" />
+                <telerik:GridViewDataColumn Width="50" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Intereses}" HeaderTextAlignment="Right" FooterTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="50" IsSortable="False" IsFilterable="False" Header="Plus." DataMemberBinding="{Binding Plusvalias}" HeaderTextAlignment="Right" FooterTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="50" IsSortable="False" IsFilterable="False" Header="Minus." DataMemberBinding="{Binding Minusvalias}" HeaderTextAlignment="Right" FooterTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="70" IsSortable="False" IsFilterable="False" Header="E.Act." DataMemberBinding="{Binding EfectivoActual}" HeaderTextAlignment="Right" FooterTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" Header="C %P" DataMemberBinding="{Binding PorcentajeP}" HeaderTextAlignment="Right" FooterTextAlignment="Right" TextAlignment="Right" DataFormatString="{}{0:N2}" >
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                <telerik:GridViewDataColumn Width="40" IsSortable="False" IsFilterable="False" Header="%" DataMemberBinding="{Binding Porcentaje}" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" DataFormatString="{}{0:N2}">
+                    <telerik:GridViewDataColumn.AggregateFunctions>
+                        <telerik:SumFunction Caption="" ResultFormatString="{}{0:N2}"/>
+                    </telerik:GridViewDataColumn.AggregateFunctions>
+                </telerik:GridViewDataColumn>
+                </telerik:RadGridView.Columns>
+        </telerik:RadGridView>
+    </Grid>
+</UserControl>

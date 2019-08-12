@@ -1,0 +1,125 @@
+﻿<Controls:MetroWindow  x:Class="Reports_IICs.MainWindow"
+		   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:MahAppsExtensions="clr-namespace:Reports_IICs.Pages.Informes.MahAppsExtensions"
+		xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+		xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:Dialog="clr-namespace:MahApps.Metro.Controls.Dialogs;assembly=MahApps.Metro"
+    
+        xmlns:Kontrols="clr-namespace:Reports_IICs.Pages.Informes"    
+        xmlns:Manager="clr-namespace:Reports_IICs.Pages.Informes.Manager"
+        xmlns:ctr="clr-namespace:Reports_IICs.Pages.Informes"
+		Title="Reports IICs" 
+        BorderThickness="0" 
+        GlowBrush="Black"
+        ResizeMode="CanResizeWithGrip"
+        Icon="logo-sin-letra.ico"
+        ShowIconOnTitleBar="True"
+        WindowTransitionsEnabled="False"
+        WindowStartupLocation="CenterScreen"
+        UseLayoutRounding="True"
+		mc:Ignorable="d" WindowState="Maximized" >
+
+    <Controls:MetroWindow.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Pages\Informes\Resources\LoadingFlyoutStyle.xaml" />
+
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+       
+    </Controls:MetroWindow.Resources>
+
+   
+    
+    <Controls:MetroWindow.Flyouts>
+        <Controls:FlyoutsControl x:Name="flyoutsControl">
+            <!-- Loading Panel -->
+            <!-- You can load from the right side - change Style="{StaticResource RightLoadingFlyoutStyle}" and Position="Right" -->
+            <MahAppsExtensions:LoadingFlyout Style="{StaticResource LeftLoadingFlyoutStyle}"
+                                     Position="Left"
+                                     IsOpen="{Binding Source={x:Static Manager:LoadingPanelManager.Instance}, Path=IsLoading}">
+
+                <Kontrols:ReportProgressBar MinWidth="350"
+                             IsLoading="True"
+                             Message="{Binding Source={x:Static Manager:LoadingPanelManager.Instance}, Path=MainMessage}"
+                             SubMessage="{Binding Source={x:Static Manager:LoadingPanelManager.Instance}, Path=SubMessage}" />
+            </MahAppsExtensions:LoadingFlyout>
+
+        </Controls:FlyoutsControl>
+
+    </Controls:MetroWindow.Flyouts>
+
+
+    <Grid d:DataContext="{d:DesignInstance IsDesignTimeCreatable=True}">
+        <Border>
+            <telerik:RadMenu d:DataContext="{d:DesignInstance IsDesignTimeCreatable=True}" VerticalAlignment="Top" Name="RadMenuMain" ForceCursor="True"  >
+                <telerik:RadMenuItem Header="Informes">
+                    <telerik:RadMenuItem x:Name="RadMenuItemGenerarInforme" Header="Generar" Click="RadMenuItemGenerarInforme_Click"></telerik:RadMenuItem>
+                    <telerik:RadMenuItem x:Name="RadMenuItemVerUltimoInforme" Header="Ver último" Click="RadMenuItemVerUltimoInforme_Click"></telerik:RadMenuItem>
+                    
+               </telerik:RadMenuItem>
+
+                <telerik:RadMenuItem Header="Importación">
+                    <telerik:RadMenuItem Header="Instrumentos" >
+                        <telerik:RadMenuItem Header="Excel Instrumentos"  Click="Excel_Instrumentos_Click"  />
+                        <telerik:RadMenuItem x:Name="RadMenuItemVerDatosIntrumentos" Header="Ver datos Instrumentos" Click="RadMenuItemVerDatosIntrumentos_Click"  Visibility="Hidden"   />
+                    </telerik:RadMenuItem>
+                    <telerik:RadMenuItem Header="Bloomberg" >
+                        <telerik:RadMenuItem Header="Excel Bloomberg"  Click="Excel_Bloomberg_Click"  />
+                        <telerik:RadMenuItem x:Name="RadMenuItemVerDatosBloomberg" Header="Ver datos Bloomberg" Click="RadMenuItemVerDatosBloomberg_Click" Visibility="Hidden" />
+                    </telerik:RadMenuItem>
+                    <telerik:RadMenuItem Header="Equivalencias Isins" >
+                        <telerik:RadMenuItem Header="Excel"  Click="Excel_EquivalenciasIsins_Click"  />
+                    </telerik:RadMenuItem>
+
+                </telerik:RadMenuItem>
+
+                <telerik:RadMenuItem Header="Configuración">
+                    <telerik:RadMenuItem x:Name="RadMenuItemPlantillasInforme" Header="Plantillas Informe" Click="RadMenuItemPlantillasInforme_Click"  />
+                    <telerik:RadMenuItem x:Name="RadMenuItemSecciones" Header="Secciones" Click="Secciones_Click"  />
+                    <telerik:RadMenuItem Header="Maestros">
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosEmpresas" Header="Empresas" Click="Empresas_Click" />
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosCategorias" Header="Categorias" Click="RadMenuItemMaestrosCategorias_Click"  />
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosInstrumentos" Header="Instrumentos" Click="RadMenuItemMaestrosInstrumentos_Click"  />
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosPaises" Header="Paises" Click="RadMenuItemMaestrosPaises_Click"  />
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosTipos" Header="Tipos" Click="RadMenuItemMaestrosTipos_Click"  />
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosSectores" Header="Sectores" Click="Sectores_Click" />
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosZonas" Header="Zonas" Click="RadMenuItemMaestrosZonas_Click" />
+                        <telerik:RadMenuItem x:Name="RadMenuItemMaestrosDivisas" Header="Divisas" Click="RadMenuItemMaestrosDivisas_Click" />
+                    </telerik:RadMenuItem>
+
+                </telerik:RadMenuItem>
+
+            </telerik:RadMenu>
+        </Border>
+
+        <ContentControl Name="ContentControlMain" Margin="10,28,-0.4,22.6"></ContentControl>
+       
+        
+        <DockPanel LastChildFill="False" Visibility="Hidden">
+            <StatusBar DockPanel.Dock="Bottom" Background="#FF48B1B7" AllowDrop="True">
+                <StatusBarItem>
+
+                </StatusBarItem>
+            </StatusBar>
+            <Button x:Name="button" Content="Button" Height="499.2" VerticalAlignment="Top" Width="75" Click="button_Click" DockPanel.Dock="Right" Visibility="Visible" />
+
+        </DockPanel>
+       
+        <Controls:ProgressRing Name="Anilloprogreso" IsActive="False" />
+
+        <Grid  VerticalAlignment="Bottom">
+            <ctr:BottonLoadingPanel x:Name="loadingPanel"
+                        IsLoading="{Binding PanelLoading}"
+                        Message="{Binding PanelMainMessage}"
+                        SubMessage="{Binding PanelSubMessage}" 
+                        ClosePanelCommand="{Binding PanelCloseCommand}" />
+        </Grid>
+       
+    </Grid>
+ 
+</Controls:MetroWindow>

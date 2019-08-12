@@ -1,0 +1,98 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.ListadoPrueba"
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             xmlns:telerikGrid="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.GridView"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+        
+        <Style TargetType="{x:Type TextBox}" x:Key="Max3GroupCodeStyle">
+                <Setter Property= "MaxLength" Value="3" />
+            </Style>
+            <Style TargetType="{x:Type TextBox}" x:Key="Max50GroupCodeStyle">
+                <Setter Property="MaxLength" Value="50" />
+            </Style>
+            <Style TargetType="{x:Type TextBox}" x:Key="Max100GroupCodeStyle">
+                <Setter Property="MaxLength" Value="100" />
+            </Style>
+        <Style TargetType="telerik:RadComboBox">
+            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+        </Style>
+        
+    </UserControl.Resources>
+    <Grid x:Name="LayoutRoot" 
+          Background="White" 
+          DataContext="{StaticResource VM_Instrumentos}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <ScrollViewer>
+            <StackPanel MinWidth="200" Loaded="StackPanel_Loaded">
+                <TextBlock HorizontalAlignment="Center" Name="ListadoTitulo" Text="{Binding _elemento}" Style="{StaticResource Heading2}" />
+
+                <telerik:RadGridView x:Name="radGridViewListado" Grid.Row="0" EditTriggers="CellClick" MinWidth="300" MaxHeight="400" AddingNewDataItem="radGridViewListado_AddingNewDataItem" CellEditEnded="radGridViewListado_CellEditEnded"  BeginningEdit="radGridViewListado_BeginningEdit" Loaded="radGridViewListado_Loaded" Deleting="radGridViewListado_Deleting" SelectionChanged="radGridViewListado_SelectionChanged" 
+                                     SelectionMode= "Single"
+                                     SelectionUnit = "FullRow"
+                                     ColumnWidth="*"
+                                     CanUserFreezeColumns="False"
+                                     ShowGroupPanel="False"
+                                     RowIndicatorVisibility="Collapsed"
+                                     RowEditEnded="radGridViewListado_RowEditEnded"
+                                     SelectedItem="{Binding CurrentItem}"
+                                    
+							         RowLoaded="radGridViewListado_RowLoaded" >
+                    
+                                       
+                    <telerik:RadGridView.Columns>
+                        <telerik:GridViewComboBoxColumn Width="120" Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource VM_Instrumentos}}">
+                            <telerik:GridViewComboBoxColumn.EditorStyle>
+                                <Style TargetType="telerik:RadComboBox">
+                                    <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                    <Setter Property="EmptyText" Value="-Seleccionar-"/>
+                                   
+                                </Style>
+                            </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                            <telerik:GridViewComboBoxColumn.CellTemplate>
+                                
+                                    <DataTemplate>
+                                    <Grid >
+                                        <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                        </Grid>
+                                    </DataTemplate>
+
+                            </telerik:GridViewComboBoxColumn.CellTemplate>
+                                
+                        </telerik:GridViewComboBoxColumn>
+                        <telerik:GridViewComboBoxColumn Header="Categorias" UniqueName="CategoriasRow" IsReadOnly="True"
+                                DataMemberBinding="{Binding IdCategoria}"
+                                ItemsSourceBinding="{Binding instrumentosCategorias, Source={StaticResource VM_Instrumentos}}"
+                                SelectedValueMemberPath="Id"
+                                DisplayMemberPath="Descripcion" />
+                    </telerik:RadGridView.Columns>
+
+                </telerik:RadGridView>
+                <StackPanel Orientation="Horizontal"
+					HorizontalAlignment="Center"
+					Margin="0,5,0,0">
+                    
+                    <telerik:RadButton Width="150"
+							   Name="BtnAddNewrow"
+                               Content="Añadir"
+							   Margin="0,0,5,0"
+							   Click="AddNewRow" />
+                      
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

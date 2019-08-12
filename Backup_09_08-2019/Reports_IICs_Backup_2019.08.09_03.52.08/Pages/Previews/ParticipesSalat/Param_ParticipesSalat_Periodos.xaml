@@ -1,0 +1,112 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.ParticipesSalat.Param_ParticipesSalat_Periodos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.ParticipesSalat"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             mc:Ignorable="d" 
+             Height="Auto"
+             d:DesignHeight="238" d:DesignWidth="745">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+
+        <Style TargetType="{x:Type TextBox}" x:Key="Max3GroupCodeStyle">
+            <Setter Property= "MaxLength" Value="3" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max50GroupCodeStyle">
+            <Setter Property="MaxLength" Value="50" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max100GroupCodeStyle">
+            <Setter Property="MaxLength" Value="100" />
+        </Style>
+        <Style TargetType="telerik:RadComboBox">
+            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+        </Style>
+
+    </UserControl.Resources>
+
+    <Grid x:Name="grid"  DataContext="{StaticResource VM_Instrumentos}">
+        <Expander Name="ExpanderPeriod" Header="EVOLUCIÓN SICAV">
+        <Grid Margin="0,0,0.2,-12.4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*" />
+                <RowDefinition Height="15*" />
+                <RowDefinition Height="65*" />
+                <RowDefinition Height="23*" />
+                <RowDefinition Height="10*" />
+                </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Label Grid.Row="0" x:Name="labelTitulo" Width="135" Content="Descripción periodo" HorizontalAlignment="Left"  Height="26" VerticalAlignment="Top" Margin="12,0,0,0" />
+                <TextBox Grid.Row="0" x:Name="textBoxTitulo" MaxLength="150" TabIndex="1" HorizontalAlignment="Left"  
+                 TextWrapping="Wrap" Text="EVOLUCIÓN SICAV" VerticalAlignment="Top" Width="353"  Margin="162,0,0,0" TextChanged="textBoxTitulo_TextChanged"/>
+
+            </Grid>
+            <Grid Grid.Row="1">
+                <Label Grid.Row="0" x:Name="labelTituloFecha" Content="Fecha saldo" HorizontalAlignment="Left"  Height="26" VerticalAlignment="Top" Margin="12,0,0,0" />
+                <DatePicker x:Name="DpFechaSaldo" TabIndex="1" HorizontalAlignment="Left" Height="26" Margin="162,0,0,0" Grid.Column="1"
+                    Validation.Error="Validation_Error"   VerticalAlignment="Top" Width="150" SelectedDateChanged="DpFechaSaldo_SelectedDateChanged" />
+
+            </Grid>
+            <Grid Grid.Row="2">
+                <telerik:RadGridView x:Name="myEvolucionPatrimonioConjuntoGuissonaGrid" MinHeight="50"  MinWidth="100" MaxWidth="720"  AutoGenerateColumns="False"  FontSize="10" 
+                	EditTriggers="CellClick"
+                    Deleting="myEvolucionPatrimonioConjuntoGuissona_Deleting" 
+                    SelectionMode= "Single"
+                	SelectionUnit = "FullRow"
+                	
+                	CanUserFreezeColumns="False"
+                	RowIndicatorVisibility="Collapsed"
+                	ShowGroupPanel="False"
+                    SelectedItem="{Binding CurrentItem}"
+                    ColumnWidth="*" Margin="0,0,0.2,9.8">
+
+                    <telerik:RadGridView.Columns>
+                        <telerik:GridViewComboBoxColumn Width="100" Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource VM_Instrumentos}}">
+                            <telerik:GridViewComboBoxColumn.EditorStyle>
+                                <Style TargetType="telerik:RadComboBox">
+                                    <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                    <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                </Style>
+                            </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                            <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                <DataTemplate>
+                                    <Grid >
+                                        <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                    </Grid>
+                                </DataTemplate>
+
+                            </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                        </telerik:GridViewComboBoxColumn>
+                        <telerik:GridViewDataColumn Width="60" IsReadOnly="True" IsSortable="False" IsVisible="False" IsFilterable="False" DataMemberBinding="{Binding Id}" Header="Id" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                        <telerik:GridViewDataColumn Width="60" IsReadOnly="True" IsSortable="False" IsVisible="False" IsFilterable="False" DataMemberBinding="{Binding IdTempParticipesSalatPeriodo}" Header="IdTempParticipeSalat" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                        <telerik:GridViewDataColumn Width="120" IsReadOnly="True" IsSortable="False" IsVisible="True" IsFilterable="False"  Header="Titular" DataMemberBinding="{Binding Titular}" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                            <telerik:GridViewDataColumn Width="120" IsReadOnly="True" IsSortable="False" IsVisible="True" IsFilterable="False" Name="GVDCValorSicavEfectivo" Header="VALOR SICAV + EFECTIVO A"   DataMemberBinding="{Binding ValorMasEfectPeriodoAnt,StringFormat={}{0:N}}" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                            <telerik:GridViewDataColumn Width="100" IsReadOnly="True" IsSortable="False" IsFilterable="False"  Name="GVDCAportNetasRealizadas" Header="APORTACIONES NETAS REALIZADAS" TextAlignment="Right" DataMemberBinding="{Binding ImporteInvertido,StringFormat={}{0:N}}" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+                            <telerik:GridViewDataColumn Width="100" IsReadOnly="True" IsSortable="False" IsFilterable="False"  Name="GVDCValorSicav" Header="VALOR EN SICAV A" TextAlignment="Right" DataMemberBinding="{Binding Valor,StringFormat={}{0:N}}" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+                        <telerik:GridViewDataColumn Width="100" IsReadOnly="True" IsSortable="False" IsFilterable="False" Name="GVDCSaldoEfectivo" Header="SALDO EFECTIVO A " TextAlignment="Right" DataMemberBinding="{Binding Saldo,StringFormat={}{0:N}}" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+                        <telerik:GridViewDataColumn Width="*" IsReadOnly="True" IsSortable="False" IsFilterable="False" Name="GVDCResultado" Header="RESULTADO" DataMemberBinding="{Binding Resultado,StringFormat={}{0:N}}" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"  />
+
+                    </telerik:RadGridView.Columns>
+                </telerik:RadGridView>
+
+            </Grid>
+            <Grid Grid.Row="3"  Grid.RowSpan="1">
+                <Button x:Name="btn_ADD"  Grid.Row="2" Content="Añadir" VerticalAlignment="Top" HorizontalAlignment="Center" Height="24"  Width="65" Click="AddNewRow" Visibility="Hidden"  />
+
+            </Grid>
+            <Grid Grid.Row="4"  Grid.RowSpan="1">
+                <Label Content=" " ></Label>
+            </Grid>
+            </Grid>
+       </Expander>
+    </Grid>
+</UserControl>

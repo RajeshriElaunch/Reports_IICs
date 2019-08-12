@@ -1,0 +1,172 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.Distribucion_Patrimonio_Novarex.DistribucionPatrimonioNovarex_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.Distribucion_Patrimonio_Novarex"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             mc:Ignorable="d" 
+             Language="es-ES"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource VM_Instrumentos}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+       
+        <Grid  Grid.Row="0" >
+
+            <telerik:RadGridView x:Name="myGridCartera" MinWidth="200"  ShowGroupPanel="False" RowIndicatorVisibility="Collapsed" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False"  CellEditEnded="myGridCartera_CellEditEnded" FontSize="10" DataLoaded="myGrid_DataLoaded" RowLoaded="myGrid_RowLoaded"  ColumnWidth="*"
+                                 SelectionMode= "Single"
+                                 SelectionUnit = "FullRow" BeginningEdit="myGrid_BeginningEdit">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn   DataMemberBinding="{Binding Id}" IsVisible="False" />
+                    <telerik:GridViewDataColumn Width="200" IsSortable="False" IsFilterable="False" Header="Descripción" DataMemberBinding="{Binding Descripcion}" HeaderTextAlignment="Left" TextAlignment="Left" DataFormatString="{}{0:dd/MM/yyyy}" IsReadOnly="True"/>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="Patrimonio" IsSortable="False" IsFilterable="False" Header="Patrimonio" Width="100" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=Patrimonio}" DataFormatString="{} {0:N0}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N0" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="PatrimonioPorC" IsReadOnly="True" IsSortable="False" IsFilterable="False" Header="Patrimonio %" Width="100" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=PorcentajePatrimonio}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N2" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+
+        </Grid>
+       
+        <Grid  Grid.Row="1">
+            <telerik:RadGridView x:Name="myGridPatrimonio" MinWidth="200"  ShowGroupPanel="False" RowIndicatorVisibility="Collapsed" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False"  CellEditEnded="myGridPatrimonio_CellEditEnded" FontSize="10" DataLoaded="myGrid_DataLoaded" RowLoaded="myGrid_RowLoaded"  ColumnWidth="*"
+                                 SelectionMode= "Single"
+                                 SelectionUnit = "FullRow" BeginningEdit="myGrid_BeginningEdit">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn   DataMemberBinding="{Binding Id}" IsVisible="False" />
+                   
+                    <telerik:GridViewDataColumn Width="200" IsSortable="False" IsFilterable="False" Header="Descripción" DataMemberBinding="{Binding Descripcion}" HeaderTextAlignment="Left" TextAlignment="Left"  IsReadOnly="True"/>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="PatrimonioTesoreria"  IsSortable="False" IsFilterable="False" Header="Patrimonio" Width="100" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=Patrimonio}" DataFormatString="{} {0:N0}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N0" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="PatrimonioTesoreriaPorC" IsReadOnly="True" IsSortable="False" IsFilterable="False" Header="Patrimonio %" Width="100" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=PorcentajePatrimonio}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N2" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+
+                </telerik:RadGridView.Columns>
+                
+            </telerik:RadGridView>
+
+        </Grid>
+        <Grid  Grid.Row="2">
+            <telerik:RadGridView x:Name="myGridTotal" MinWidth="200"  ShowGroupPanel="False" RowIndicatorVisibility="Collapsed" IsLocalizationLanguageRespected="False" AutoGenerateColumns="False"  CellEditEnded="myGridPatrimonio_CellEditEnded" FontSize="10" DataLoaded="myGrid_DataLoaded" RowLoaded="myGrid_RowLoaded"  ColumnWidth="*"
+                                 SelectionMode= "Single" ShowColumnHeaders="False"
+                                 SelectionUnit = "FullRow" BeginningEdit="myGrid_BeginningEdit">
+                <telerik:RadGridView.Columns>
+                    <telerik:GridViewDataColumn   DataMemberBinding="{Binding Id}" IsVisible="False" />
+
+                    <telerik:GridViewDataColumn Width="200" IsSortable="False" IsFilterable="False" Header="Descripción" DataMemberBinding="{Binding Descripcion}" HeaderTextAlignment="Left" TextAlignment="Right"  IsReadOnly="True">
+                        <telerik:GridViewDataColumn.CellStyle>
+
+                            <Style TargetType="{x:Type telerik:GridViewCell}">
+
+                                <Setter Property="FontWeight" Value="Bold"/>
+
+                            </Style>
+
+                        </telerik:GridViewDataColumn.CellStyle>
+                    </telerik:GridViewDataColumn>
+                    <telerik:GridViewDataColumn Width="100" IsSortable="False" IsFilterable="False" Header="Patrimomio" DataMemberBinding="{Binding Patrimonio}" HeaderTextAlignment="Left" TextAlignment="Right"  IsReadOnly="True">
+                        <telerik:GridViewDataColumn.CellStyle>
+
+                            <Style TargetType="{x:Type telerik:GridViewCell}">
+
+                                <Setter Property="FontWeight" Value="Bold"/>
+
+                            </Style>
+
+                        </telerik:GridViewDataColumn.CellStyle>
+                    </telerik:GridViewDataColumn>
+                    <telerik:GridViewDataColumn Width="100" IsSortable="False" IsFilterable="False" Header="Porcentaje" DataMemberBinding="{Binding PorcentajePatrimonio}" HeaderTextAlignment="Left" TextAlignment="Right"  IsReadOnly="True">
+                        <telerik:GridViewDataColumn.CellStyle>
+
+                            <Style TargetType="{x:Type telerik:GridViewCell}">
+
+                                <Setter Property="FontWeight" Value="Bold"/>
+
+                            </Style>
+
+                        </telerik:GridViewDataColumn.CellStyle>
+                    </telerik:GridViewDataColumn>
+
+                </telerik:RadGridView.Columns>
+
+            </telerik:RadGridView>
+        </Grid>
+    </Grid>
+</UserControl>

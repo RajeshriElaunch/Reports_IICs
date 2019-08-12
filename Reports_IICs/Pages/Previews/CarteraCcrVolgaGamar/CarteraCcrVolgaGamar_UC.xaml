@@ -1,0 +1,298 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Previews.CarteraCcrVolgaGamar.CarteraCcrVolgaGamar_UC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Previews.CarteraCcrVolgaGamar"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             Language="es-ES"
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+        <x:Array x:Key="GrupoValues" Type="sys:Int32">
+            <sys:Int32>1</sys:Int32>
+            <sys:Int32>2</sys:Int32>
+            <sys:Int32>3</sys:Int32>
+            <sys:Int32>4</sys:Int32>
+        </x:Array>
+    </UserControl.Resources>
+    
+    
+
+    
+
+    <Grid DataContext="{StaticResource VM_Instrumentos}" Margin="0,0,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.ColumnSpan="1" Margin="0,0,0,0" HorizontalAlignment="Left" >
+            <Label x:Name="LabelTitulo" Content=""></Label>
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="1" Margin="0,0,0,0" HorizontalAlignment="Left" >
+
+            <telerik:RadGridView x:Name="myGrid" 
+                                 MinWidth="200" 
+                                 ShowColumnFooters="True" 
+                                 ShowGroupPanel="False" 
+                                 RowIndicatorVisibility="Collapsed" 
+                                 IsLocalizationLanguageRespected="False" 
+                                 AutoGenerateColumns="False"  
+                                 FontSize="10" 
+                                 ColumnWidth="*"
+                                 SelectionUnit = "FullRow" 
+                                 BeginningEdit="myGrid_BeginningEdit"
+                                 CellEditEnded="myGrid_CellEditEnded" 
+                                 DataLoaded="myGrid_DataLoaded" 
+                                 RowLoaded="myGrid_RowLoaded"                                   
+                                 CanUserDeleteRows="True"
+                                 CanUserInsertRows="True"
+                                 GroupRenderMode="Flat"
+                                 NewRowPosition="Bottom"
+                                 Margin="0,0,0,0" 
+                                 AddingNewDataItem="myGrid_AddingNewDataItem" 
+                                 PreviewMouseLeftButtonDown="myGrid_PreviewMouseLeftButtonDown" SelectionChanged="myGrid_SelectionChanged" Deleting="myGrid_Deleting" RowEditEnded="myGrid_RowEditEnded"
+                                 >
+                <telerik:RadGridView.Columns>
+
+                    <telerik:GridViewColumn Width="60">
+                        <telerik:GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <telerik:RadButton Command="telerik:RadGridViewCommands.Delete" CommandParameter="{Binding}">
+                                    <Image Source="/Images/Button-Delete-icon.png" Stretch="UniformToFill" Width="15" Height="15" Margin="0"/>
+                                </telerik:RadButton>
+                            </DataTemplate>
+                        </telerik:GridViewColumn.CellTemplate>
+                        
+                    </telerik:GridViewColumn>
+
+                        <!--<telerik:GridViewColumn Width="60">
+                        <telerik:GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <telerik:RadButton                                 
+                                Height="20" Width="20" BorderThickness="0" Padding="0" Margin="0"
+                                                          
+                                Command="telerik:RadGridViewCommands.Delete">
+                                    <Image Source="/Images/Button-Delete-icon.png" Stretch="UniformToFill" Width="15" Height="15" Margin="0"/>
+                                </telerik:RadButton>
+                            </DataTemplate>
+                        </telerik:GridViewColumn.CellTemplate>
+                    </telerik:GridViewColumn>-->
+
+                    <telerik:GridViewDataColumn Name="Id"   DataMemberBinding="{Binding Id}" IsVisible="False" />
+
+                    <telerik:GridViewDataColumn Name="Nombre" Width="180" IsSortable="False" IsFilterable="False" Header="Nombre" DataMemberBinding="{Binding Descripcion}" HeaderTextAlignment="Left" TextAlignment="Left" />
+
+                    <telerik:GridViewDataColumn Name="ISIN" Width="90" IsSortable="False" IsFilterable="False" Header="ISIN" DataMemberBinding="{Binding Isin}" HeaderTextAlignment="Left" TextAlignment="Left" />
+
+                    <!--<telerik:GridViewDataColumn Name="Grupo" Width="50" IsSortable="False" IsFilterable="False" Header="Grupo" DataMemberBinding="{Binding GrupoNuevo}" HeaderTextAlignment="Left" TextAlignment="Center" />-->
+                    <telerik:GridViewComboBoxColumn Name="Grupo" Width="50" IsSortable="False" IsFilterable="False" Header="Grupo" DataMemberBinding="{Binding GrupoNuevo}" HeaderTextAlignment="Left" TextAlignment="Right" ItemsSource="{Binding Source={StaticResource GrupoValues}}">
+                        
+                    </telerik:GridViewComboBoxColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="NumTit" IsSortable="False" IsFilterable="False" Header="Nº Títulos" Width="60" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=NumTit}" DataFormatString="{} {0:N0}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N0" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        <!--<telerik:GridViewMaskedInputColumn.AggregateFunctions>
+                            <telerik:SumFunction Caption="Total: " ResultFormatString="{}{0:N0}"/>
+                        </telerik:GridViewMaskedInputColumn.AggregateFunctions>-->
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="PrecioCompra" IsSortable="False" IsFilterable="False" Header="Precio Compra" Width="70" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=PrecioIni}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N8" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="PrecioAjustado" IsSortable="False" IsFilterable="False" Header="Precio Ajustado" Width="70" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=PrecioAjustado}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N8" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        
+                    </telerik:GridViewMaskedInputColumn>
+                    
+                    <telerik:GridViewMaskedInputColumn x:Name="PrecioFin" IsSortable="False" IsFilterable="False" Header="Precio Fin" Width="60" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=PrecioFin}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N8" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="PrecioFinEuros" IsSortable="False" IsFilterable="False" Header="Precio Fin Euros" Width="70" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=PrecioFinEuros}" DataFormatString="{} {0:N2}" IsVisible="True" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N2" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="Efectivo" IsSortable="False" IsFilterable="False" Header="Efectivo" Width="70" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=Efectivo}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N0" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        <telerik:GridViewMaskedInputColumn.AggregateFunctions>
+                            <telerik:SumFunction Caption="Total: " ResultFormatString="{}{0:N0}"/>
+                        </telerik:GridViewMaskedInputColumn.AggregateFunctions>
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="BoPDivisa" IsSortable="False" IsFilterable="False" Header="Divisa" Width="70" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=BoPDivisa}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N0" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        <telerik:GridViewMaskedInputColumn.AggregateFunctions>
+                            <telerik:SumFunction Caption="Total: " ResultFormatString="{}{0:N0}"/>
+                        </telerik:GridViewMaskedInputColumn.AggregateFunctions>
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="BoPPrecio" IsSortable="False" IsFilterable="False" Header="Precio" Width="70" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=BoPPrecio}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N0" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="BoPTotal" IsSortable="False" IsFilterable="False" Header="Total €" Width="70" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=BoPTotal}" DataFormatString="{} {0:N2}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N0" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        
+                    </telerik:GridViewMaskedInputColumn>
+
+                    <telerik:GridViewMaskedInputColumn x:Name="BoPTotalPorcentaje" IsSortable="False" IsFilterable="False" Header="Total %" Width="50" TextAlignment="Right" HeaderTextAlignment="Right" FooterTextAlignment="Right"
+                             MaskType="Numeric" DataMemberBinding="{Binding Path=BoPTotalPorcentaje}" DataFormatString="{} {0:P1}" >
+
+                        <telerik:GridViewMaskedInputColumn.EditorStyle>
+
+                            <Style TargetType="telerik:RadMaskedNumericInput">
+
+                                <Setter Property="SelectionOnFocus" Value="SelectAll" />
+
+                                <Setter Property="FormatString" Value="N3" />
+
+                                <Setter Property="SpinMode" Value="None" />
+
+                            </Style>
+
+                        </telerik:GridViewMaskedInputColumn.EditorStyle>
+                        
+                    </telerik:GridViewMaskedInputColumn>
+
+                </telerik:RadGridView.Columns>
+            </telerik:RadGridView>
+        </Grid>
+        
+    </Grid>
+</UserControl>

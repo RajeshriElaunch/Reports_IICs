@@ -1,0 +1,90 @@
+﻿<UserControl x:Class="Reports_IICs.Pages.Plantillas.ControlesParametros.Param_DistriPatrimNovarex"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation"
+             xmlns:my="clr-namespace:Reports_IICs.ViewModels.Instrumentos"
+             xmlns:local="clr-namespace:Reports_IICs.Pages.Plantillas.ControlesParametros"
+             mc:Ignorable="d" 
+             d:DesignHeight="238" d:DesignWidth="438">
+    <UserControl.Resources>
+        <my:VM_Instrumentos x:Key="VM_Instrumentos"/>
+
+        <Style TargetType="{x:Type TextBox}" x:Key="Max3GroupCodeStyle">
+            <Setter Property= "MaxLength" Value="3" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max50GroupCodeStyle">
+            <Setter Property="MaxLength" Value="50" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="Max100GroupCodeStyle">
+            <Setter Property="MaxLength" Value="100" />
+        </Style>
+        <Style TargetType="telerik:RadComboBox">
+            <Setter Property="OpenDropDownOnFocus" Value="True"/>
+        </Style>
+
+    </UserControl.Resources>
+    <Grid x:Name="grid"  DataContext="{StaticResource VM_Instrumentos}">
+        <GroupBox x:Name="DistriPatrimNovarex" Header="Distribución Patrimonio Novarex"  HorizontalAlignment="Left"  VerticalAlignment="Top" Width="500" Height="228" >
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60*" />
+                    <RowDefinition Height="15*" />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <telerik:RadGridView Grid.Row="0" x:Name="myDistriPatrimNovarexGrid" MaxHeight="165"  MinWidth="100" MaxWidth="400"  AutoGenerateColumns="False"  FontSize="10" 
+                	EditTriggers="CellClick"
+                    Deleting="myDistriPatrimNovarexGrid_Deleting" 
+                    SelectionMode= "Single"
+                	SelectionUnit = "FullRow"
+                	
+                	CanUserFreezeColumns="False"
+                	RowIndicatorVisibility="Collapsed"
+                	ShowGroupPanel="False"
+                    SelectedItem="{Binding CurrentItem}"
+                    ColumnWidth="*">
+
+                        <telerik:RadGridView.Columns>
+                            <telerik:GridViewComboBoxColumn Width="120" Header="Acciones" UniqueName="DeleteRow" DataMemberBinding="{Binding Name}"
+                                                SelectedValueMemberPath="Name"
+                                                DisplayMemberPath="Name"
+                                                ItemsSource="{Binding Actions, Source={StaticResource VM_Instrumentos}}">
+                                <telerik:GridViewComboBoxColumn.EditorStyle>
+                                    <Style TargetType="telerik:RadComboBox">
+                                        <Setter Property="OpenDropDownOnFocus" Value="True"/>
+                                        <Setter Property="EmptyText" Value="-Seleccionar-"/>
+
+                                    </Style>
+                                </telerik:GridViewComboBoxColumn.EditorStyle>
+
+                                <telerik:GridViewComboBoxColumn.CellTemplate>
+
+                                    <DataTemplate>
+                                        <Grid >
+                                            <TextBlock  Text="-Seleccionar-"  TextAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                                        </Grid>
+                                    </DataTemplate>
+
+                                </telerik:GridViewComboBoxColumn.CellTemplate>
+
+                            </telerik:GridViewComboBoxColumn>
+                            <telerik:GridViewDataColumn Width="60" IsReadOnly="True" IsSortable="False" IsVisible="False" IsFilterable="False" DataMemberBinding="{Binding Id}" Header="Id" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right"/>
+                            <telerik:GridViewDataColumn Width="120" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Descripcion}" Header="Descripción" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+                            <telerik:GridViewDataColumn Width="*" IsReadOnly="True" IsSortable="False" IsFilterable="False" DataMemberBinding="{Binding Formula}" Header="Formula" TextAlignment="Right" HeaderTextAlignment="Center" FooterTextAlignment="Right" />
+
+                        </telerik:RadGridView.Columns>
+                    </telerik:RadGridView>
+
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Button x:Name="btn_ADD" Margin="6" Grid.Row="2" Content="Añadir" HorizontalAlignment="Center" Height="24"  VerticalAlignment="Top" Width="65" Click="AddNewRow"  />
+
+                </Grid>
+
+            </Grid>
+
+        </GroupBox>
+    </Grid>
+</UserControl>
